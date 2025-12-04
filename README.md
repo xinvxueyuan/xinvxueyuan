@@ -1,6 +1,6 @@
 <!-- 顶部大标题与动态装饰 -->
 <div align="center">
-  <h1> 🎮 御坂の技术小站 | MISAKA Network</h1>
+  <h1> 🎮 新v学员の技术小站 | xinvxueyuan Network</h1>
   <p>「コードで世界を変える」二次元魔法工程师 ✨</p>
   
   <!-- 动态标签: GitHub数据 -->
