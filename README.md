@@ -29,8 +29,8 @@
 
 <div align="center">
   <a href="https://github.com/xinvxueyuan">
-    <img height=150 src="https://github-readme-stats.xinvstar.xyz/api?username=xinvxueyuan&show_icons=true&theme=synthwave&count_private=true&hide_border=true&bg_color=0D1117">
-    <img height=150 src="https://github-readme-stats.xinvstar.xyz/api/top-langs/?username=xinvxueyuan&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0D1117">
+    <img height=150 src="https://github-readme-state.xinvstar.xyz/api?username=xinvxueyuan&show_icons=true&theme=synthwave&count_private=true&hide_border=true&bg_color=0D1117">
+    <img height=150 src="https://github-readme-state.xinvstar.xyz/api/top-langs/?username=xinvxueyuan&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0D1117">
   </a>
 </div>
 
