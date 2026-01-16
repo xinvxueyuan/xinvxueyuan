@@ -19,9 +19,9 @@
 
 | **魔法属性**       | **法器清单**                                                               | 
 |--------------------|----------------------------------------------------------------------------|
-| ✨ **主修魔法**    | `Python` `JavaScript` `TypeScript` `Java` `C++`                            |
-| 🧪 **炼金术**      | `React` `Vue` `SpringBoot` `Electron` `next.js`                            |
-| 🗃️ **卷轴管理**    | `MySQL` `Redis` `PostgreSQL` `MongoDB`                                     |
+| ✨ **主修魔法**    | `Python` `GO` `TypeScript` `Java` `C/C++` `Rust`                           |
+| 🧪 **炼金术**      | `React` `Vue` `SpringBoot` `Electron` `Next.js` `svelte`                   |
+| 🗃️ **卷轴管理**    | `MariaDB` `Redis` `PostgreSQL` `MongoDB` `DuckDB`                          |
 | 🛸 **次元装备**    | `Docker` `Kubernetes` `GitLab CI`                                          |
 
 
