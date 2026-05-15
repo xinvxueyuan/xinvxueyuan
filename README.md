@@ -5,7 +5,7 @@
   
   <!-- 动态标签: GitHub数据 -->
   <img src="https://komarev.com/ghpvc/?username=xinvxueyuan&style=flat-square&color=ff69b4" alt="访问计数">
-  <img src="https://img.shields.io/badge/OS-Windows%20%7C%20Ubuntu-pink?logo=windows&logoColor=white" alt="系统">
+  <img src="https://img.shields.io/badge/OS-Windows%20%7C%20Debian-pink?logo=windows&logoColor=white" alt="系统">
   <img src="https://img.shields.io/badge/Editor-VS%20Code-0078d7?logo=visualstudiocode" alt="编辑器">
 </div>
 
