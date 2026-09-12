@@ -15,8 +15,7 @@ Agent  ·  MCP  ·  Image tools  ·  Bot ecosystems  ·  Windows / Linux
   <img src="https://img.shields.io/badge/OS-Windows%20%7C%20Debian-4c8bf5?style=for-the-badge&logo=windows&logoColor=white" alt="os"/>
 </p>
 
-> *万物皆奇迹，乃至黑暗与寂静..*
-> *...我已懂得，无论境遇，泰然处之。*
+> *资以乐其无涯之生*
 
 ---
 
@@ -68,15 +67,11 @@ Fanqie Novel reading-group join verification — OCR screenshots, auto-approve o
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/xinvxueyuan/lty-moe"><b>lty-moe</b></a><br>
-<sub>TypeScript · ★ 1</sub><br><br>
-Luo Tianyi fan-work archive & community submission site.
-</td>
-<td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/xinvxueyuan.github.io"><b>xinvxueyuan.github.io</b></a><br>
 <sub>Blog · TypeScript</sub><br><br>
 Personal tech blog at <a href="https://www.xinvstar.xyz">xinvstar.xyz</a>.
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 

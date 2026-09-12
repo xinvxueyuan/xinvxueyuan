@@ -15,8 +15,7 @@ Agent  ·  MCP  ·  图像工具  ·  机器人生态  ·  Windows / Linux
   <img src="https://img.shields.io/badge/OS-Windows%20%7C%20Debian-4c8bf5?style=for-the-badge&logo=windows&logoColor=white" alt="os"/>
 </p>
 
-> *万物皆奇迹，乃至黑暗与寂静..*
-> *...我已懂得，无论境遇，泰然处之。*
+> *资以乐其无涯之生*
 
 ---
 
@@ -68,15 +67,11 @@ Agent  ·  MCP  ·  图像工具  ·  机器人生态  ·  Windows / Linux
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/xinvxueyuan/lty-moe"><b>lty-moe</b></a><br>
-<sub>TypeScript · ★ 1</sub><br><br>
-洛天依同人作品档案与社区投稿站点。
-</td>
-<td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/xinvxueyuan.github.io"><b>xinvxueyuan.github.io</b></a><br>
 <sub>博客 · TypeScript</sub><br><br>
 个人技术博客：<a href="https://www.xinvstar.xyz">xinvstar.xyz</a>。
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 
