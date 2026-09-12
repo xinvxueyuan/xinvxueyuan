@@ -1,57 +1,114 @@
 > 🌐 **[English](https://github.com/xinvxueyuan/xinvxueyuan#readme) | [中文](README_zh.md)**
 
-# 👋 你好，我是 新v学员
+# 你好，我是 新v学员 · Xin Xue Yuan
 
-> Linux / Windows 双端开发者 · AI 应用与 Agent 工具作者
-> Python / Rust / TypeScript · 机器人生态 · AI 图像生成工具链
+**AI Agent 工具作者** — 让模型真正干活：MCP 服务、Agent Skill、运行时插件。
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=xinvxueyuan&style=flat&color=4c8bf5" alt="profile views"/>
-  <img src="https://img.shields.io/badge/blog-xinvstar.xyz-4c8bf5?style=flat&logo=safari&logoColor=white" alt="blog"/>
-  <img src="https://img.shields.io/badge/China-Location-4c8bf5?style=flat&logo=github" alt="location"/>
-  <img src="https://img.shields.io/badge/Windows%20%7C%20Debian-OS-4c8bf5?style=flat&logo=windows&logoColor=white" alt="os"/>
-</p>
-
-## 🧰 技术栈
+```text
+Agent  ·  MCP  ·  图像工具  ·  机器人生态  ·  Windows / Linux
+```
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,go,typescript,java,c,cpp,rust,react,vue,spring,electron,nextjs,svelte,mariadb,redis,postgres,mongodb,docker,kubernetes,gitlab" alt="tech stack" />
+  <img src="https://komarev.com/ghpvc/?username=xinvxueyuan&style=for-the-badge&color=4c8bf5&label=profile+views" alt="profile views"/>
+  <a href="https://www.xinvstar.xyz"><img src="https://img.shields.io/badge/Blog-xinvstar.xyz-4c8bf5?style=for-the-badge&logo=safari&logoColor=white" alt="blog"/></a>
+  <img src="https://img.shields.io/badge/Location-China-4c8bf5?style=for-the-badge&logo=github&logoColor=white" alt="location"/>
+  <img src="https://img.shields.io/badge/OS-Windows%20%7C%20Debian-4c8bf5?style=for-the-badge&logo=windows&logoColor=white" alt="os"/>
 </p>
 
-## 📊 数据
+> *万物皆奇迹，乃至黑暗与寂静..*
+> *...我已懂得，无论境遇，泰然处之。*
+
+---
+
+## Agent 工具链
+
+把 AI Agent 接到真实系统上 —— 图像生成、GitHub API、安全执行。
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
+<sub>MCP · Python · ★ 4</sub><br><br>
+将 NovelAI 图像生成接入 AI Agent 的 MCP 服务 —— 11 个工具、双传输、文档与 Docker。
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/xinvxueyuan/github-api-skill"><b>github-api-skill</b></a><br>
+<sub>Agent Skill · JavaScript</sub><br><br>
+权威 GitHub API 参考（REST + GraphQL + 安全规则），别再猜端点。
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/xinvxueyuan/cordis-plugin-github"><b>cordis-plugin-github</b></a><br>
+<sub>Cordis 插件 · TypeScript</sub><br><br>
+为 Cordis / DeepSeek Harness 提供规范化 GitHub 工具 —— 默认走 gh CLI，自动 HTTP 回退。
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/xinvxueyuan/json-safe-skill"><b>json-safe-skill</b></a><br>
+<sub>Agent Skill</sub><br><br>
+面向 Node REPL / run_code / JSON-RPC 的安全手写 JSON 技能 —— 发送前先校验。
+</td>
+</tr>
+</table>
+
+## 活跃项目
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/xinvxueyuan/lingchu-bot"><b>lingchu-bot</b></a><br>
+<sub>NoneBot2 · Python · ★ 3</sub><br><br>
+插件化组织的 QQ 群管理机器人。
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/xinvxueyuan/ocr-fanqie-novel"><b>ocr-fanqie-novel</b></a><br>
+<sub>NoneBot2 · OCR · Python</sub><br><br>
+番茄读书群入群验证 —— OCR 识别书评截图，自动放行或上报管理员。
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/xinvxueyuan/lty-moe"><b>lty-moe</b></a><br>
+<sub>TypeScript · ★ 1</sub><br><br>
+洛天依同人作品档案与社区投稿站点。
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/xinvxueyuan/xinvxueyuan.github.io"><b>xinvxueyuan.github.io</b></a><br>
+<sub>博客 · TypeScript</sub><br><br>
+个人技术博客：<a href="https://www.xinvstar.xyz">xinvstar.xyz</a>。
+</td>
+</tr>
+</table>
+
+## 技术栈
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,rust,typescript,go,java,c,cpp,react,vue,nextjs,svelte,spring,electron,mariadb,redis,postgres,mongodb,docker,kubernetes,gitlab" alt="tech stack" />
+</p>
+
+## 数据
 
 <div align="center">
 
-[![GitHub 统计](https://github-readme-state.xinvstar.xyz/api?username=xinvxueyuan&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117&theme=radical)](https://github.com/xinvxueyuan)
-[![Top Langs](https://github-readme-state.xinvstar.xyz/api/top-langs/?username=xinvxueyuan&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&theme=radical)](https://github.com/xinvxueyuan)
+[![GitHub 统计](https://github-readme-state.xinvstar.xyz/api?username=xinvxueyuan&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=4c8bf5&icon_color=4c8bf5&text_color=c9d1d9&ring_color=4c8bf5)](https://github.com/xinvxueyuan)
+[![Top Langs](https://github-readme-state.xinvstar.xyz/api/top-langs/?username=xinvxueyuan&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=4c8bf5&text_color=c9d1d9)](https://github.com/xinvxueyuan)
 
 </div>
 
-## 🚀 精选项目
+## 当前在做
 
-| 项目 | 说明 | 语言 |
-|------|------|------|
-| [NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP) | 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务 | Python |
-| [lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot) | NoneBot2 的 QQ 群管理机器人，插件化组织 | Python |
-| [lty-moe](https://github.com/xinvxueyuan/lty-moe) | 洛天依同人作品档案与社区投稿站点 | TypeScript |
-| [ocr-fanqie-novel](https://github.com/xinvxueyuan/ocr-fanqie-novel) | 番茄读书群 OCR 入群验证插件（自研） | Python |
-| [winux](https://github.com/xinvxueyuan/winux) | 面向 Windows 的 Rust 类 Linux CLI 工作流管理器 | Rust |
-| [orbital-marketplace](https://github.com/xinvxueyuan/orbital-marketplace) | 应用商城 SPA：下载 / 许可证 / 更新 / 订阅 | JavaScript |
+- 🧠 **Agent / MCP 工具链** — NovelAI Image MCP、GitHub API Skill、Cordis 插件
+- 🤖 **lingchu-bot** — QQ 机器人生态
+- ✍️ **[xinvstar.xyz](https://www.xinvstar.xyz)** — 技术写作
 
-## 🎯 当前在做
+## 联系我
 
-- 🤖 **lingchu-bot** — QQ 群管机器人生态
-- 🎨 **AI 图像工具链** — NovelAI MCP 与生成工作流
-- 🪟 **winux** — Windows 上的类 Linux CLI
-- 📝 技术博客与 Agent 工具 Skill 维护
-
-## 📫 联系我
-
-- **博客**: [xinvstar.xyz](https://www.xinvstar.xyz)
-- **GitHub**: [@xinvxueyuan](https://github.com/xinvxueyuan)
+- **博客** — [xinvstar.xyz](https://www.xinvstar.xyz)
+- **GitHub** — [@xinvxueyuan](https://github.com/xinvxueyuan)
+- **公司** — xinvStar.inc
 
 ---
 
 <p align="center">
-  <i>欢迎交流，共同进步 🌱</i>
+  <i>欢迎在 Agent 工具、MCP、机器人方向交流协作 🌱</i>
 </p>
