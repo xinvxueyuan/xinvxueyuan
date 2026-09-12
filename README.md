@@ -26,41 +26,24 @@ Tools that plug AI agents into real systems — image generation, GitHub API, an
 <table>
 <tr>
 <td width="50%" valign="top">
-<p>
-  <img src="https://thesvg.org/icons/novelai/default.svg" width="22" height="22" alt="NovelAI"/>
-  <img src="https://thesvg.org/icons/python/default.svg" width="22" height="22" alt="Python"/>
-  <img src="https://thesvg.org/icons/uv/default.svg" width="22" height="22" alt="uv"/>
-  &nbsp;<a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a>
-</p>
+<a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
 <sub>MCP · Python · ★ 4</sub><br><br>
 MCP server that brings NovelAI image generation to AI agents — 11 tools, dual transport, docs & Docker.
 </td>
 <td width="50%" valign="top">
-<p>
-  <img src="https://thesvg.org/icons/model-context-protocol/light.svg" width="22" height="22" alt="MCP"/>
-  <img src="https://thesvg.org/icons/javascript/default.svg" width="22" height="22" alt="JavaScript"/>
-  &nbsp;<a href="https://github.com/xinvxueyuan/github-api-skill"><b>github-api-skill</b></a>
-</p>
+<a href="https://github.com/xinvxueyuan/github-api-skill"><b>github-api-skill</b></a><br>
 <sub>Agent Skill · JavaScript</sub><br><br>
 Authoritative GitHub API reference (REST + GraphQL + safety rules). Stop guessing endpoints.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<p>
-  <img src="https://thesvg.org/icons/github/light.svg" width="22" height="22" alt="GitHub"/>
-  <img src="https://thesvg.org/icons/typescript/default.svg" width="22" height="22" alt="TypeScript"/>
-  &nbsp;<a href="https://github.com/xinvxueyuan/cordis-plugin-github"><b>cordis-plugin-github</b></a>
-</p>
+<a href="https://github.com/xinvxueyuan/cordis-plugin-github"><b>cordis-plugin-github</b></a><br>
 <sub>Cordis Plugin · TypeScript</sub><br><br>
 Normalized GitHub tools for Cordis / DeepSeek Harness — gh CLI by default, native HTTP fallback.
 </td>
 <td width="50%" valign="top">
-<p>
-  <img src="https://thesvg.org/icons/model-context-protocol/light.svg" width="22" height="22" alt="MCP"/>
-  <img src="https://thesvg.org/icons/nodedotjs/default.svg" width="22" height="22" alt="Node.js"/>
-  &nbsp;<a href="https://github.com/xinvxueyuan/json-safe-skill"><b>json-safe-skill</b></a>
-</p>
+<a href="https://github.com/xinvxueyuan/json-safe-skill"><b>json-safe-skill</b></a><br>
 <sub>Agent Skill</sub><br><br>
 Safe hand-authored JSON for Node REPL / run_code / JSON-RPC — validate before you send.
 </td>
@@ -72,30 +55,19 @@ Safe hand-authored JSON for Node REPL / run_code / JSON-RPC — validate before 
 <table>
 <tr>
 <td width="50%" valign="top">
-<p>
-  <img src="https://thesvg.org/icons/python/default.svg" width="22" height="22" alt="Python"/>
-  <img src="https://thesvg.org/icons/qq/default.svg" width="22" height="22" alt="QQ"/>
-  &nbsp;<a href="https://github.com/xinvxueyuan/lingchu-bot"><b>lingchu-bot</b></a>
-</p>
+<a href="https://github.com/xinvxueyuan/lingchu-bot"><b>lingchu-bot</b></a><br>
 <sub>NoneBot2 · Python · ★ 3</sub><br><br>
 QQ group-management bot with a plugin-organized architecture.
 </td>
 <td width="50%" valign="top">
-<p>
-  <img src="https://thesvg.org/icons/python/default.svg" width="22" height="22" alt="Python"/>
-  <img src="https://thesvg.org/icons/qq/default.svg" width="22" height="22" alt="QQ"/>
-  &nbsp;<a href="https://github.com/xinvxueyuan/ocr-fanqie-novel"><b>ocr-fanqie-novel</b></a>
-</p>
+<a href="https://github.com/xinvxueyuan/ocr-fanqie-novel"><b>ocr-fanqie-novel</b></a><br>
 <sub>NoneBot2 · OCR · Python</sub><br><br>
 Fanqie Novel reading-group join verification — OCR screenshots, auto-approve or escalate.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<p>
-  <img src="https://thesvg.org/icons/typescript/default.svg" width="22" height="22" alt="TypeScript"/>
-  &nbsp;<a href="https://github.com/xinvxueyuan/xinvxueyuan.github.io"><b>xinvxueyuan.github.io</b></a>
-</p>
+<a href="https://github.com/xinvxueyuan/xinvxueyuan.github.io"><b>xinvxueyuan.github.io</b></a><br>
 <sub>Blog · TypeScript</sub><br><br>
 Personal tech blog at <a href="https://www.xinvstar.xyz">xinvstar.xyz</a>.
 </td>
@@ -106,41 +78,8 @@ Personal tech blog at <a href="https://www.xinvstar.xyz">xinvstar.xyz</a>.
 ## Stack
 
 <p align="center">
-  <img src="https://thesvg.org/icons/python/default.svg" height="36" alt="Python"/>
-  <img src="https://thesvg.org/icons/rust/light.svg" height="36" alt="Rust"/>
-  <img src="https://thesvg.org/icons/typescript/default.svg" height="36" alt="TypeScript"/>
-  <img src="https://thesvg.org/icons/go/default.svg" height="36" alt="Go"/>
-  <img src="https://thesvg.org/icons/java/default.svg" height="36" alt="Java"/>
-  <img src="https://thesvg.org/icons/c/default.svg" height="36" alt="C"/>
-  <img src="https://thesvg.org/icons/cplusplus/default.svg" height="36" alt="C++"/>
+  <img src="https://skillicons.dev/icons?i=python,rust,typescript,go,java,c,cpp,react,vue,nextjs,svelte,spring,electron,mariadb,redis,postgres,mongodb,docker,kubernetes,gitlab" alt="tech stack" />
 </p>
-<p align="center">
-  <img src="https://thesvg.org/icons/react/default.svg" height="36" alt="React"/>
-  <img src="https://thesvg.org/icons/vuedotjs/default.svg" height="36" alt="Vue"/>
-  <img src="https://thesvg.org/icons/nextdotjs/light.svg" height="36" alt="Next.js"/>
-  <img src="https://thesvg.org/icons/svelte/default.svg" height="36" alt="Svelte"/>
-  <img src="https://thesvg.org/icons/spring/default.svg" height="36" alt="Spring"/>
-  <img src="https://thesvg.org/icons/electron/default.svg" height="36" alt="Electron"/>
-</p>
-<p align="center">
-  <img src="https://thesvg.org/icons/mariadb/default.svg" height="36" alt="MariaDB"/>
-  <img src="https://thesvg.org/icons/redis/default.svg" height="36" alt="Redis"/>
-  <img src="https://thesvg.org/icons/postgresql/default.svg" height="36" alt="PostgreSQL"/>
-  <img src="https://thesvg.org/icons/mongodb/default.svg" height="36" alt="MongoDB"/>
-  <img src="https://thesvg.org/icons/docker/default.svg" height="36" alt="Docker"/>
-  <img src="https://thesvg.org/icons/kubernetes/default.svg" height="36" alt="Kubernetes"/>
-  <img src="https://thesvg.org/icons/gitlab/default.svg" height="36" alt="GitLab"/>
-</p>
-<p align="center">
-  <img src="https://thesvg.org/icons/model-context-protocol/light.svg" height="36" alt="MCP"/>
-  <img src="https://thesvg.org/icons/novelai/default.svg" height="36" alt="NovelAI"/>
-  <img src="https://thesvg.org/icons/fastapi/default.svg" height="36" alt="FastAPI"/>
-  <img src="https://thesvg.org/icons/uv/default.svg" height="36" alt="uv"/>
-  <img src="https://thesvg.org/icons/linux/default.svg" height="36" alt="Linux"/>
-  <img src="https://thesvg.org/icons/debian/default.svg" height="36" alt="Debian"/>
-  <img src="https://thesvg.org/icons/qq/default.svg" height="36" alt="QQ"/>
-</p>
-<p align="center"><sub>Icons via <a href="https://thesvg.org">theSVG</a></sub></p>
 
 ## Stats
 
@@ -153,14 +92,14 @@ Personal tech blog at <a href="https://www.xinvstar.xyz">xinvstar.xyz</a>.
 
 ## Now
 
-- <img src="https://thesvg.org/icons/model-context-protocol/light.svg" width="16" height="16" alt="MCP"/> **Agent / MCP tooling** — NovelAI Image MCP, GitHub API skill, Cordis plugins
-- <img src="https://thesvg.org/icons/qq/default.svg" width="16" height="16" alt="QQ"/> **lingchu-bot** — QQ bot ecosystem
-- <img src="https://thesvg.org/icons/typescript/default.svg" width="16" height="16" alt="TypeScript"/> **[xinvstar.xyz](https://www.xinvstar.xyz)** — tech writing
+- 🧠 **Agent / MCP tooling** — NovelAI Image MCP, GitHub API skill, Cordis plugins
+- 🤖 **lingchu-bot** — QQ bot ecosystem
+- ✍️ **[xinvstar.xyz](https://www.xinvstar.xyz)** — tech writing
 
 ## Contact
 
-- <img src="https://thesvg.org/icons/firefox/default.svg" width="16" height="16" alt="blog"/> **Blog** — [xinvstar.xyz](https://www.xinvstar.xyz)
-- <img src="https://thesvg.org/icons/github/light.svg" width="16" height="16" alt="GitHub"/> **GitHub** — [@xinvxueyuan](https://github.com/xinvxueyuan)
+- **Blog** — [xinvstar.xyz](https://www.xinvstar.xyz)
+- **GitHub** — [@xinvxueyuan](https://github.com/xinvxueyuan)
 - **Company** — xinvStar.inc
 
 ---
