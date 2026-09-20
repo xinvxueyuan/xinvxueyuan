@@ -27,7 +27,7 @@ Tools that plug AI agents into real systems — image generation, GitHub API, an
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 4</sub><br><br>
+<sub>MCP · Python · ★ 5</sub><br><br>
 MCP server that brings NovelAI image generation to AI agents — 11 tools, dual transport, docs & Docker.
 </td>
 <td width="50%" valign="top">
@@ -50,28 +50,63 @@ Safe hand-authored JSON for Node REPL / run_code / JSON-RPC — validate before 
 </tr>
 </table>
 
-## Active Projects
+## Bot Ecosystem
+
+NoneBot2 / OneBot plugins that run in production QQ groups every day.
 
 <table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify"><b>nonebot-plugin-fanqie-verify</b></a><br>
+<sub>NoneBot2 · OneBot 11 · Python</sub><br><br>
+Fanqie Novel reading-group join verification: new members submit a screenshot of their own book-review
+detail page, judged by a vision model (OCR optional). Auto-approve on pass, escalate to admins on fail —
+plus review deferral, missed-member backfill and quoted replies.
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/xinvxueyuan/nonebot-plugin-llbot-alert"><b>nonebot-plugin-llbot-alert</b></a><br>
+<sub>NoneBot2 · OneBot 11 · Python</sub><br><br>
+LLBot health alerting: reads account status straight from OneBot heartbeat events (no polling) and
+detects service failure on disconnect or heartbeat silence — then emails alerts and recovery notices
+over SMTP.
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/lingchu-bot"><b>lingchu-bot</b></a><br>
 <sub>NoneBot2 · Python · ★ 3</sub><br><br>
 QQ group-management bot with a plugin-organized architecture.
 </td>
-<td width="50%" valign="top">
-<a href="https://github.com/xinvxueyuan/ocr-fanqie-novel"><b>ocr-fanqie-novel</b></a><br>
-<sub>NoneBot2 · OCR · Python</sub><br><br>
-Fanqie Novel reading-group join verification — OCR screenshots, auto-approve or escalate.
-</td>
+<td width="50%"></td>
 </tr>
+</table>
+
+## Web & Apps
+
+<table>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/xinvxueyuan.github.io"><b>xinvxueyuan.github.io</b></a><br>
 <sub>Blog · TypeScript</sub><br><br>
 Personal tech blog at <a href="https://www.xinvstar.xyz">xinvstar.xyz</a>.
 </td>
-<td width="50%"></td>
+<td width="50%" valign="top">
+<a href="https://github.com/xinvxueyuan/lty-moe"><b>lty-moe</b></a><br>
+<sub>Web · TypeScript · ★ 1</sub><br><br>
+Luo Tianyi (洛天依) fan-work archive and community submission site.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/xinvxueyuan/orbital-marketplace"><b>orbital-marketplace</b></a><br>
+<sub>SPA · React Router v7 + FastAPI</sub><br><br>
+App marketplace SPA — downloads, licenses, updates and subscriptions.
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/xinvxueyuan/winux"><b>winux</b></a><br>
+<sub>CLI · Rust</sub><br><br>
+A Rust-powered Linux-like CLI workflow manager for Windows.
+</td>
 </tr>
 </table>
 
@@ -93,7 +128,7 @@ Personal tech blog at <a href="https://www.xinvstar.xyz">xinvstar.xyz</a>.
 ## Now
 
 - 🧠 **Agent / MCP tooling** — NovelAI Image MCP, GitHub API skill, Cordis plugins
-- 🤖 **lingchu-bot** — QQ bot ecosystem
+- 🤖 **QQ bot plugins** — fanqie-verify (vision-based join verification), llbot-alert (health alerting), lingchu-bot
 - ✍️ **[xinvstar.xyz](https://www.xinvstar.xyz)** — tech writing
 
 ## Contact
