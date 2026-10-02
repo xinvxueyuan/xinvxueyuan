@@ -1,0 +1,46 @@
+name: Update profile README
+
+on:
+  schedule:
+    # 03:17 UTC daily (~11:17 Asia/Shanghai); off the hour to avoid the cron rush
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update-readme.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate README regions
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_profile.py
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet; then
+            echo "README is already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README_zh.md
+          git commit -m "chore: auto-update profile README"
+          git push

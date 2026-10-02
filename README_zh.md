@@ -19,15 +19,20 @@ Agent  ·  MCP  ·  图像工具  ·  机器人生态  ·  Windows / Linux
 
 ---
 
+<!-- 下方 AUTO 标记区由 scripts/generate_profile.py 每日自动重写：卡片类型标签取自仓库
+     topics，语言与星数取自 GitHub API，描述取自 profile.config.json 里的分语言映射。
+     标记区以外的文案均为手写，脚本不会改动。 -->
+
 ## Agent 工具链
 
 把 AI Agent 接到真实系统上 —— 图像生成、GitHub API、安全执行。
 
+<!-- AUTO:CARDS:agent-tooling:START -->
 <table>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 5</sub><br><br>
+<sub>MCP · Python · ★ 6</sub><br><br>
 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务 —— 11 个工具、双传输、文档与 Docker。
 </td>
 <td width="50%" valign="top">
@@ -49,24 +54,24 @@ Agent  ·  MCP  ·  图像工具  ·  机器人生态  ·  Windows / Linux
 </td>
 </tr>
 </table>
+<!-- AUTO:CARDS:agent-tooling:END -->
 
 ## 机器人生态
 
 每天跑在生产 QQ 群里的 NoneBot2 / OneBot 插件。
 
+<!-- AUTO:CARDS:bot-ecosystem:START -->
 <table>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify"><b>nonebot-plugin-fanqie-verify</b></a><br>
 <sub>NoneBot2 · OneBot 11 · Python</sub><br><br>
-番茄读书群入群验证：新成员发送本人「书评详情页」截图，由视觉模型判定（OCR 可选），
-通过自动放行、不通过转管理员决策；另有延期审核、漏验补验与引用回复。
+NoneBot2 番茄读书群入群验证插件：新成员发送本人书评详情页截图，视觉/OCR 识别通过后自动放行；支持延期审核、漏验补验、引用回复，异常自动转管理员决策
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/nonebot-plugin-llbot-alert"><b>nonebot-plugin-llbot-alert</b></a><br>
 <sub>NoneBot2 · OneBot 11 · Python</sub><br><br>
-LLBot 状态告警：直接从 OneBot 心跳事件读取账号状态（无需轮询），
-并在连接断开或心跳静默时判定服务异常 —— 通过 SMTP 发送告警与恢复邮件。
+LLBot 状态告警插件：从 OneBot 心跳抽取账号状态检测账号异常，并在连接断开/心跳静默时检测服务异常，通过 SMTP 发送告警与恢复邮件
 </td>
 </tr>
 <tr>
@@ -78,27 +83,29 @@ LLBot 状态告警：直接从 OneBot 心跳事件读取账号状态（无需轮
 <td width="50%"></td>
 </tr>
 </table>
+<!-- AUTO:CARDS:bot-ecosystem:END -->
 
 ## Web 与应用
 
+<!-- AUTO:CARDS:web-apps:START -->
 <table>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/xinvxueyuan.github.io"><b>xinvxueyuan.github.io</b></a><br>
 <sub>博客 · TypeScript</sub><br><br>
-个人技术博客：<a href="https://www.xinvstar.xyz">xinvstar.xyz</a>。
+个人博客
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/lty-moe"><b>lty-moe</b></a><br>
 <sub>Web · TypeScript · ★ 1</sub><br><br>
-洛天依同人作品档案与社区投稿站点。
+洛天依同人作品档案与社区投稿站点
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/orbital-marketplace"><b>orbital-marketplace</b></a><br>
-<sub>SPA · React Router v7 + FastAPI</sub><br><br>
-应用商城 SPA —— 应用下载、许可证、更新与订阅。
+<sub>SPA · React Router · JavaScript</sub><br><br>
+Orbital — 应用商城 SPA（React Router v7 + FastAPI）：应用下载、许可证、更新、订阅、发卡机制与文档站。MIT OR Apache-2.0 双许可。
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/winux"><b>winux</b></a><br>
@@ -107,6 +114,7 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 </td>
 </tr>
 </table>
+<!-- AUTO:CARDS:web-apps:END -->
 
 ## 技术栈
 
@@ -123,17 +131,29 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 
 </div>
 
+## 最新文章
+
+<!-- AUTO:POSTS:START -->
+- [2026年开源安全威胁态势全景报告](https://www.xinvstar.xyz/posts/2026-07-07-%E5%BC%80%E6%BA%90%E5%AE%89%E5%85%A8%E5%A8%81%E8%83%81%E6%80%81%E5%8A%BF%E6%8A%A5%E5%91%8A/) — 2026-07-07
+- [一封封号邮件里的 1×1 像素：Claude 邮件追踪器技术分析与争议](https://www.xinvstar.xyz/posts/2026-07-05-claude-%E5%B0%81%E7%A6%81%E9%82%AE%E4%BB%B6-%E8%BF%BD%E8%B8%AA%E5%83%8F%E7%B4%A0%E5%88%86%E6%9E%90/) — 2026-07-05
+- [深度源码解析：Claude Code 隐藏的反向代理检测与隐写标记机制](https://www.xinvstar.xyz/posts/2026-07-04-claude-code-%E9%9A%90%E5%86%99%E6%A0%87%E8%AE%B0-%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/) — 2026-07-04
+- [Next.js 14 App Router 完全指南](https://www.xinvstar.xyz/posts/2026-03-29-nextjs-14-app-router%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/) — 2026-03-29
+- [CI/CD 实战：GitHub Actions 自动化工作流](https://www.xinvstar.xyz/posts/2026-03-22-cicd%E5%AE%9E%E6%88%98-github-actions/) — 2026-03-22
+<!-- AUTO:POSTS:END -->
+
 ## 近况
 
-- 🧠 **Agent / MCP 工具** —— NovelAI Image MCP、GitHub API Skill、Cordis 插件
-- 🤖 **QQ 机器人插件** —— fanqie-verify（视觉入群验证）、llbot-alert（状态告警）、lingchu-bot
-- ✍️ **[xinvstar.xyz](https://www.xinvstar.xyz)** —— 技术写作
+<!-- AUTO:NOW:START -->
+- 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** `rules-latest` — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _1 小时前_
+- 🚀 **[nonebot-plugin-llbot-alert](https://github.com/xinvxueyuan/nonebot-plugin-llbot-alert)** — LLBot 状态告警插件：从 OneBot 心跳抽取账号状态检测账号异常，并在连接断开/心跳静默时检测服务异常，通过 SMTP 发送告警与恢复邮件 · _5 小时前_
+- 🚀 **[nonebot-plugin-lottery](https://github.com/xinvxueyuan/nonebot-plugin-lottery)** — 抽奖（禁言小助手）：参与抽奖的群员会被随机禁言一段时间；超上限的定时自动解禁 · _11 小时前_
+<!-- AUTO:NOW:END -->
 
 ## 联系
 
 - **博客** —— [xinvstar.xyz](https://www.xinvstar.xyz)
 - **GitHub** —— [@xinvxueyuan](https://github.com/xinvxueyuan)
-- **公司** —— xinvStar.inc
+- **公司** —— xinvStar.Inc
 
 ---
 

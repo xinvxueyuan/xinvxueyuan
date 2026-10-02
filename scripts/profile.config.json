@@ -1,0 +1,90 @@
+{
+  "username": "xinvxueyuan",
+  "blog": {
+    "url": "https://www.xinvstar.xyz",
+    "feed": "https://www.xinvstar.xyz/rss.xml"
+  },
+  "sections": [
+    {
+      "id": "agent-tooling",
+      "repos": [
+        "NovelAI-Image-MCP",
+        "github-api-skill",
+        "cordis-plugin-github",
+        "json-safe-skill"
+      ]
+    },
+    {
+      "id": "bot-ecosystem",
+      "repos": [
+        "nonebot-plugin-fanqie-verify",
+        "nonebot-plugin-llbot-alert",
+        "lingchu-bot"
+      ]
+    },
+    {
+      "id": "web-apps",
+      "repos": [
+        "xinvxueyuan.github.io",
+        "lty-moe",
+        "orbital-marketplace",
+        "winux"
+      ]
+    }
+  ],
+  "max_type_labels": 2,
+  "type_labels": [
+    { "topics": ["mcp", "mcp-server", "model-context-protocol"], "en": "MCP", "zh": "MCP" },
+    { "topics": ["agent-skills", "agent-skill", "skill"], "en": "Agent Skill", "zh": "Agent Skill" },
+    { "topics": ["cordis", "deepseek-harness", "dsh-plugin"], "en": "Cordis Plugin", "zh": "Cordis 插件" },
+    { "topics": ["nonebot2", "nonebot", "nonebot-plugin"], "en": "NoneBot2", "zh": "NoneBot2" },
+    { "topics": ["onebot11", "onebot"], "en": "OneBot 11", "zh": "OneBot 11" },
+    { "topics": ["blog", "tech-blog", "personal-website", "blog-theme"], "en": "Blog", "zh": "博客" },
+    { "topics": ["spa"], "en": "SPA", "zh": "SPA" },
+    { "topics": ["react-router"], "en": "React Router", "zh": "React Router" },
+    { "topics": ["web"], "en": "Web", "zh": "Web" },
+    { "topics": ["cli"], "en": "CLI", "zh": "CLI" }
+  ],
+  "descriptions": {
+    "nonebot-plugin-fanqie-verify": {
+      "en": "Fanqie Novel reading-group join verification: new members submit a screenshot of their own book-review detail page, judged by a vision model (OCR optional). Auto-approve on pass, escalate to admins on fail — plus review deferral, missed-member backfill and quoted replies."
+    },
+    "nonebot-plugin-llbot-alert": {
+      "en": "LLBot health alerting: reads account status straight from OneBot heartbeat events (no polling) and detects service failure on disconnect or heartbeat silence — then emails alerts and recovery notices over SMTP."
+    },
+    "xinvxueyuan.github.io": {
+      "en": "Personal tech blog at <a href=\"https://www.xinvstar.xyz\">xinvstar.xyz</a>."
+    },
+    "lty-moe": {
+      "en": "Luo Tianyi (洛天依) fan-work archive and community submission site."
+    },
+    "orbital-marketplace": {
+      "en": "App marketplace SPA — downloads, licenses, updates and subscriptions."
+    },
+    "NovelAI-Image-MCP": {
+      "zh": "将 NovelAI 图像生成接入 AI Agent 的 MCP 服务 —— 11 个工具、双传输、文档与 Docker。"
+    },
+    "github-api-skill": {
+      "zh": "权威 GitHub API 参考（REST + GraphQL + 安全规则），别再猜端点。"
+    },
+    "cordis-plugin-github": {
+      "zh": "为 Cordis / DeepSeek Harness 提供规范化 GitHub 工具 —— 默认走 gh CLI，自动 HTTP 回退。"
+    },
+    "json-safe-skill": {
+      "zh": "面向 Node REPL / run_code / JSON-RPC 的安全手写 JSON 技能 —— 发送前先校验。"
+    },
+    "lingchu-bot": {
+      "zh": "插件化架构的 QQ 群管理机器人。"
+    },
+    "winux": {
+      "zh": "Rust 打造的 Windows 类 Linux CLI 工作流管理器。"
+    }
+  },
+  "now": {
+    "count": 3,
+    "exclude": ["xinvxueyuan"]
+  },
+  "posts": {
+    "count": 5
+  }
+}
