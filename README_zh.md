@@ -32,7 +32,7 @@ Agent  ·  MCP  ·  图像工具  ·  机器人生态  ·  Windows / Linux
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 6</sub><br><br>
+<sub>MCP · Python · ★ 5</sub><br><br>
 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务 —— 11 个工具、双传输、文档与 Docker。
 </td>
 <td width="50%" valign="top">
