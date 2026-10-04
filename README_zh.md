@@ -144,9 +144,9 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** `rules-latest` — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _10 小时前_
-- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.7.0` — 插件化架构的 QQ 群管理机器人。 · _11 小时前_
-- 🚀 **[nonebot-plugin-llbot-alert](https://github.com/xinvxueyuan/nonebot-plugin-llbot-alert)** — LLBot 状态告警插件：从 OneBot 心跳抽取账号状态检测账号异常，并在连接断开/心跳静默时检测服务异常，通过 SMTP 发送告警与恢复邮件 · _1 天前_
+- 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _10 小时前_
+- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.7.0` — 插件化架构的 QQ 群管理机器人。 · _13 小时前_
+- 🚀 **[nonebot-plugin-llbot-alert](https://github.com/xinvxueyuan/nonebot-plugin-llbot-alert)** — LLBot 状态告警插件：从 OneBot 心跳抽取账号状态检测账号异常，并在连接断开/心跳静默时检测服务异常，通过 SMTP 发送告警与恢复邮件 · _2 天前_
 <!-- AUTO:NOW:END -->
 
 ## 联系

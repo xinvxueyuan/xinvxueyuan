@@ -145,9 +145,9 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Now
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** `rules-latest` — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _10 hours ago_
-- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.7.0` — Lingchu Bot is a NoneBot2-based QQ group management bot. It organizes features as plugins, focusing on group administration, command processing, configuration management, local storage, and async data access. · _11 hours ago_
-- 🚀 **[nonebot-plugin-llbot-alert](https://github.com/xinvxueyuan/nonebot-plugin-llbot-alert)** — LLBot health alerting: reads account status straight from OneBot heartbeat events (no polling) and detects service failure on disconnect or heartbeat silence — then emails alerts and recovery notices over SMTP. · _1 day ago_
+- 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _10 hours ago_
+- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.7.0` — Lingchu Bot is a NoneBot2-based QQ group management bot. It organizes features as plugins, focusing on group administration, command processing, configuration management, local storage, and async data access. · _13 hours ago_
+- 🚀 **[nonebot-plugin-llbot-alert](https://github.com/xinvxueyuan/nonebot-plugin-llbot-alert)** — LLBot health alerting: reads account status straight from OneBot heartbeat events (no polling) and detects service failure on disconnect or heartbeat silence — then emails alerts and recovery notices over SMTP. · _2 days ago_
 <!-- AUTO:NOW:END -->
 
 ## Contact
