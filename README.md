@@ -145,9 +145,9 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Now
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[cordis-plugin-secret](https://github.com/xinvxueyuan/cordis-plugin-secret)** `v0.2.0` — Cordis / DeepSeek Harness plugin — the agent asks the human for a secret in an inline conversation card and only ever receives an opaque session-scoped DSH_SECRET_* name, never the value · _2 minutes ago_
-- 🚀 **[nonebot-plugin-lottery](https://github.com/xinvxueyuan/nonebot-plugin-lottery)** — 抽奖（禁言小助手）：参与抽奖的群员会被随机禁言一段时间；超上限的定时自动解禁 · _31 minutes ago_
-- 🚀 **[cordis-plugin-github](https://github.com/xinvxueyuan/cordis-plugin-github)** `v0.1.2` — Cordis / DeepSeek Harness plugin — normalized GitHub API tools for AI agents (gh CLI by default, native HTTP fallback) · _1 hour ago_
+- 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _11 hours ago_
+- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.7.0` — Lingchu Bot is a NoneBot2-based QQ group management bot. It organizes features as plugins, focusing on group administration, command processing, configuration management, local storage, and async data access. · _11 hours ago_
+- 🚀 **[cordis-plugin-secret](https://github.com/xinvxueyuan/cordis-plugin-secret)** `v0.3.0` — Cordis / DeepSeek Harness plugin — the agent asks the human for a secret in an inline conversation card and only ever receives an opaque session-scoped DSH_SECRET_* name, never the value · _15 hours ago_
 <!-- AUTO:NOW:END -->
 
 ## Contact
