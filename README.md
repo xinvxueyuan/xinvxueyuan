@@ -33,7 +33,7 @@ Tools that plug AI agents into real systems — image generation, GitHub API, an
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 7</sub><br><br>
+<sub>MCP · Python · ★ 8</sub><br><br>
 MCP server for integrating NovelAI Image generation into AI agents.
 </td>
 <td width="50%" valign="top">
@@ -145,9 +145,9 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Now
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[cordis-plugin-secret](https://github.com/xinvxueyuan/cordis-plugin-secret)** `v0.4.3` — Cordis / DeepSeek Harness plugin — the agent asks the human for a secret in an inline conversation card and only ever receives an opaque session-scoped DSH_SECRET_* name, never the value · _5 hours ago_
+- 🚀 **[cordis-plugin-secret](https://github.com/xinvxueyuan/cordis-plugin-secret)** `v0.6.1` — Cordis / DeepSeek Harness plugin — the agent asks the human for a secret in an inline conversation card and only ever receives an opaque session-scoped DSH_SECRET_* name, never the value · _27 minutes ago_
+- 🚀 **[nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu)** — 今日老婆：从群内活跃成员里抽一位当老婆，支持换一只/确认/娶老婆/离婚 · _1 hour ago_
 - 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _10 hours ago_
-- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.7.0` — Lingchu Bot is a NoneBot2-based QQ group management bot. It organizes features as plugins, focusing on group administration, command processing, configuration management, local storage, and async data access. · _11 hours ago_
 <!-- AUTO:NOW:END -->
 
 ## Contact

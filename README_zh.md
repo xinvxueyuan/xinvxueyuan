@@ -32,7 +32,7 @@ Agent  ·  MCP  ·  图像工具  ·  机器人生态  ·  Windows / Linux
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 7</sub><br><br>
+<sub>MCP · Python · ★ 8</sub><br><br>
 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务 —— 11 个工具、双传输、文档与 Docker。
 </td>
 <td width="50%" valign="top">
@@ -144,9 +144,9 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[cordis-plugin-secret](https://github.com/xinvxueyuan/cordis-plugin-secret)** `v0.4.3` — Cordis / DeepSeek Harness plugin — the agent asks the human for a secret in an inline conversation card and only ever receives an opaque session-scoped DSH_SECRET_* name, never the value · _5 小时前_
+- 🚀 **[cordis-plugin-secret](https://github.com/xinvxueyuan/cordis-plugin-secret)** `v0.6.1` — Cordis / DeepSeek Harness plugin — the agent asks the human for a secret in an inline conversation card and only ever receives an opaque session-scoped DSH_SECRET_* name, never the value · _27 分钟前_
+- 🚀 **[nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu)** — 今日老婆：从群内活跃成员里抽一位当老婆，支持换一只/确认/娶老婆/离婚 · _1 小时前_
 - 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _10 小时前_
-- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.7.0` — 插件化架构的 QQ 群管理机器人。 · _11 小时前_
 <!-- AUTO:NOW:END -->
 
 ## 联系
