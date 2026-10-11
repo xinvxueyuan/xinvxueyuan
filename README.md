@@ -145,9 +145,9 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Now
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[cordis-plugin-secret](https://github.com/xinvxueyuan/cordis-plugin-secret)** `v0.6.1` — Cordis / DeepSeek Harness plugin — the agent asks the human for a secret in an inline conversation card and only ever receives an opaque session-scoped DSH_SECRET_* name, never the value · _27 minutes ago_
-- 🚀 **[nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu)** — 今日老婆：从群内活跃成员里抽一位当老婆，支持换一只/确认/娶老婆/离婚 · _1 hour ago_
-- 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _10 hours ago_
+- 🚀 **[nonebot-plugin-fanqie-verify](https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify)** `v0.4.0` — Fanqie Novel reading-group join verification: new members submit a screenshot of their own book-review detail page, judged by a vision model (OCR optional). Auto-approve on pass, escalate to admins on fail — plus review deferral, missed-member backfill and quoted replies. · _1 hour ago_
+- 🚀 **[nonebot-plugin-info](https://github.com/xinvxueyuan/nonebot-plugin-info)** `v0.1.1` — NoneBot2 功能菜单插件：读取各插件 __plugin_meta__.extra 出分类帮助（命令「功能」） · _2 hours ago_
+- 🚀 **[nonebot-plugin-llbot-alert](https://github.com/xinvxueyuan/nonebot-plugin-llbot-alert)** — LLBot health alerting: reads account status straight from OneBot heartbeat events (no polling) and detects service failure on disconnect or heartbeat silence — then emails alerts and recovery notices over SMTP. · _2 hours ago_
 <!-- AUTO:NOW:END -->
 
 ## Contact
