@@ -144,9 +144,9 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[nonebot-plugin-fanqie-verify](https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify)** `v0.4.0` — NoneBot2 番茄读书群入群验证插件：新成员发送本人书评详情页截图，视觉/OCR 识别通过后自动放行；支持延期审核、漏验补验、引用回复，异常自动转管理员决策 · _1 小时前_
-- 🚀 **[nonebot-plugin-info](https://github.com/xinvxueyuan/nonebot-plugin-info)** `v0.1.1` — NoneBot2 功能菜单插件：读取各插件 __plugin_meta__.extra 出分类帮助（命令「功能」） · _2 小时前_
-- 🚀 **[nonebot-plugin-llbot-alert](https://github.com/xinvxueyuan/nonebot-plugin-llbot-alert)** — LLBot 状态告警插件：从 OneBot 心跳抽取账号状态检测账号异常，并在连接断开/心跳静默时检测服务异常，通过 SMTP 发送告警与恢复邮件 · _2 小时前_
+- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.8.0` — 插件化架构的 QQ 群管理机器人。 · _20 分钟前_
+- 🚀 **[xinvxueyuan.github.io](https://github.com/xinvxueyuan/xinvxueyuan.github.io)** — 个人博客 · _5 小时前_
+- 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _12 小时前_
 <!-- AUTO:NOW:END -->
 
 ## 联系

@@ -145,9 +145,9 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Now
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[nonebot-plugin-fanqie-verify](https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify)** `v0.4.0` — Fanqie Novel reading-group join verification: new members submit a screenshot of their own book-review detail page, judged by a vision model (OCR optional). Auto-approve on pass, escalate to admins on fail — plus review deferral, missed-member backfill and quoted replies. · _1 hour ago_
-- 🚀 **[nonebot-plugin-info](https://github.com/xinvxueyuan/nonebot-plugin-info)** `v0.1.1` — NoneBot2 功能菜单插件：读取各插件 __plugin_meta__.extra 出分类帮助（命令「功能」） · _2 hours ago_
-- 🚀 **[nonebot-plugin-llbot-alert](https://github.com/xinvxueyuan/nonebot-plugin-llbot-alert)** — LLBot health alerting: reads account status straight from OneBot heartbeat events (no polling) and detects service failure on disconnect or heartbeat silence — then emails alerts and recovery notices over SMTP. · _2 hours ago_
+- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.8.0` — Lingchu Bot is a NoneBot2-based QQ group management bot. It organizes features as plugins, focusing on group administration, command processing, configuration management, local storage, and async data access. · _20 minutes ago_
+- 🚀 **[xinvxueyuan.github.io](https://github.com/xinvxueyuan/xinvxueyuan.github.io)** — Personal tech blog at <a href="https://www.xinvstar.xyz">xinvstar.xyz</a>. · _5 hours ago_
+- 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _12 hours ago_
 <!-- AUTO:NOW:END -->
 
 ## Contact
