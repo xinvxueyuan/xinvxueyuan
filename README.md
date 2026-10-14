@@ -145,9 +145,9 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Now
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** `v0.5.1` — MCP server for integrating NovelAI Image generation into AI agents. · _11 minutes ago_
-- 🚀 **[cordis-plugin-github](https://github.com/xinvxueyuan/cordis-plugin-github)** `v0.2.0` — Cordis / DeepSeek Harness plugin — normalized GitHub API tools for AI agents (gh CLI by default, native HTTP fallback) · _1 hour ago_
-- 🚀 **[cordis-plugin-secret](https://github.com/xinvxueyuan/cordis-plugin-secret)** `v0.6.1` — Cordis / DeepSeek Harness plugin — the agent asks the human for a secret in an inline conversation card and only ever receives an opaque session-scoped DSH_SECRET_* name, never the value · _4 hours ago_
+- 🚀 **[nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu)** `v0.3.1` — 今日老婆：从群内活跃成员里抽一位当老婆，支持换一只/确认/娶老婆/离婚 · _4 hours ago_
+- 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _9 hours ago_
+- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.8.0` — Lingchu Bot is a NoneBot2-based QQ group management bot. It organizes features as plugins, focusing on group administration, command processing, configuration management, local storage, and async data access. · _10 hours ago_
 <!-- AUTO:NOW:END -->
 
 ## Contact
