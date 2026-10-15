@@ -33,7 +33,7 @@ Tools that plug AI agents into real systems — image generation, GitHub API, an
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 9</sub><br><br>
+<sub>MCP · Python · ★ 10</sub><br><br>
 MCP server for integrating NovelAI Image generation into AI agents.
 </td>
 <td width="50%" valign="top">
@@ -145,9 +145,9 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Now
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu)** `v0.7.0` — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚 · _1 hour ago_
-- 🚀 **[nonebot-plugin-pixiv-illust](https://github.com/xinvxueyuan/nonebot-plugin-pixiv-illust)** `v0.1.0` — NoneBot2 插件（qbot 子模块）· pixiv 插画/漫画订阅推送：按群订阅画师新作、多页推送（>3 页合并转发）、R18 可打码 · _5 hours ago_
-- 🚀 **[nonebot-plugin-info](https://github.com/xinvxueyuan/nonebot-plugin-info)** `v0.1.1` — NoneBot2 插件（qbot 子模块）· 功能菜单：扫描全部已加载插件的 __plugin_meta__.extra，按分类出菜单图与详情（htmlkit 出图，失败回退纯文本） · _6 hours ago_
+- 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _10 hours ago_
+- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.8.0` — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. Recent maintenance: Dependabot <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/89">#89</a>, <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/92">#92</a> and <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/88">#88</a> merged; webui TypeScript upgraded to 6.0.3 in <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/79">#79</a>. · _10 hours ago_
+- 🚀 **[nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu)** `v0.7.0` — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚 · _13 hours ago_
 <!-- AUTO:NOW:END -->
 
 ## Contact

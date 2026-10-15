@@ -32,7 +32,7 @@ Agent  ·  MCP  ·  图像工具  ·  机器人生态  ·  Windows / Linux
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 9</sub><br><br>
+<sub>MCP · Python · ★ 10</sub><br><br>
 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务 —— 11 个工具、双传输、文档与 Docker。
 </td>
 <td width="50%" valign="top">
@@ -144,9 +144,9 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu)** `v0.7.0` — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚 · _1 小时前_
-- 🚀 **[nonebot-plugin-pixiv-illust](https://github.com/xinvxueyuan/nonebot-plugin-pixiv-illust)** `v0.1.0` — NoneBot2 插件（qbot 子模块）· pixiv 插画/漫画订阅推送：按群订阅画师新作、多页推送（>3 页合并转发）、R18 可打码 · _5 小时前_
-- 🚀 **[nonebot-plugin-info](https://github.com/xinvxueyuan/nonebot-plugin-info)** `v0.1.1` — NoneBot2 插件（qbot 子模块）· 功能菜单：扫描全部已加载插件的 __plugin_meta__.extra，按分类出菜单图与详情（htmlkit 出图，失败回退纯文本） · _6 小时前_
+- 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _10 小时前_
+- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.8.0` — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。近期维护：Dependabot <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/89">#89</a>、<a href="https://github.com/xinvxueyuan/lingchu-bot/pull/92">#92</a>、<a href="https://github.com/xinvxueyuan/lingchu-bot/pull/88">#88</a> 已合并；webui 的 TypeScript 已通过 <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/79">#79</a> 升级至 6.0.3。 · _10 小时前_
+- 🚀 **[nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu)** `v0.7.0` — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚 · _13 小时前_
 <!-- AUTO:NOW:END -->
 
 ## 联系
