@@ -145,8 +145,8 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 
 <!-- AUTO:NOW:START -->
 - 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _10 小时前_
-- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.8.0` — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。近期维护：Dependabot <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/89">#89</a>、<a href="https://github.com/xinvxueyuan/lingchu-bot/pull/92">#92</a>、<a href="https://github.com/xinvxueyuan/lingchu-bot/pull/88">#88</a> 已合并；webui 的 TypeScript 已通过 <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/79">#79</a> 升级至 6.0.3。 · _10 小时前_
-- 🚀 **[nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu)** `v0.7.0` — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚 · _13 小时前_
+- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.8.0` — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。近期维护：Dependabot <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/89">#89</a>、<a href="https://github.com/xinvxueyuan/lingchu-bot/pull/92">#92</a>、<a href="https://github.com/xinvxueyuan/lingchu-bot/pull/88">#88</a> 已合并；webui 的 TypeScript 已通过 <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/79">#79</a> 升级至 6.0.3。 · _11 小时前_
+- 🚀 **[nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu)** `v0.7.1` — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚 · _17 小时前_
 <!-- AUTO:NOW:END -->
 
 ## 联系
