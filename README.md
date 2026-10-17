@@ -167,7 +167,7 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.5.1 — MCP server for integrating NovelAI Image generation into AI agents. · pushed 2026-10-17 18:31:47 UTC
+- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.5.1 — MCP server for integrating NovelAI Image generation into AI agents. · pushed 2026-10-17 19:25:01 UTC
 - **[nonebot-plugin-fanqie-verify](https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify)** · v0.4.0 — Fanqie Novel reading-group join verification: new members submit a screenshot of their own book-review detail page, judged by a vision model (OCR optional). Auto-approve on pass, escalate to admins on fail — plus review deferral, missed-member backfill and quoted replies. · pushed 2026-10-17 18:02:16 UTC
 - **[xinvxueyuan.github.io](https://github.com/xinvxueyuan/xinvxueyuan.github.io)** — Personal tech blog at xinvstar.xyz. · pushed 2026-10-17 17:33:31 UTC
 <!-- AUTO:NOW:END -->

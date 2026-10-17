@@ -166,7 +166,7 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.5.1 — 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务。 · 推送于 2026-10-17 18:31:47 UTC
+- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.5.1 — 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务。 · 推送于 2026-10-17 19:25:01 UTC
 - **[nonebot-plugin-fanqie-verify](https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify)** · v0.4.0 — NoneBot2 番茄读书群入群验证插件：新成员发送本人书评详情页截图，视觉/OCR 识别通过后自动放行；支持延期审核、漏验补验、引用回复，异常自动转管理员决策 · 推送于 2026-10-17 18:02:16 UTC
 - **[xinvxueyuan.github.io](https://github.com/xinvxueyuan/xinvxueyuan.github.io)** — 个人博客 · 推送于 2026-10-17 17:33:31 UTC
 <!-- AUTO:NOW:END -->
