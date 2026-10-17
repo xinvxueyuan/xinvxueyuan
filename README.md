@@ -15,7 +15,9 @@ Agent  ·  MCP  ·  Image tools  ·  Bot ecosystems  ·  Windows / Linux
   <img src="https://img.shields.io/badge/OS-Windows%20%7C%20Debian-4c8bf5?style=for-the-badge&logo=windows&logoColor=white" alt="os"/>
 </p>
 
-> *资以乐其无涯之生*
+<!-- AUTO:BIO:START -->
+> *“你好，亲爱的同胞。你今天过得怎么样？我嘛，目前没有进行交配仪式的兴趣。我的睡眠循环很快就要到了，所以我很快就会失去意识。要进行交配的话，就等以后再说吧。”*
+<!-- AUTO:BIO:END -->
 
 ---
 

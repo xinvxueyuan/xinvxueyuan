@@ -4,6 +4,7 @@ The English and Chinese profiles share one public GitHub/RSS snapshot. Only name
 
 ## What stays current
 
+- Signature: the public GitHub user `bio` fills the single `AUTO:BIO` region in both READMEs, with identical original text (no translation). Whitespace is normalized and HTML/Markdown is escaped as literal text. Null, empty, whitespace-only or missing Bio values preserve each existing signature, including when replaying older snapshots. This uses the existing user API request and daily Actions schedule, not a new request or trigger.
 - Featured project cards: public visibility, topics, primary language, stars and latest stable release. Missing/deleted/private repositories disappear from generated cards instead of breaking the whole refresh.
 - More public projects: all other owned, non-fork public repositories, alphabetically listed. New repositories appear automatically without guessing a category. The profile repository itself is omitted here.
 - Latest posts: newest dated RSS/Atom entries, deduplicated by URL, with the same titles/links in both languages. Titles are not machine-translated.

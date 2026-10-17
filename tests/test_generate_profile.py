@@ -48,7 +48,7 @@ def texts():
     keys = ["CARDS:FEATURED", "NOW", "POSTS", "STATS", "CATALOG", "MAINTENANCE"]
     return {lang: "manual before\n" + "\n".join(
         f"<!-- AUTO:{key}:START -->\nold {lang} {key}\n<!-- AUTO:{key}:END -->" for key in keys
-    ) + "\nmanual after" for lang in ("en", "zh")}
+    ) + "\n<!-- AUTO:BIO:START -->\n> *Previous signature*\n<!-- AUTO:BIO:END -->\nmanual after" for lang in ("en", "zh")}
 
 
 def data(posts=None):
