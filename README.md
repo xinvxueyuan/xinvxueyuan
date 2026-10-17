@@ -133,7 +133,7 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Now
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** `v0.5.1` — MCP server for integrating NovelAI Image generation into AI agents. · _5 minutes ago_
+- 🚀 **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** `v0.5.1` — MCP server for integrating NovelAI Image generation into AI agents. · _6 minutes ago_
 - 🚀 **[nonebot-plugin-fanqie-verify](https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify)** `v0.4.0` — Fanqie Novel reading-group join verification: new members submit a screenshot of their own book-review detail page, judged by a vision model (OCR optional). Auto-approve on pass, escalate to admins on fail — plus review deferral, missed-member backfill and quoted replies. · _35 minutes ago_
 - 🚀 **[xinvxueyuan.github.io](https://github.com/xinvxueyuan/xinvxueyuan.github.io)** — Personal tech blog at <a href="https://www.xinvstar.xyz">xinvstar.xyz</a>. · _1 hour ago_
 <!-- AUTO:NOW:END -->
