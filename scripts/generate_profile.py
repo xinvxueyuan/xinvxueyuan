@@ -82,28 +82,32 @@ def md(value):
 
 def parse_posts(raw, count):
     root = ET.fromstring(raw)
-    posts, seen = [], set()
+    posts = {}
     atom = '{http://www.w3.org/2005/Atom}'
     for item in root.findall('.//item') + root.findall(f'{atom}entry'):
         title = (item.findtext('title') or item.findtext(f'{atom}title') or '').strip()
         link = (item.findtext('link') or '').strip()
         if not link:
             link = next((e.get('href', '') for e in item.findall(f'{atom}link') if e.get('rel', 'alternate') == 'alternate'), '')
-        link = safe_url(link)
         pub = item.findtext('pubDate') or item.findtext(f'{atom}published') or item.findtext(f'{atom}updated') or ''
-        date = ''
-        if pub:
+        if not title or not pub:
+            continue
+        try:
+            link = safe_url(link)
             try:
-                date = parsedate_to_datetime(pub).astimezone(timezone.utc).date().isoformat()
+                moment = parsedate_to_datetime(pub)
             except (ValueError, TypeError):
-                date = datetime.fromisoformat(pub.replace('Z', '+00:00')).date().isoformat()
-        if title and link not in seen:
-            posts.append({'title': title, 'url': link, 'date': date})
-            seen.add(link)
-    posts.sort(key=lambda p: (p['date'], p['url']), reverse=True)
+                moment = datetime.fromisoformat(pub.replace('Z', '+00:00'))
+            # Treat timezone-less dates as UTC, never the runner's local timezone.
+            moment = moment.replace(tzinfo=timezone.utc) if moment.tzinfo is None else moment.astimezone(timezone.utc)
+        except (ValueError, TypeError):
+            continue
+        if link not in posts or moment > posts[link][0]:
+            posts[link] = (moment, {'title': title, 'url': link, 'date': moment.date().isoformat()})
     if not posts:
         raise ValueError('blog feed returned no valid items')
-    return posts[:count]
+    ordered = sorted(posts.values(), key=lambda p: (p[0], p[1]['url']), reverse=True)
+    return [post for _, post in ordered[:count]]
 
 
 def public_repos(repos, cfg):
@@ -288,24 +292,24 @@ def main(argv=None):
     parser.add_argument('--check', action='store_true', help='render without writes; fail if output differs')
     parser.add_argument('--report', type=Path)
     args = parser.parse_args(argv)
-    cfg = json.loads(CONFIG_PATH.read_text())
-    data = json.loads(args.snapshot_in.read_text()) if args.snapshot_in else collect(cfg, os.environ.get('GITHUB_TOKEN'))
+    cfg = json.loads(CONFIG_PATH.read_text(encoding='utf-8'))
+    data = json.loads(args.snapshot_in.read_text(encoding='utf-8')) if args.snapshot_in else collect(cfg, os.environ.get('GITHUB_TOKEN'))
     if args.snapshot_out:
-        args.snapshot_out.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
-    originals = {lang: path.read_text() for lang, path in FILES.items()}
+        args.snapshot_out.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    originals = {lang: path.read_text(encoding='utf-8') for lang, path in FILES.items()}
     output = generate(originals, cfg, data)
     if generate(output, cfg, data) != output:
         raise ValueError('generation is not idempotent')
     report = {'references': validate(output, cfg, data), 'idempotent': True, 'manual_content_unchanged': True,
               'rss_preserved': data['posts'] is None, 'public_repositories': len(public_repos(data['repos'], cfg))}
     if args.report:
-        args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
+        args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(report, ensure_ascii=False))
     if args.check:
         return int(output != originals)
     # All network operations, rendering and validation finish before either file is written.
     for lang, path in FILES.items():
-        path.write_text(output[lang])
+        path.write_text(output[lang], encoding='utf-8')
     return 0
 
 

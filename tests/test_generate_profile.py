@@ -87,6 +87,10 @@ class ProfileRegressionTests(unittest.TestCase):
         for lang in out:
             self.assertIn("manual before", out[lang]); self.assertIn("manual after", out[lang])
             self.assertNotIn("gone description", out[lang])
+            self.assertNotIn("https://github.com/alice/gone", out[lang])
+            self.assertIn('<b>good</b>', out[lang])
+            self.assertIn('- [Post](https://example.com/p) — 2025-01-01', out[lang])
+            self.assertNotIn(f'old {lang} NOW', out[lang])
         self.assertEqual(gp.validate(out, cfg, data([]))["en"], gp.validate(out, cfg, data([]))["zh"])
 
     def test_rss_failure_preserves_posts_in_both_languages(self):
@@ -118,9 +122,23 @@ class ProfileRegressionTests(unittest.TestCase):
           <entry><title>Duplicate</title><link href="https://example.com/new?a=1&amp;b=2"/><updated>2026-01-01T00:00:00Z</updated></entry>
         </feed>'''
         posts = gp.parse_posts(raw, 5)
-        self.assertEqual(["2025-02-01", "2024-01-01"], [p["date"] for p in posts])
+        self.assertEqual(["2026-01-01", "2024-01-01"], [p["date"] for p in posts])
         self.assertEqual("https://example.com/new?a=1&b=2", posts[0]["url"])
-        self.assertEqual("New & Safe", posts[0]["title"])
+        self.assertEqual("Duplicate", posts[0]["title"])
+
+    def test_posts_sort_by_full_utc_time_and_skip_malformed_entries(self):
+        raw = b'''<feed xmlns="http://www.w3.org/2005/Atom">
+          <entry><title>Older</title><link href="https://example.com/z"/><updated>2025-01-02T00:01:00Z</updated></entry>
+          <entry><title>Newest</title><link href="https://example.com/a"/><updated>2025-01-02T03:00:00Z</updated></entry>
+          <entry><title>Offset</title><link href="https://example.com/offset"/><updated>2025-01-02T00:30:00+08:00</updated></entry>
+          <entry><title>No link</title><updated>2025-01-03T00:00:00Z</updated></entry>
+          <entry><title>Unsafe</title><link href="javascript:alert(1)"/><updated>2025-01-03T00:00:00Z</updated></entry>
+          <entry><title>Undated</title><link href="https://example.com/undated"/></entry>
+        </feed>'''
+        posts = gp.parse_posts(raw, 5)
+        self.assertEqual(['Newest', 'Older', 'Offset'], [p['title'] for p in posts])
+        self.assertEqual('2025-01-01', posts[2]['date'])
+        self.assertEqual('Newest', gp.parse_posts(raw, 1)[0]['title'])
 
     def test_unsafe_rss_url_is_rejected(self):
         with self.assertRaises(ValueError):
