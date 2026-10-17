@@ -150,8 +150,19 @@ def collect(cfg, token=None):
     except Exception as exc:
         posts, feed_error = None, str(exc)
         print(f'warning: RSS unavailable; preserving POSTS in both languages: {exc}', file=sys.stderr)
-    return {'repos': repos, 'user': {'followers': user['followers']}, 'releases': releases,
+    return {'repos': repos, 'user': {'followers': user['followers'], 'bio': user.get('bio')}, 'releases': releases,
             'maintenance': maintenance, 'posts': posts, 'feed_error': feed_error}
+
+
+def render_bio(data):
+    """Render the public Bio as literal signature text; empty/old snapshots preserve it."""
+    bio = data['user'].get('bio')
+    if bio is None:
+        return None
+    if not isinstance(bio, str):
+        raise ValueError('GitHub Bio must be text or null')
+    bio = ' '.join(bio.split())
+    return f'> *{md(esc(bio))}*' if bio else None
 
 
 def pick_desc(repo, lang, cfg):
@@ -253,6 +264,9 @@ def generate(texts, cfg, data):
         bodies = {f"CARDS:{s['id']}": render_cards(s['repos'], lang, cfg, data) for s in cfg['sections']}
         bodies.update(NOW=render_now(cfg, lang, data), STATS=render_stats(cfg, lang, data),
                       CATALOG=render_catalog(cfg, lang, data), MAINTENANCE=render_maintenance(cfg, lang, data))
+        bio = render_bio(data)
+        if bio is not None:
+            bodies['BIO'] = bio
         if data['posts'] is not None:
             bodies['POSTS'] = '\n'.join(f"- [{md(p['title'])}]({safe_url(p['url'])})" + (f" — {p['date']}" if p['date'] else '') for p in data['posts'])
         for key, body in bodies.items():
@@ -265,7 +279,7 @@ def generate(texts, cfg, data):
 
 
 def validate(texts, cfg, data):
-    expected = {f"CARDS:{s['id']}" for s in cfg['sections']} | {'NOW', 'POSTS', 'STATS', 'CATALOG', 'MAINTENANCE'}
+    expected = {f"CARDS:{s['id']}" for s in cfg['sections']} | {'BIO', 'NOW', 'POSTS', 'STATS', 'CATALOG', 'MAINTENANCE'}
     refs = {}
     for lang, text in texts.items():
         keys = re.findall(r'<!-- AUTO:(.*?):START -->', text)
@@ -282,7 +296,25 @@ def validate(texts, cfg, data):
                     raise ValueError(f'excluded repository leaked into {key}')
     if refs.get('en') != refs.get('zh'):
         raise ValueError('bilingual AUTO references differ')
+    validate_bio(texts, data)
     return {lang: {key: len(urls) for key, urls in sections.items()} for lang, sections in refs.items()}
+
+
+def validate_bio(texts, data):
+    """Check one signature per README and exact shared-source output when Bio exists."""
+    expected = render_bio(data)
+    bodies, counts = {}, {}
+    for lang, text in texts.items():
+        regions = [m[0] for m in REGION.finditer(text) if m[1] == 'BIO']
+        if len(regions) != 1:
+            raise ValueError(f'{lang}: expected one BIO region')
+        body = regions[0].split('\n', 1)[1].rsplit('\n', 1)[0]
+        counts[lang] = len(re.findall(r'^> \*.*\*$', body, re.M))
+        if counts[lang] != 1 or (expected is not None and body != expected):
+            raise ValueError(f'{lang}: invalid Bio signature content')
+        bodies[lang] = body
+    return {'preserved': expected is None, 'signature_counts': counts,
+            'bilingual_match': bodies.get('en') == bodies.get('zh')}
 
 
 def main(argv=None):
@@ -301,7 +333,8 @@ def main(argv=None):
     if generate(output, cfg, data) != output:
         raise ValueError('generation is not idempotent')
     report = {'references': validate(output, cfg, data), 'idempotent': True, 'manual_content_unchanged': True,
-              'rss_preserved': data['posts'] is None, 'public_repositories': len(public_repos(data['repos'], cfg))}
+              'rss_preserved': data['posts'] is None, 'public_repositories': len(public_repos(data['repos'], cfg)),
+              'bio': validate_bio(output, data)}
     if args.report:
         args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(report, ensure_ascii=False))
