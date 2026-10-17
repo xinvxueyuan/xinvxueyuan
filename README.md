@@ -33,7 +33,7 @@ Tools that plug AI agents into real systems — image generation, GitHub API, an
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 11</sub><br><br>
+<sub>MCP · Python · ★ 11 · v0.5.1</sub><br><br>
 MCP server for integrating NovelAI Image generation into AI agents.
 </td>
 <td width="50%" valign="top">
@@ -45,7 +45,7 @@ Agent Skill: authoritative GitHub API reference (REST + GraphQL + safety) — st
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/cordis-plugin-github"><b>cordis-plugin-github</b></a><br>
-<sub>Cordis Plugin · TypeScript</sub><br><br>
+<sub>Cordis Plugin · TypeScript · v0.2.0</sub><br><br>
 Cordis / DeepSeek Harness plugin — normalized GitHub API tools for AI agents (gh CLI by default, native HTTP fallback)
 </td>
 <td width="50%" valign="top">
@@ -66,7 +66,7 @@ NoneBot2 / OneBot plugins that run in production QQ groups every day.
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify"><b>nonebot-plugin-fanqie-verify</b></a><br>
-<sub>NoneBot2 · OneBot 11 · Python</sub><br><br>
+<sub>NoneBot2 · OneBot 11 · Python · v0.4.0</sub><br><br>
 Fanqie Novel reading-group join verification: new members submit a screenshot of their own book-review detail page, judged by a vision model (OCR optional). Auto-approve on pass, escalate to admins on fail — plus review deferral, missed-member backfill and quoted replies.
 </td>
 <td width="50%" valign="top">
@@ -78,8 +78,8 @@ LLBot health alerting: reads account status straight from OneBot heartbeat event
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/lingchu-bot"><b>lingchu-bot</b></a><br>
-<sub>NoneBot2 · Python · ★ 3</sub><br><br>
-Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. Recent maintenance: Dependabot <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/89">#89</a>, <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/92">#92</a> and <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/88">#88</a> merged; webui TypeScript upgraded to 6.0.3 in <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/79">#79</a>.
+<sub>NoneBot2 · Python · ★ 3 · v0.8.0</sub><br><br>
+Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access.
 </td>
 <td width="50%"></td>
 </tr>
@@ -94,7 +94,7 @@ Plugin-based NoneBot2 QQ group management bot for administration, command proces
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/xinvxueyuan.github.io"><b>xinvxueyuan.github.io</b></a><br>
 <sub>Blog · TypeScript</sub><br><br>
-Personal tech blog at <a href="https://www.xinvstar.xyz">xinvstar.xyz</a>.
+Personal tech blog at xinvstar.xyz.
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/winux"><b>winux</b></a><br>
@@ -105,6 +105,28 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 </table>
 <!-- AUTO:CARDS:web-apps:END -->
 
+## More Public Projects
+
+<!-- AUTO:CATALOG:START -->
+- [cordis-plugin-local-dream](https://github.com/xinvxueyuan/cordis-plugin-local-dream) — Cordis / DeepSeek Harness plugin — drive the Android Local Dream Stable Diffusion app over its HTTP backend (LAN-first, USB/adb fallback) with automatic device connection management
+- [cordis-plugin-loop](https://github.com/xinvxueyuan/cordis-plugin-loop) — DSH /loop: run a task now, then keep running it on a fixed cadence or a self-paced one
+- [cordis-plugin-secret](https://github.com/xinvxueyuan/cordis-plugin-secret) — Cordis / DeepSeek Harness plugin — the agent asks the human for a secret in an inline conversation card and only ever receives an opaque session-scoped DSH\_SECRET\_\* name, never the value
+- [docs](https://github.com/xinvxueyuan/docs)
+- [github-readme-stats](https://github.com/xinvxueyuan/github-readme-stats)
+- [nonebot-plugin-auto-unmute-superuser](https://github.com/xinvxueyuan/nonebot-plugin-auto-unmute-superuser) — NoneBot2 插件（qbot 子模块）· 超级用户被群禁言时自动解禁（事件驱动 + 周期轮询兜底）
+- [nonebot-plugin-ciyuan-image](https://github.com/xinvxueyuan/nonebot-plugin-ciyuan-image) — NoneBot2 插件（qbot 子模块）· 栗次元（t.alcy.cc）随机图片，18 个分类，超过 3 张自动合并转发
+- [nonebot-plugin-info](https://github.com/xinvxueyuan/nonebot-plugin-info) — NoneBot2 插件（qbot 子模块）· 功能菜单：扫描全部已加载插件的 \_\_plugin\_meta\_\_.extra，按分类出菜单图与详情（htmlkit 出图，失败回退纯文本）
+- [nonebot-plugin-lingchu-bot](https://github.com/xinvxueyuan/nonebot-plugin-lingchu-bot)
+- [nonebot-plugin-lottery](https://github.com/xinvxueyuan/nonebot-plugin-lottery) — NoneBot2 插件（qbot 子模块）· 抽奖（禁言小助手）：群里命中匹配词的人会被随机禁言，超阈值的定时自动解禁
+- [nonebot-plugin-merge-forward](https://github.com/xinvxueyuan/nonebot-plugin-merge-forward) — NoneBot2 插件（qbot 子模块）· 合并群消息转发工具库（抽取自 zhenxun\_bot），提供 OneBot V11 合并转发 node 构造与发送 API，供其他插件 import 调用
+- [nonebot-plugin-message-reaction](https://github.com/xinvxueyuan/nonebot-plugin-message-reaction) — NoneBot2 插件（qbot 子模块）· 消息表态（emoji reaction）工具库：三态表态 message\_reaction 与 with\_reaction 装饰器，供其他插件 import 调用
+- [nonebot-plugin-pixiv-illust](https://github.com/xinvxueyuan/nonebot-plugin-pixiv-illust) — NoneBot2 插件（qbot 子模块）· pixiv 插画/漫画订阅推送：按群订阅画师新作、多页推送（\>3 页合并转发）、R18 可打码
+- [nonebot-plugin-pixiv-novel](https://github.com/xinvxueyuan/nonebot-plugin-pixiv-novel) — NoneBot2 插件（qbot 子模块）· pixiv 小说订阅推送：按群订阅作者新作自动推送 + 拉取单篇全文
+- [nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu) — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚
+- [picx-images-hosting](https://github.com/xinvxueyuan/picx-images-hosting) — PicX images hosting repository
+- [proxy-rules](https://github.com/xinvxueyuan/proxy-rules) — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验
+<!-- AUTO:CATALOG:END -->
+
 ## Stack
 
 <p align="center">
@@ -112,6 +134,16 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 </p>
 
 ## Stats
+
+<!-- AUTO:STATS:START -->
+- Public repositories: **56**
+- Non-fork repositories: **27**
+- Stars (non-fork): **14**
+- Forks received (non-fork): **3**
+- Followers: **7**
+- Primary languages by non-fork repository count: Python (16), TypeScript (5), JavaScript (2), MDX (1), Rust (1)
+_Source: public GitHub API; excludes private data. Language counts are not code-byte percentages._
+<!-- AUTO:STATS:END -->
 
 <div align="center">
 
@@ -133,10 +165,20 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Now
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[nonebot-plugin-fanqie-verify](https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify)** `v0.4.0` — Fanqie Novel reading-group join verification: new members submit a screenshot of their own book-review detail page, judged by a vision model (OCR optional). Auto-approve on pass, escalate to admins on fail — plus review deferral, missed-member backfill and quoted replies. · _23 minutes ago_
-- 🚀 **[xinvxueyuan.github.io](https://github.com/xinvxueyuan/xinvxueyuan.github.io)** — Personal tech blog at <a href="https://www.xinvstar.xyz">xinvstar.xyz</a>. · _52 minutes ago_
-- 🚀 **[nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu)** `v0.8.0` — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚 · _7 hours ago_
+- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.5.1 — MCP server for integrating NovelAI Image generation into AI agents. · pushed 2026-10-17 18:31:47 UTC
+- **[nonebot-plugin-fanqie-verify](https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify)** · v0.4.0 — Fanqie Novel reading-group join verification: new members submit a screenshot of their own book-review detail page, judged by a vision model (OCR optional). Auto-approve on pass, escalate to admins on fail — plus review deferral, missed-member backfill and quoted replies. · pushed 2026-10-17 18:02:16 UTC
+- **[xinvxueyuan.github.io](https://github.com/xinvxueyuan/xinvxueyuan.github.io)** — Personal tech blog at xinvstar.xyz. · pushed 2026-10-17 17:33:31 UTC
 <!-- AUTO:NOW:END -->
+
+## Recent Maintenance
+
+<!-- AUTO:MAINTENANCE:START -->
+Recently merged PRs among the 100 most recently updated closed PRs per configured repository:
+
+- [lingchu-bot #79](https://github.com/xinvxueyuan/lingchu-bot/pull/79) — ⬆️ build(deps): Bump typescript in webui from 5.9.3 to 6.0.3 · 2026-10-12
+- [lingchu-bot #88](https://github.com/xinvxueyuan/lingchu-bot/pull/88) — ⬆️ build(deps): Bump npm minor packages · 2026-10-12
+- [lingchu-bot #92](https://github.com/xinvxueyuan/lingchu-bot/pull/92) — ⬆️ build(deps): Bump Mako and multidict · 2026-10-12
+<!-- AUTO:MAINTENANCE:END -->
 
 ## Contact
 

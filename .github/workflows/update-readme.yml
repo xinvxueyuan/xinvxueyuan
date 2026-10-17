@@ -2,40 +2,88 @@ name: Update profile README
 
 on:
   schedule:
-    # 03:17 UTC daily (~11:17 Asia/Shanghai); off the hour to avoid the cron rush
+    # 03:17 UTC daily (~11:17 Asia/Shanghai)
     - cron: "17 3 * * *"
   workflow_dispatch:
   push:
     branches: [main]
     paths:
+      - "README*.md"
       - "scripts/**"
+      - "tests/**"
+      - ".pre-commit-config.yaml"
+      - ".github/workflows/update-readme.yml"
+  pull_request:
+    paths:
+      - "README*.md"
+      - "scripts/**"
+      - "tests/**"
+      - ".pre-commit-config.yaml"
       - ".github/workflows/update-readme.yml"
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: profile-readme
-  cancel-in-progress: true
+  group: profile-readme-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  update:
+  validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-
+        with:
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Regenerate README regions
+      - name: Offline regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Live public-source generation and frozen-snapshot reproducibility
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_profile.py
-
-      - name: Commit and push if changed
         run: |
-          if git diff --quiet; then
+          python scripts/generate_profile.py --snapshot-out "$RUNNER_TEMP/profile-snapshot.json" --report "$RUNNER_TEMP/profile-report.json"
+          python scripts/generate_profile.py --snapshot-in "$RUNNER_TEMP/profile-snapshot.json" --check
+          git diff --check
+      - name: Save public-source validation evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: profile-validation-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/profile-snapshot.json
+            ${{ runner.temp }}/profile-report.json
+          retention-days: 7
+          if-no-files-found: warn
+
+  update:
+    needs: validate
+    # PRs and dispatches on feature branches must never push profile updates.
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regenerate and validate both README files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/generate_profile.py --snapshot-out "$RUNNER_TEMP/profile-snapshot.json"
+          python scripts/generate_profile.py --snapshot-in "$RUNNER_TEMP/profile-snapshot.json" --check
+          git diff --check
+      - name: Commit generated README regions only
+        run: |
+          if git diff --quiet -- README.md README_zh.md; then
             echo "README is already up to date"
             exit 0
           fi
@@ -43,4 +91,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md README_zh.md
           git commit -m "chore: auto-update profile README"
-          git push
+          # A concurrent human push must reject this push, never overwrite it.
+          git push origin HEAD:main

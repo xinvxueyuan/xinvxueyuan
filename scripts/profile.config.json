@@ -32,16 +32,88 @@
   ],
   "max_type_labels": 2,
   "type_labels": [
-    { "topics": ["mcp", "mcp-server", "model-context-protocol"], "en": "MCP", "zh": "MCP" },
-    { "topics": ["agent-skills", "agent-skill", "skill"], "en": "Agent Skill", "zh": "Agent Skill" },
-    { "topics": ["cordis", "deepseek-harness", "dsh-plugin"], "en": "Cordis Plugin", "zh": "Cordis 插件" },
-    { "topics": ["nonebot2", "nonebot", "nonebot-plugin"], "en": "NoneBot2", "zh": "NoneBot2" },
-    { "topics": ["onebot11", "onebot"], "en": "OneBot 11", "zh": "OneBot 11" },
-    { "topics": ["blog", "tech-blog", "personal-website", "blog-theme"], "en": "Blog", "zh": "博客" },
-    { "topics": ["spa"], "en": "SPA", "zh": "SPA" },
-    { "topics": ["react-router"], "en": "React Router", "zh": "React Router" },
-    { "topics": ["web"], "en": "Web", "zh": "Web" },
-    { "topics": ["cli"], "en": "CLI", "zh": "CLI" }
+    {
+      "topics": [
+        "mcp",
+        "mcp-server",
+        "model-context-protocol"
+      ],
+      "en": "MCP",
+      "zh": "MCP"
+    },
+    {
+      "topics": [
+        "agent-skills",
+        "agent-skill",
+        "skill"
+      ],
+      "en": "Agent Skill",
+      "zh": "Agent Skill"
+    },
+    {
+      "topics": [
+        "cordis",
+        "deepseek-harness",
+        "dsh-plugin"
+      ],
+      "en": "Cordis Plugin",
+      "zh": "Cordis 插件"
+    },
+    {
+      "topics": [
+        "nonebot2",
+        "nonebot",
+        "nonebot-plugin"
+      ],
+      "en": "NoneBot2",
+      "zh": "NoneBot2"
+    },
+    {
+      "topics": [
+        "onebot11",
+        "onebot"
+      ],
+      "en": "OneBot 11",
+      "zh": "OneBot 11"
+    },
+    {
+      "topics": [
+        "blog",
+        "tech-blog",
+        "personal-website",
+        "blog-theme"
+      ],
+      "en": "Blog",
+      "zh": "博客"
+    },
+    {
+      "topics": [
+        "spa"
+      ],
+      "en": "SPA",
+      "zh": "SPA"
+    },
+    {
+      "topics": [
+        "react-router"
+      ],
+      "en": "React Router",
+      "zh": "React Router"
+    },
+    {
+      "topics": [
+        "web"
+      ],
+      "en": "Web",
+      "zh": "Web"
+    },
+    {
+      "topics": [
+        "cli"
+      ],
+      "en": "CLI",
+      "zh": "CLI"
+    }
   ],
   "descriptions": {
     "nonebot-plugin-fanqie-verify": {
@@ -53,10 +125,10 @@
       "zh": "LLBot 状态告警插件：从 OneBot 心跳抽取账号状态检测账号异常，并在连接断开/心跳静默时检测服务异常，通过 SMTP 发送告警与恢复邮件"
     },
     "xinvxueyuan.github.io": {
-      "en": "Personal tech blog at <a href=\"https://www.xinvstar.xyz\">xinvstar.xyz</a>."
+      "en": "Personal tech blog at xinvstar.xyz."
     },
     "NovelAI-Image-MCP": {
-      "zh": "将 NovelAI 图像生成接入 AI Agent 的 MCP 服务 —— 11 个工具、双传输、文档与 Docker。"
+      "zh": "将 NovelAI 图像生成接入 AI Agent 的 MCP 服务。"
     },
     "github-api-skill": {
       "zh": "权威 GitHub API 参考（REST + GraphQL + 安全规则），别再猜端点。"
@@ -68,8 +140,8 @@
       "zh": "面向 Node REPL / run_code / JSON-RPC 的安全手写 JSON 技能 —— 发送前先校验。"
     },
     "lingchu-bot": {
-      "en": "Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. Recent maintenance: Dependabot <a href=\"https://github.com/xinvxueyuan/lingchu-bot/pull/89\">#89</a>, <a href=\"https://github.com/xinvxueyuan/lingchu-bot/pull/92\">#92</a> and <a href=\"https://github.com/xinvxueyuan/lingchu-bot/pull/88\">#88</a> merged; webui TypeScript upgraded to 6.0.3 in <a href=\"https://github.com/xinvxueyuan/lingchu-bot/pull/79\">#79</a>.",
-      "zh": "基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。近期维护：Dependabot <a href=\"https://github.com/xinvxueyuan/lingchu-bot/pull/89\">#89</a>、<a href=\"https://github.com/xinvxueyuan/lingchu-bot/pull/92\">#92</a>、<a href=\"https://github.com/xinvxueyuan/lingchu-bot/pull/88\">#88</a> 已合并；webui 的 TypeScript 已通过 <a href=\"https://github.com/xinvxueyuan/lingchu-bot/pull/79\">#79</a> 升级至 6.0.3。"
+      "en": "Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access.",
+      "zh": "基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。"
     },
     "winux": {
       "zh": "Rust 打造的 Windows 类 Linux CLI 工作流管理器。"
@@ -77,9 +149,20 @@
   },
   "now": {
     "count": 3,
-    "exclude": ["xinvxueyuan"]
+    "exclude": [
+      "xinvxueyuan"
+    ]
   },
   "posts": {
     "count": 5
+  },
+  "exclude_repos": [
+    "lty-moe"
+  ],
+  "maintenance": {
+    "repos": [
+      "lingchu-bot"
+    ],
+    "count": 3
   }
 }

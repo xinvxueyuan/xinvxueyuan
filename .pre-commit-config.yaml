@@ -1,0 +1,10 @@
+# pre-commit.ci previously failed because this required config was absent.
+repos:
+  - repo: local
+    hooks:
+      - id: profile-regression-tests
+        name: Profile generator regression tests
+        entry: python -m unittest discover -s tests -v
+        language: python
+        pass_filenames: false
+        always_run: true
