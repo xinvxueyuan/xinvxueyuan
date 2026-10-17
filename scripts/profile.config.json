@@ -26,7 +26,6 @@
       "id": "web-apps",
       "repos": [
         "xinvxueyuan.github.io",
-        "lty-moe",
         "winux"
       ]
     }
@@ -55,9 +54,6 @@
     },
     "xinvxueyuan.github.io": {
       "en": "Personal tech blog at <a href=\"https://www.xinvstar.xyz\">xinvstar.xyz</a>."
-    },
-    "lty-moe": {
-      "en": "Luo Tianyi (洛天依) fan-work archive and community submission site."
     },
     "NovelAI-Image-MCP": {
       "zh": "将 NovelAI 图像生成接入 AI Agent 的 MCP 服务 —— 11 个工具、双传输、文档与 Docker。"

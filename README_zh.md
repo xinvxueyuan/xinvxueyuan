@@ -96,18 +96,10 @@ LLBot 状态告警插件：从 OneBot 心跳抽取账号状态检测账号异常
 个人博客
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/xinvxueyuan/lty-moe"><b>lty-moe</b></a><br>
-<sub>Web · TypeScript · ★ 1</sub><br><br>
-洛天依同人作品档案与社区投稿站点
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/winux"><b>winux</b></a><br>
 <sub>CLI · Rust</sub><br><br>
 Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 <!-- AUTO:CARDS:web-apps:END -->
@@ -140,9 +132,9 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[nonebot-plugin-fanqie-verify](https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify)** `v0.4.0` — NoneBot2 番茄读书群入群验证插件：新成员发送本人书评详情页截图，视觉/OCR 识别通过后自动放行；支持延期审核、漏验补验、引用回复，异常自动转管理员决策 · _23 分钟前_
-- 🚀 **[xinvxueyuan.github.io](https://github.com/xinvxueyuan/xinvxueyuan.github.io)** — 个人博客 · _52 分钟前_
-- 🚀 **[nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu)** `v0.8.0` — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚 · _7 小时前_
+- 🚀 **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** `v0.5.1` — 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务 —— 11 个工具、双传输、文档与 Docker。 · _5 分钟前_
+- 🚀 **[nonebot-plugin-fanqie-verify](https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify)** `v0.4.0` — NoneBot2 番茄读书群入群验证插件：新成员发送本人书评详情页截图，视觉/OCR 识别通过后自动放行；支持延期审核、漏验补验、引用回复，异常自动转管理员决策 · _35 分钟前_
+- 🚀 **[xinvxueyuan.github.io](https://github.com/xinvxueyuan/xinvxueyuan.github.io)** — 个人博客 · _1 小时前_
 <!-- AUTO:NOW:END -->
 
 ## 联系
