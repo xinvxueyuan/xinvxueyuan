@@ -9,7 +9,7 @@ Agent  ·  MCP  ·  Image tools  ·  Bot ecosystems  ·  Windows / Linux
 ```
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=xinvxueyuan&style=for-the-badge&color=4c8bf5&label=profile+views" alt="profile views"/>
+  <a href="https://github.com/xinvxueyuan"><img src="https://img.shields.io/badge/GitHub-xinvxueyuan-4c8bf5?style=for-the-badge&logo=github&logoColor=white" alt="GitHub: xinvxueyuan"/></a>
   <a href="https://www.xinvstar.xyz"><img src="https://img.shields.io/badge/Blog-xinvstar.xyz-4c8bf5?style=for-the-badge&logo=safari&logoColor=white" alt="blog"/></a>
   <img src="https://img.shields.io/badge/Location-China-4c8bf5?style=for-the-badge&logo=github&logoColor=white" alt="location"/>
   <img src="https://img.shields.io/badge/OS-Windows%20%7C%20Debian-4c8bf5?style=for-the-badge&logo=windows&logoColor=white" alt="os"/>
@@ -104,15 +104,11 @@ Luo Tianyi (洛天依) fan-work archive and community submission site.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/xinvxueyuan/orbital-marketplace"><b>orbital-marketplace</b></a><br>
-<sub>SPA · React Router · JavaScript</sub><br><br>
-App marketplace SPA — downloads, licenses, updates and subscriptions.
-</td>
-<td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/winux"><b>winux</b></a><br>
 <sub>CLI · Rust</sub><br><br>
 A Rust-powered Linux-like CLI workflow manager for Windows.
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 <!-- AUTO:CARDS:web-apps:END -->

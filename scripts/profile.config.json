@@ -27,7 +27,6 @@
       "repos": [
         "xinvxueyuan.github.io",
         "lty-moe",
-        "orbital-marketplace",
         "winux"
       ]
     }
@@ -59,9 +58,6 @@
     },
     "lty-moe": {
       "en": "Luo Tianyi (洛天依) fan-work archive and community submission site."
-    },
-    "orbital-marketplace": {
-      "en": "App marketplace SPA — downloads, licenses, updates and subscriptions."
     },
     "NovelAI-Image-MCP": {
       "zh": "将 NovelAI 图像生成接入 AI Agent 的 MCP 服务 —— 11 个工具、双传输、文档与 Docker。"

@@ -9,7 +9,7 @@ Agent  ·  MCP  ·  图像工具  ·  机器人生态  ·  Windows / Linux
 ```
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=xinvxueyuan&style=for-the-badge&color=4c8bf5&label=profile+views" alt="profile views"/>
+  <a href="https://github.com/xinvxueyuan"><img src="https://img.shields.io/badge/GitHub-xinvxueyuan-4c8bf5?style=for-the-badge&logo=github&logoColor=white" alt="GitHub: xinvxueyuan"/></a>
   <a href="https://www.xinvstar.xyz"><img src="https://img.shields.io/badge/Blog-xinvstar.xyz-4c8bf5?style=for-the-badge&logo=safari&logoColor=white" alt="blog"/></a>
   <img src="https://img.shields.io/badge/Location-China-4c8bf5?style=for-the-badge&logo=github&logoColor=white" alt="location"/>
   <img src="https://img.shields.io/badge/OS-Windows%20%7C%20Debian-4c8bf5?style=for-the-badge&logo=windows&logoColor=white" alt="os"/>
@@ -103,15 +103,11 @@ LLBot 状态告警插件：从 OneBot 心跳抽取账号状态检测账号异常
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/xinvxueyuan/orbital-marketplace"><b>orbital-marketplace</b></a><br>
-<sub>SPA · React Router · JavaScript</sub><br><br>
-Orbital — 应用商城 SPA（React Router v7 + FastAPI）：应用下载、许可证、更新、订阅、发卡机制与文档站。MIT OR Apache-2.0 双许可。
-</td>
-<td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/winux"><b>winux</b></a><br>
 <sub>CLI · Rust</sub><br><br>
 Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 <!-- AUTO:CARDS:web-apps:END -->
