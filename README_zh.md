@@ -130,19 +130,19 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 最新文章
 
 <!-- AUTO:POSTS:START -->
+- [一步步用 Google AI Studio 做出并部署自己的 Android 应用](https://www.xinvstar.xyz/posts/2026-10-17-google-ai-studio-personal-android-apps/) — 2026-10-17
 - [2026年开源安全威胁态势全景报告](https://www.xinvstar.xyz/posts/2026-07-07-%E5%BC%80%E6%BA%90%E5%AE%89%E5%85%A8%E5%A8%81%E8%83%81%E6%80%81%E5%8A%BF%E6%8A%A5%E5%91%8A/) — 2026-07-07
 - [一封封号邮件里的 1×1 像素：Claude 邮件追踪器技术分析与争议](https://www.xinvstar.xyz/posts/2026-07-05-claude-%E5%B0%81%E7%A6%81%E9%82%AE%E4%BB%B6-%E8%BF%BD%E8%B8%AA%E5%83%8F%E7%B4%A0%E5%88%86%E6%9E%90/) — 2026-07-05
 - [深度源码解析：Claude Code 隐藏的反向代理检测与隐写标记机制](https://www.xinvstar.xyz/posts/2026-07-04-claude-code-%E9%9A%90%E5%86%99%E6%A0%87%E8%AE%B0-%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/) — 2026-07-04
 - [Next.js 14 App Router 完全指南](https://www.xinvstar.xyz/posts/2026-03-29-nextjs-14-app-router%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/) — 2026-03-29
-- [CI/CD 实战：GitHub Actions 自动化工作流](https://www.xinvstar.xyz/posts/2026-03-22-cicd%E5%AE%9E%E6%88%98-github-actions/) — 2026-03-22
 <!-- AUTO:POSTS:END -->
 
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- 🚀 **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · _9 小时前_
-- 🚀 **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** `v0.8.0` — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。近期维护：Dependabot <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/89">#89</a>、<a href="https://github.com/xinvxueyuan/lingchu-bot/pull/92">#92</a>、<a href="https://github.com/xinvxueyuan/lingchu-bot/pull/88">#88</a> 已合并；webui 的 TypeScript 已通过 <a href="https://github.com/xinvxueyuan/lingchu-bot/pull/79">#79</a> 升级至 6.0.3。 · _11 小时前_
-- 🚀 **[nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu)** `v0.7.3` — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚 · _13 小时前_
+- 🚀 **[nonebot-plugin-fanqie-verify](https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify)** `v0.4.0` — NoneBot2 番茄读书群入群验证插件：新成员发送本人书评详情页截图，视觉/OCR 识别通过后自动放行；支持延期审核、漏验补验、引用回复，异常自动转管理员决策 · _23 分钟前_
+- 🚀 **[xinvxueyuan.github.io](https://github.com/xinvxueyuan/xinvxueyuan.github.io)** — 个人博客 · _52 分钟前_
+- 🚀 **[nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu)** `v0.8.0` — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚 · _7 小时前_
 <!-- AUTO:NOW:END -->
 
 ## 联系
