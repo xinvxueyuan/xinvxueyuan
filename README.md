@@ -35,7 +35,7 @@ Tools that plug AI agents into real systems — image generation, GitHub API, an
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 11 · v0.5.1</sub><br><br>
+<sub>MCP · Python · ★ 11 · v0.6.3</sub><br><br>
 MCP server for integrating NovelAI Image generation into AI agents.
 </td>
 <td width="50%" valign="top">
@@ -47,7 +47,7 @@ Agent Skill: authoritative GitHub API reference (REST + GraphQL + safety) — st
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/cordis-plugin-github"><b>cordis-plugin-github</b></a><br>
-<sub>Cordis Plugin · TypeScript · v0.2.0</sub><br><br>
+<sub>Cordis Plugin · TypeScript · v0.2.1</sub><br><br>
 Cordis / DeepSeek Harness plugin — normalized GitHub API tools for AI agents (gh CLI by default, native HTTP fallback)
 </td>
 <td width="50%" valign="top">
@@ -167,9 +167,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[cordis-plugin-loop](https://github.com/xinvxueyuan/cordis-plugin-loop)** · v0.2.2 — DSH /loop: run a task now, then keep running it on a fixed cadence or a self-paced one · pushed 2026-10-18 06:45:52 UTC
-- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.5.1 — MCP server for integrating NovelAI Image generation into AI agents. · pushed 2026-10-18 05:31:01 UTC
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-10-17 21:18:50 UTC
+- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.6.3 — MCP server for integrating NovelAI Image generation into AI agents. · pushed 2026-10-19 05:43:59 UTC
+- **[cordis-plugin-loop](https://github.com/xinvxueyuan/cordis-plugin-loop)** · v0.3.0 — DSH /loop: run a task now, then keep running it on a fixed cadence or a self-paced one · pushed 2026-10-19 04:51:19 UTC
+- **[cordis-plugin-local-dream](https://github.com/xinvxueyuan/cordis-plugin-local-dream)** · v0.1.1 — Cordis / DeepSeek Harness plugin — drive the Android Local Dream Stable Diffusion app over its HTTP backend (LAN-first, USB/adb fallback) with automatic device connection management · pushed 2026-10-19 04:38:24 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance
@@ -177,9 +177,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 <!-- AUTO:MAINTENANCE:START -->
 Recently merged PRs among the 100 most recently updated closed PRs per configured repository:
 
-- [lingchu-bot #79](https://github.com/xinvxueyuan/lingchu-bot/pull/79) — ⬆️ build(deps): Bump typescript in webui from 5.9.3 to 6.0.3 · 2026-10-12
-- [lingchu-bot #88](https://github.com/xinvxueyuan/lingchu-bot/pull/88) — ⬆️ build(deps): Bump npm minor packages · 2026-10-12
-- [lingchu-bot #92](https://github.com/xinvxueyuan/lingchu-bot/pull/92) — ⬆️ build(deps): Bump Mako and multidict · 2026-10-12
+- [lingchu-bot #97](https://github.com/xinvxueyuan/lingchu-bot/pull/97) — ⬆️ build(deps): Bump eslint-plugin-unicorn from 76.0.0 to 78.0.0 · 2026-10-19
+- [lingchu-bot #94](https://github.com/xinvxueyuan/lingchu-bot/pull/94) — ⬆️ build(deps): update test action to 2.25.0 · 2026-10-19
+- [lingchu-bot #93](https://github.com/xinvxueyuan/lingchu-bot/pull/93) — ⬆️ build(deps): allow uv-build \<0.14 · 2026-10-19
 <!-- AUTO:MAINTENANCE:END -->
 
 ## Contact
