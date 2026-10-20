@@ -1,5 +1,8 @@
+import contextlib
+import io
 import json
 import sys
+import tempfile
 import unittest
 import urllib.error
 from io import BytesIO
@@ -40,15 +43,17 @@ def config():
         "now": {"count": 2, "exclude": []}, "posts": {"count": 3},
         "maintenance": {"repos": [], "count": 2}, "descriptions": {},
         "type_labels": [], "max_type_labels": 2,
-        "blog": {"feed": "https://example.com/feed.xml"},
+        "blog": {"url": "https://example.com", "feed": "https://example.com/feed.xml"},
+        "stats": {"base": "https://stats.example.com"},
     }
 
 
 def texts():
-    keys = ["CARDS:FEATURED", "NOW", "POSTS", "STATS", "CATALOG", "MAINTENANCE"]
+    keys = ["CARDS:FEATURED", "NOW", "POSTS", "STATS", "CATALOG", "MAINTENANCE",
+            "BLOG", "BLOG_BADGE", "STATS_IMAGES"]
     return {lang: "manual before\n" + "\n".join(
         f"<!-- AUTO:{key}:START -->\nold {lang} {key}\n<!-- AUTO:{key}:END -->" for key in keys
-    ) + "\n<!-- AUTO:BIO:START -->\n> *Previous signature*\n<!-- AUTO:BIO:END -->\nmanual after" for lang in ("en", "zh")}
+    ) + "\nmanual after" for lang in ("en", "zh")}
 
 
 def data(posts=None):
@@ -166,6 +171,36 @@ class ProfileRegressionTests(unittest.TestCase):
     def test_api_json_and_network_are_mocked_without_external_requests(self):
         with patch.object(gp.urllib.request, "urlopen", return_value=FakeResponse(b'{"ok": true}')):
             self.assertEqual({"ok": True}, gp.api_json("/x"))
+
+    def test_main_writes_only_the_readmes_and_check_replays_without_writing(self):
+        cfg = config()
+        original = texts()
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "config.json").write_text(json.dumps(cfg), encoding="utf-8")
+            files = {"en": root / "README.md", "zh": root / "README_zh.md"}
+            for lang, path in files.items():
+                path.write_text(original[lang], encoding="utf-8")
+            snapshot = root / "snapshot.json"
+            snapshot.write_text(json.dumps(data([])), encoding="utf-8")
+            report = root / "report.json"
+            check = ["--snapshot-in", str(snapshot), "--report", str(report), "--check"]
+            render = ["--snapshot-in", str(snapshot), "--report", str(report)]
+            with patch.object(gp, "FILES", files), patch.object(gp, "CONFIG_PATH", root / "config.json"), \
+                 contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(1, gp.main(check))
+                for lang, path in files.items():
+                    self.assertEqual(original[lang], path.read_text(encoding="utf-8"))
+                self.assertEqual(0, gp.main(render))
+                rendered = {lang: path.read_text(encoding="utf-8") for lang, path in files.items()}
+                self.assertEqual(0, gp.main(check))
+                self.assertNotIn("old en NOW", rendered["en"])
+                self.assertNotIn("old zh NOW", rendered["zh"])
+                self.assertEqual(sorted(p.name for p in root.iterdir()),
+                                 ["README.md", "README_zh.md", "config.json", "report.json", "snapshot.json"])
+                report_data = json.loads(report.read_text(encoding="utf-8"))
+                self.assertEqual({"references", "idempotent", "manual_content_unchanged",
+                                  "rss_preserved", "public_repositories"}, set(report_data))
 
 
 if __name__ == "__main__":

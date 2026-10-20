@@ -2,27 +2,30 @@
 
 # 你好，我是 新v学员 · Xin Xue Yuan
 
-**AI Agent 工具作者** — 让模型真正干活：MCP 服务、Agent Skill、运行时插件。
-
-```text
-Agent  ·  MCP  ·  图像工具  ·  机器人生态  ·  Windows / Linux
-```
+**Agent 工具链、机器人，以及一个自建博客。**
 
 <p align="center">
   <a href="https://github.com/xinvxueyuan"><img src="https://img.shields.io/badge/GitHub-xinvxueyuan-4c8bf5?style=for-the-badge&logo=github&logoColor=white" alt="GitHub: xinvxueyuan"/></a>
-  <a href="https://www.xinvstar.xyz"><img src="https://img.shields.io/badge/Blog-xinvstar.xyz-4c8bf5?style=for-the-badge&logo=safari&logoColor=white" alt="blog"/></a>
+  <!-- AUTO:BLOG_BADGE:START -->
+<a href="https://www.xinvstar.xyz"><img src="https://img.shields.io/badge/Blog-xinvstar.xyz-4c8bf5?style=for-the-badge&logo=safari&logoColor=white" alt="blog"/></a>
+<!-- AUTO:BLOG_BADGE:END -->
   <img src="https://img.shields.io/badge/Location-China-4c8bf5?style=for-the-badge&logo=github&logoColor=white" alt="location"/>
   <img src="https://img.shields.io/badge/OS-Windows%20%7C%20Debian-4c8bf5?style=for-the-badge&logo=windows&logoColor=white" alt="os"/>
 </p>
 
-<!-- AUTO:BIO:START -->
-> *“你好，亲爱的同胞。你今天过得怎么样？我嘛，目前没有进行交配仪式的兴趣。我的睡眠循环很快就要到了，所以我很快就会失去意识。要进行交配的话，就等以后再说吧。”*
-<!-- AUTO:BIO:END -->
+我是新v学员，一名开发者，在做让 AI Agent 真正接上外部服务的小工具，也把过程写在博客上。
+
+- **MCP 服务** — NovelAI-Image-MCP 让 MCP 客户端可以调用 NovelAI 图像生成。
+- **Agent Skill** — github-api-skill 与 json-safe-skill：把 GitHub API 参考和 JSON 校验规则交给 Agent。
+- **Cordis 插件**（DeepSeek Harness）— GitHub 工具、Local Dream 图像后端、`/loop` 与密钥处理。
+- **NoneBot2 / OneBot 11 插件** — 入群验证、状态告警、群管理，跑在真实的 QQ 群里。
+- **自建博客** — 记录同一批工作的技术笔记与长文。
 
 ---
 
 <!-- 下方 AUTO 标记区由 scripts/generate_profile.py 每日自动重写：卡片类型标签取自仓库
-     topics，语言与星数取自 GitHub API，描述取自 profile.config.json 里的分语言映射。
+     topics，语言与星数取自 GitHub API，描述取自 profile.config.json 里的分语言映射；
+     博客与统计图链接同样由该文件中的站点地址渲染，换域名只改配置。
      标记区以外的文案均为手写，脚本不会改动。 -->
 
 ## Agent 工具链
@@ -87,24 +90,20 @@ LLBot 状态告警插件：从 OneBot 心跳抽取账号状态检测账号异常
 </table>
 <!-- AUTO:CARDS:bot-ecosystem:END -->
 
-## Web 与应用
+## 命令行工具
 
-<!-- AUTO:CARDS:web-apps:START -->
+<!-- AUTO:CARDS:cli-tools:START -->
 <table>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/xinvxueyuan/xinvxueyuan.github.io"><b>xinvxueyuan.github.io</b></a><br>
-<sub>博客 · TypeScript</sub><br><br>
-个人博客
-</td>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/winux"><b>winux</b></a><br>
 <sub>CLI · Rust</sub><br><br>
 Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 </td>
+<td width="50%"></td>
 </tr>
 </table>
-<!-- AUTO:CARDS:web-apps:END -->
+<!-- AUTO:CARDS:cli-tools:END -->
 
 ## 更多公开项目
 
@@ -137,30 +136,32 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 数据
 
 <!-- AUTO:STATS:START -->
-- 公开仓库: **56**
-- 非 Fork 仓库: **27**
+- 公开仓库: **55**
+- 非 Fork 仓库: **26**
 - 获星数（非 Fork）: **14**
 - 被 Fork 数（非 Fork）: **3**
 - 关注者: **7**
-- 按非 Fork 仓库数量统计的主要语言：Python (16), TypeScript (5), JavaScript (2), MDX (1), Rust (1)
+- 按非 Fork 仓库数量统计的主要语言：Python (16), TypeScript (4), JavaScript (2), MDX (1), Rust (1)
 _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不代表代码字节占比。_
 <!-- AUTO:STATS:END -->
 
 <div align="center">
 
+<!-- AUTO:STATS_IMAGES:START -->
 [![GitHub stats](https://github-readme-state.xinvstar.xyz/api?username=xinvxueyuan&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=4c8bf5&icon_color=4c8bf5&text_color=c9d1d9&ring_color=4c8bf5)](https://github.com/xinvxueyuan)
-[![Top Langs](https://github-readme-state.xinvstar.xyz/api/top-langs/?username=xinvxueyuan&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=4c8bf5&text_color=c9d1d9)](https://github.com/xinvxueyuan)
+[![Top Langs](https://github-readme-state.xinvstar.xyz/api/top-langs/?username=xinvxueyuan&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=4c8bf5&icon_color=4c8bf5&text_color=c9d1d9&ring_color=4c8bf5)](https://github.com/xinvxueyuan)
+<!-- AUTO:STATS_IMAGES:END -->
 
 </div>
 
 ## 最新文章
 
 <!-- AUTO:POSTS:START -->
-- [一步步用 Google AI Studio 做出并部署自己的 Android 应用](https://www.xinvstar.xyz/article/2026-10-17-google-ai-studio-personal-android-apps) — 2026-10-17
-- [2026年开源安全威胁态势全景报告](https://www.xinvstar.xyz/article/2026-07-07-%E5%BC%80%E6%BA%90%E5%AE%89%E5%85%A8%E5%A8%81%E8%83%81%E6%80%81%E5%8A%BF%E6%8A%A5%E5%91%8A) — 2026-07-07
-- [一封封号邮件里的 1×1 像素：Claude 邮件追踪器技术分析与争议](https://www.xinvstar.xyz/article/2026-07-05-claude-%E5%B0%81%E7%A6%81%E9%82%AE%E4%BB%B6-%E8%BF%BD%E8%B8%AA%E5%83%8F%E7%B4%A0%E5%88%86%E6%9E%90) — 2026-07-05
-- [深度源码解析：Claude Code 隐藏的反向代理检测与隐写标记机制](https://www.xinvstar.xyz/article/2026-07-04-claude-code-%E9%9A%90%E5%86%99%E6%A0%87%E8%AE%B0-%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90) — 2026-07-04
-- [Next.js 14 App Router 完全指南](https://www.xinvstar.xyz/article/2026-03-29-nextjs-14-app-router%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97) — 2026-03-29
+- [一步步用 Google AI Studio 做出并部署自己的 Android 应用](https://www.xinvstar.xyz/posts/2026-10-17-google-ai-studio-personal-android-apps) — 2026-10-17
+- [2026年开源安全威胁态势全景报告](https://www.xinvstar.xyz/posts/2026-07-07-%E5%BC%80%E6%BA%90%E5%AE%89%E5%85%A8%E5%A8%81%E8%83%81%E6%80%81%E5%8A%BF%E6%8A%A5%E5%91%8A) — 2026-07-07
+- [一封封号邮件里的 1×1 像素：Claude 邮件追踪器技术分析与争议](https://www.xinvstar.xyz/posts/2026-07-05-claude-%E5%B0%81%E7%A6%81%E9%82%AE%E4%BB%B6-%E8%BF%BD%E8%B8%AA%E5%83%8F%E7%B4%A0%E5%88%86%E6%9E%90) — 2026-07-05
+- [深度源码解析：Claude Code 隐藏的反向代理检测与隐写标记机制](https://www.xinvstar.xyz/posts/2026-07-04-claude-code-%E9%9A%90%E5%86%99%E6%A0%87%E8%AE%B0-%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90) — 2026-07-04
+- [Next.js 14 App Router 完全指南](https://www.xinvstar.xyz/posts/2026-03-29-nextjs-14-app-router%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97) — 2026-03-29
 <!-- AUTO:POSTS:END -->
 
 ## 近况
@@ -183,7 +184,9 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 
 ## 联系
 
-- **博客** —— [xinvstar.xyz](https://www.xinvstar.xyz)
+<!-- AUTO:BLOG:START -->
+- **博客** —— [xinvstar.xyz](https://www.xinvstar.xyz) · [RSS](https://www.xinvstar.xyz/rss.xml)
+<!-- AUTO:BLOG:END -->
 - **GitHub** —— [@xinvxueyuan](https://github.com/xinvxueyuan)
 - **公司** —— xinvStar.Inc
 

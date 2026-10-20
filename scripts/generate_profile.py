@@ -150,19 +150,8 @@ def collect(cfg, token=None):
     except Exception as exc:
         posts, feed_error = None, str(exc)
         print(f'warning: RSS unavailable; preserving POSTS in both languages: {exc}', file=sys.stderr)
-    return {'repos': repos, 'user': {'followers': user['followers'], 'bio': user.get('bio')}, 'releases': releases,
+    return {'repos': repos, 'user': {'followers': user['followers']}, 'releases': releases,
             'maintenance': maintenance, 'posts': posts, 'feed_error': feed_error}
-
-
-def render_bio(data):
-    """Render the public Bio as literal signature text; empty/old snapshots preserve it."""
-    bio = data['user'].get('bio')
-    if bio is None:
-        return None
-    if not isinstance(bio, str):
-        raise ValueError('GitHub Bio must be text or null')
-    bio = ' '.join(bio.split())
-    return f'> *{md(esc(bio))}*' if bio else None
 
 
 def pick_desc(repo, lang, cfg):
@@ -245,6 +234,41 @@ def render_maintenance(cfg, lang, data):
     return label + '\n\n' + ('\n'.join(lines) or ('No merged PRs found.' if lang == 'en' else '暂无已合并 PR。'))
 
 
+def blog_host(cfg):
+    """Host shown as the blog link label; the URL itself stays the configured absolute URL."""
+    host = (urllib.parse.urlsplit(cfg['blog']['url']).hostname or '').removeprefix('www.')
+    if not host:
+        raise ValueError('blog.url must be an absolute URL with a host')
+    return host
+
+
+def render_blog_badge(cfg):
+    """Blog badge with the label derived from the configured host, so no domain is written by hand."""
+    url = safe_url(cfg['blog']['url'])
+    return (f'<a href="{esc(url)}">'
+            f'<img src="https://img.shields.io/badge/Blog-{esc(blog_host(cfg))}-4c8bf5'
+            '?style=for-the-badge&logo=safari&logoColor=white" alt="blog"/></a>')
+
+
+def render_blog_line(lang, cfg):
+    url, feed, host = safe_url(cfg['blog']['url']), safe_url(cfg['blog']['feed']), blog_host(cfg)
+    if lang == 'en':
+        return f'- **Blog** — [{host}]({url}) · [RSS]({feed})'
+    return f'- **博客** —— [{host}]({url}) · [RSS]({feed})'
+
+
+def render_stats_images(cfg):
+    """The stats card service is its own endpoint, so its base URL is configuration too."""
+    base = safe_url(cfg['stats']['base']).rstrip('/')
+    username = urllib.parse.quote(cfg['username'], safe='')
+    profile = f'https://github.com/{username}'
+    theme = ('hide_border=true&bg_color=0D1117&title_color=4c8bf5&icon_color=4c8bf5'
+             '&text_color=c9d1d9&ring_color=4c8bf5')
+    return ('[![GitHub stats]('
+            f'{base}/api?username={username}&show_icons=true&count_private=true&{theme})]({profile})\n'
+            f'[![Top Langs]({base}/api/top-langs/?username={username}&layout=compact&langs_count=6&{theme})]({profile})')
+
+
 def replace_region(text, key, body):
     start, end = f'<!-- AUTO:{key}:START -->', f'<!-- AUTO:{key}:END -->'
     if text.count(start) != 1 or text.count(end) != 1 or text.index(start) >= text.index(end):
@@ -263,10 +287,9 @@ def generate(texts, cfg, data):
         text = original
         bodies = {f"CARDS:{s['id']}": render_cards(s['repos'], lang, cfg, data) for s in cfg['sections']}
         bodies.update(NOW=render_now(cfg, lang, data), STATS=render_stats(cfg, lang, data),
-                      CATALOG=render_catalog(cfg, lang, data), MAINTENANCE=render_maintenance(cfg, lang, data))
-        bio = render_bio(data)
-        if bio is not None:
-            bodies['BIO'] = bio
+                      CATALOG=render_catalog(cfg, lang, data), MAINTENANCE=render_maintenance(cfg, lang, data),
+                      BLOG_BADGE=render_blog_badge(cfg), BLOG=render_blog_line(lang, cfg),
+                      STATS_IMAGES=render_stats_images(cfg))
         if data['posts'] is not None:
             bodies['POSTS'] = '\n'.join(f"- [{md(p['title'])}]({safe_url(p['url'])})" + (f" — {p['date']}" if p['date'] else '') for p in data['posts'])
         for key, body in bodies.items():
@@ -279,7 +302,8 @@ def generate(texts, cfg, data):
 
 
 def validate(texts, cfg, data):
-    expected = {f"CARDS:{s['id']}" for s in cfg['sections']} | {'BIO', 'NOW', 'POSTS', 'STATS', 'CATALOG', 'MAINTENANCE'}
+    expected = ({f"CARDS:{s['id']}" for s in cfg['sections']}
+                | {'NOW', 'POSTS', 'STATS', 'CATALOG', 'MAINTENANCE', 'BLOG', 'BLOG_BADGE', 'STATS_IMAGES'})
     refs = {}
     for lang, text in texts.items():
         keys = re.findall(r'<!-- AUTO:(.*?):START -->', text)
@@ -296,25 +320,7 @@ def validate(texts, cfg, data):
                     raise ValueError(f'excluded repository leaked into {key}')
     if refs.get('en') != refs.get('zh'):
         raise ValueError('bilingual AUTO references differ')
-    validate_bio(texts, data)
     return {lang: {key: len(urls) for key, urls in sections.items()} for lang, sections in refs.items()}
-
-
-def validate_bio(texts, data):
-    """Check one signature per README and exact shared-source output when Bio exists."""
-    expected = render_bio(data)
-    bodies, counts = {}, {}
-    for lang, text in texts.items():
-        regions = [m[0] for m in REGION.finditer(text) if m[1] == 'BIO']
-        if len(regions) != 1:
-            raise ValueError(f'{lang}: expected one BIO region')
-        body = regions[0].split('\n', 1)[1].rsplit('\n', 1)[0]
-        counts[lang] = len(re.findall(r'^> \*.*\*$', body, re.M))
-        if counts[lang] != 1 or (expected is not None and body != expected):
-            raise ValueError(f'{lang}: invalid Bio signature content')
-        bodies[lang] = body
-    return {'preserved': expected is None, 'signature_counts': counts,
-            'bilingual_match': bodies.get('en') == bodies.get('zh')}
 
 
 def main(argv=None):
@@ -327,22 +333,24 @@ def main(argv=None):
     cfg = json.loads(CONFIG_PATH.read_text(encoding='utf-8'))
     data = json.loads(args.snapshot_in.read_text(encoding='utf-8')) if args.snapshot_in else collect(cfg, os.environ.get('GITHUB_TOKEN'))
     if args.snapshot_out:
-        args.snapshot_out.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        args.snapshot_out.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n',
+                                     encoding='utf-8', newline='\n')
     originals = {lang: path.read_text(encoding='utf-8') for lang, path in FILES.items()}
     output = generate(originals, cfg, data)
     if generate(output, cfg, data) != output:
         raise ValueError('generation is not idempotent')
     report = {'references': validate(output, cfg, data), 'idempotent': True, 'manual_content_unchanged': True,
-              'rss_preserved': data['posts'] is None, 'public_repositories': len(public_repos(data['repos'], cfg)),
-              'bio': validate_bio(output, data)}
+              'rss_preserved': data['posts'] is None, 'public_repositories': len(public_repos(data['repos'], cfg))}
     if args.report:
-        args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n',
+                               encoding='utf-8', newline='\n')
     print(json.dumps(report, ensure_ascii=False))
     if args.check:
         return int(output != originals)
     # All network operations, rendering and validation finish before either file is written.
     for lang, path in FILES.items():
-        path.write_text(output[lang], encoding='utf-8')
+        # Fixed line endings keep the committed files identical whichever OS runs the generator.
+        path.write_text(output[lang], encoding='utf-8', newline='\n')
     return 0
 
 

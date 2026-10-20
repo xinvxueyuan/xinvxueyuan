@@ -2,7 +2,7 @@ name: Update profile README
 
 on:
   schedule:
-    # 03:17 UTC daily (~11:17 Asia/Shanghai)
+    # 03:17 UTC daily (~11:17 Asia/Shanghai). GitHub may delay scheduled starts.
     - cron: "17 3 * * *"
   workflow_dispatch:
   push:
@@ -21,66 +21,99 @@ on:
       - ".pre-commit-config.yaml"
       - ".github/workflows/update-readme.yml"
 
+# Least privilege by default; only the update job opts into contents: write.
 permissions:
   contents: read
 
+# One run per ref. A newer pull-request run cancels the superseded one, while main runs queue so a
+# scheduled refresh and a manual dispatch never race to push.
 concurrency:
   group: profile-readme-${{ github.event.pull_request.number || github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out the pull request
+        uses: actions/checkout@v7
         with:
           persist-credentials: false
-      - uses: actions/setup-python@v5
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      - name: Offline regression tests
-        run: python -m unittest discover -s tests -v
-      - name: Live public-source generation and frozen-snapshot reproducibility
+      - name: Record the interpreter
+        run: python -VV | tee "$RUNNER_TEMP/profile-python.txt"
+      - name: Offline regression tests (standard library only)
+        # -S disables site-packages, so a third-party import fails here instead of passing on a
+        # developer machine that happens to have the package installed.
+        run: python -S -m unittest discover -s tests -v
+      - name: Generate from the live public snapshot, then replay it
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python scripts/generate_profile.py --snapshot-out "$RUNNER_TEMP/profile-snapshot.json" --report "$RUNNER_TEMP/profile-report.json"
+          python scripts/generate_profile.py \
+            --snapshot-out "$RUNNER_TEMP/profile-snapshot.json" \
+            --report "$RUNNER_TEMP/profile-report.json"
           python scripts/generate_profile.py --snapshot-in "$RUNNER_TEMP/profile-snapshot.json" --check
           git diff --check
-      - name: Save public-source validation evidence
+          git diff -- README.md README_zh.md > "$RUNNER_TEMP/profile-readme.diff"
+          unexpected="$(git status --porcelain --untracked-files=no | sed 's/^...//' | grep -vxE 'README\.md|README_zh\.md' || true)"
+          if [ -n "$unexpected" ]; then
+            echo "generation rewrote files it does not own:"
+            echo "$unexpected"
+            exit 1
+          fi
+      - name: Upload validation evidence
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
-          name: profile-validation-${{ github.run_id }}
+          name: profile-validation-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
             ${{ runner.temp }}/profile-snapshot.json
             ${{ runner.temp }}/profile-report.json
+            ${{ runner.temp }}/profile-readme.diff
+            ${{ runner.temp }}/profile-python.txt
           retention-days: 7
           if-no-files-found: warn
 
   update:
     needs: validate
-    # PRs and dispatches on feature branches must never push profile updates.
+    # Pull requests and dispatches on feature branches must never push profile updates.
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out main
+        uses: actions/checkout@v7
         with:
           ref: ${{ github.sha }}
-      - uses: actions/setup-python@v5
+          # The commit step pushes with this token; the job is main-only and holds contents: write.
+          persist-credentials: true
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      - name: Regenerate and validate both README files
+      - name: Regenerate both README files and prove the replay
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python scripts/generate_profile.py --snapshot-out "$RUNNER_TEMP/profile-snapshot.json"
+          python scripts/generate_profile.py \
+            --snapshot-out "$RUNNER_TEMP/profile-snapshot.json" \
+            --report "$RUNNER_TEMP/profile-report.json"
           python scripts/generate_profile.py --snapshot-in "$RUNNER_TEMP/profile-snapshot.json" --check
           git diff --check
+          git diff -- README.md README_zh.md > "$RUNNER_TEMP/profile-readme.diff"
+          unexpected="$(git status --porcelain --untracked-files=no | sed 's/^...//' | grep -vxE 'README\.md|README_zh\.md' || true)"
+          if [ -n "$unexpected" ]; then
+            echo "generation rewrote files it does not own:"
+            echo "$unexpected"
+            exit 1
+          fi
       - name: Commit generated README regions only
         run: |
           if git diff --quiet -- README.md README_zh.md; then
@@ -91,5 +124,17 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md README_zh.md
           git commit -m "chore: auto-update profile README"
-          # A concurrent human push must reject this push, never overwrite it.
+          # A concurrent human push must reject this push instead of being overwritten.
           git push origin HEAD:main
+      # Last step so a failed generation, commit or push still leaves its evidence behind.
+      - name: Upload update evidence
+        if: failure() || cancelled()
+        uses: actions/upload-artifact@v7
+        with:
+          name: profile-update-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/profile-snapshot.json
+            ${{ runner.temp }}/profile-report.json
+            ${{ runner.temp }}/profile-readme.diff
+          retention-days: 7
+          if-no-files-found: warn

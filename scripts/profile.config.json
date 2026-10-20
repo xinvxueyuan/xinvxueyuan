@@ -4,6 +4,9 @@
     "url": "https://www.xinvstar.xyz",
     "feed": "https://www.xinvstar.xyz/rss.xml"
   },
+  "stats": {
+    "base": "https://github-readme-state.xinvstar.xyz"
+  },
   "sections": [
     {
       "id": "agent-tooling",
@@ -23,9 +26,8 @@
       ]
     },
     {
-      "id": "web-apps",
+      "id": "cli-tools",
       "repos": [
-        "xinvxueyuan.github.io",
         "winux"
       ]
     }
@@ -123,9 +125,6 @@
     "nonebot-plugin-llbot-alert": {
       "en": "LLBot health alerting: reads account status straight from OneBot heartbeat events (no polling) and detects service failure on disconnect or heartbeat silence — then emails alerts and recovery notices over SMTP.",
       "zh": "LLBot 状态告警插件：从 OneBot 心跳抽取账号状态检测账号异常，并在连接断开/心跳静默时检测服务异常，通过 SMTP 发送告警与恢复邮件"
-    },
-    "xinvxueyuan.github.io": {
-      "en": "Personal tech blog at xinvstar.xyz."
     },
     "NovelAI-Image-MCP": {
       "zh": "将 NovelAI 图像生成接入 AI Agent 的 MCP 服务。"
