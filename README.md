@@ -47,7 +47,7 @@ Agent Skill: authoritative GitHub API reference (REST + GraphQL + safety) — st
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/cordis-plugin-github"><b>cordis-plugin-github</b></a><br>
-<sub>Cordis Plugin · TypeScript · v0.2.1</sub><br><br>
+<sub>Cordis Plugin · TypeScript · v0.3.0</sub><br><br>
 Cordis / DeepSeek Harness plugin — normalized GitHub API tools for AI agents (gh CLI by default, native HTTP fallback)
 </td>
 <td width="50%" valign="top">
@@ -157,19 +157,19 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Latest Posts
 
 <!-- AUTO:POSTS:START -->
-- [一步步用 Google AI Studio 做出并部署自己的 Android 应用](https://www.xinvstar.xyz/posts/2026-10-17-google-ai-studio-personal-android-apps/) — 2026-10-17
-- [2026年开源安全威胁态势全景报告](https://www.xinvstar.xyz/posts/2026-07-07-%E5%BC%80%E6%BA%90%E5%AE%89%E5%85%A8%E5%A8%81%E8%83%81%E6%80%81%E5%8A%BF%E6%8A%A5%E5%91%8A/) — 2026-07-07
-- [一封封号邮件里的 1×1 像素：Claude 邮件追踪器技术分析与争议](https://www.xinvstar.xyz/posts/2026-07-05-claude-%E5%B0%81%E7%A6%81%E9%82%AE%E4%BB%B6-%E8%BF%BD%E8%B8%AA%E5%83%8F%E7%B4%A0%E5%88%86%E6%9E%90/) — 2026-07-05
-- [深度源码解析：Claude Code 隐藏的反向代理检测与隐写标记机制](https://www.xinvstar.xyz/posts/2026-07-04-claude-code-%E9%9A%90%E5%86%99%E6%A0%87%E8%AE%B0-%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/) — 2026-07-04
-- [Next.js 14 App Router 完全指南](https://www.xinvstar.xyz/posts/2026-03-29-nextjs-14-app-router%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/) — 2026-03-29
+- [一步步用 Google AI Studio 做出并部署自己的 Android 应用](https://www.xinvstar.xyz/article/2026-10-17-google-ai-studio-personal-android-apps) — 2026-10-17
+- [2026年开源安全威胁态势全景报告](https://www.xinvstar.xyz/article/2026-07-07-%E5%BC%80%E6%BA%90%E5%AE%89%E5%85%A8%E5%A8%81%E8%83%81%E6%80%81%E5%8A%BF%E6%8A%A5%E5%91%8A) — 2026-07-07
+- [一封封号邮件里的 1×1 像素：Claude 邮件追踪器技术分析与争议](https://www.xinvstar.xyz/article/2026-07-05-claude-%E5%B0%81%E7%A6%81%E9%82%AE%E4%BB%B6-%E8%BF%BD%E8%B8%AA%E5%83%8F%E7%B4%A0%E5%88%86%E6%9E%90) — 2026-07-05
+- [深度源码解析：Claude Code 隐藏的反向代理检测与隐写标记机制](https://www.xinvstar.xyz/article/2026-07-04-claude-code-%E9%9A%90%E5%86%99%E6%A0%87%E8%AE%B0-%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90) — 2026-07-04
+- [Next.js 14 App Router 完全指南](https://www.xinvstar.xyz/article/2026-03-29-nextjs-14-app-router%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97) — 2026-03-29
 <!-- AUTO:POSTS:END -->
 
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.6.3 — MCP server for integrating NovelAI Image generation into AI agents. · pushed 2026-10-19 05:43:59 UTC
-- **[cordis-plugin-loop](https://github.com/xinvxueyuan/cordis-plugin-loop)** · v0.3.0 — DSH /loop: run a task now, then keep running it on a fixed cadence or a self-paced one · pushed 2026-10-19 04:51:19 UTC
-- **[cordis-plugin-local-dream](https://github.com/xinvxueyuan/cordis-plugin-local-dream)** · v0.1.1 — Cordis / DeepSeek Harness plugin — drive the Android Local Dream Stable Diffusion app over its HTTP backend (LAN-first, USB/adb fallback) with automatic device connection management · pushed 2026-10-19 04:38:24 UTC
+- **[cordis-plugin-local-dream](https://github.com/xinvxueyuan/cordis-plugin-local-dream)** · v0.2.0 — Cordis / DeepSeek Harness plugin — drive the Android Local Dream Stable Diffusion app over its HTTP backend (LAN-first, USB/adb fallback) with automatic device connection management · pushed 2026-10-20 07:46:40 UTC
+- **[cordis-plugin-github](https://github.com/xinvxueyuan/cordis-plugin-github)** · v0.3.0 — Cordis / DeepSeek Harness plugin — normalized GitHub API tools for AI agents (gh CLI by default, native HTTP fallback) · pushed 2026-10-20 07:46:33 UTC
+- **[cordis-plugin-loop](https://github.com/xinvxueyuan/cordis-plugin-loop)** · v0.4.0 — DSH /loop: run a task now, then keep running it on a fixed cadence or a self-paced one · pushed 2026-10-20 07:46:24 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance
