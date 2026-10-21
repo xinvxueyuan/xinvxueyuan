@@ -170,9 +170,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-10-20 22:09:43 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.8.0 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-10-20 21:23:37 UTC
 - **[cordis-plugin-local-dream](https://github.com/xinvxueyuan/cordis-plugin-local-dream)** · v0.2.0 — Cordis / DeepSeek Harness plugin — drive the Android Local Dream Stable Diffusion app over its HTTP backend (LAN-first, USB/adb fallback) with automatic device connection management · pushed 2026-10-20 07:46:40 UTC
-- **[cordis-plugin-github](https://github.com/xinvxueyuan/cordis-plugin-github)** · v0.3.0 — Cordis / DeepSeek Harness plugin — normalized GitHub API tools for AI agents (gh CLI by default, native HTTP fallback) · pushed 2026-10-20 07:46:33 UTC
-- **[cordis-plugin-loop](https://github.com/xinvxueyuan/cordis-plugin-loop)** · v0.4.0 — DSH /loop: run a task now, then keep running it on a fixed cadence or a self-paced one · pushed 2026-10-20 07:46:24 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance
