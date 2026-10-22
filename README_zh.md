@@ -82,7 +82,7 @@ LLBot 状态告警插件：从 OneBot 心跳抽取账号状态检测账号异常
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/lingchu-bot"><b>lingchu-bot</b></a><br>
-<sub>NoneBot2 · Python · ★ 3 · v0.8.0</sub><br><br>
+<sub>NoneBot2 · Python · ★ 3 · v0.9.0</sub><br><br>
 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。
 </td>
 <td width="50%"></td>
@@ -113,6 +113,7 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 - [cordis-plugin-secret](https://github.com/xinvxueyuan/cordis-plugin-secret) — Cordis / DeepSeek Harness plugin — the agent asks the human for a secret in an inline conversation card and only ever receives an opaque session-scoped DSH\_SECRET\_\* name, never the value
 - [docs](https://github.com/xinvxueyuan/docs)
 - [github-readme-stats](https://github.com/xinvxueyuan/github-readme-stats)
+- [hataraku](https://github.com/xinvxueyuan/hataraku)
 - [nonebot-plugin-auto-unmute-superuser](https://github.com/xinvxueyuan/nonebot-plugin-auto-unmute-superuser) — NoneBot2 插件（qbot 子模块）· 超级用户被群禁言时自动解禁（事件驱动 + 周期轮询兜底）
 - [nonebot-plugin-ciyuan-image](https://github.com/xinvxueyuan/nonebot-plugin-ciyuan-image) — NoneBot2 插件（qbot 子模块）· 栗次元（t.alcy.cc）随机图片，18 个分类，超过 3 张自动合并转发
 - [nonebot-plugin-info](https://github.com/xinvxueyuan/nonebot-plugin-info) — NoneBot2 插件（qbot 子模块）· 功能菜单：扫描全部已加载插件的 \_\_plugin\_meta\_\_.extra，按分类出菜单图与详情（htmlkit 出图，失败回退纯文本）
@@ -136,12 +137,12 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 数据
 
 <!-- AUTO:STATS:START -->
-- 公开仓库: **55**
-- 非 Fork 仓库: **26**
+- 公开仓库: **56**
+- 非 Fork 仓库: **27**
 - 获星数（非 Fork）: **14**
 - 被 Fork 数（非 Fork）: **3**
 - 关注者: **7**
-- 按非 Fork 仓库数量统计的主要语言：Python (16), TypeScript (4), JavaScript (2), MDX (1), Rust (1)
+- 按非 Fork 仓库数量统计的主要语言：Python (16), TypeScript (5), JavaScript (2), MDX (1), Rust (1)
 _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不代表代码字节占比。_
 <!-- AUTO:STATS:END -->
 
@@ -157,19 +158,19 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 最新文章
 
 <!-- AUTO:POSTS:START -->
-- [一步步用 Google AI Studio 做出并部署自己的 Android 应用](https://www.xinvstar.xyz/posts/2026-10-17-google-ai-studio-personal-android-apps) — 2026-10-17
-- [2026年开源安全威胁态势全景报告](https://www.xinvstar.xyz/posts/2026-07-07-%E5%BC%80%E6%BA%90%E5%AE%89%E5%85%A8%E5%A8%81%E8%83%81%E6%80%81%E5%8A%BF%E6%8A%A5%E5%91%8A) — 2026-07-07
-- [一封封号邮件里的 1×1 像素：Claude 邮件追踪器技术分析与争议](https://www.xinvstar.xyz/posts/2026-07-05-claude-%E5%B0%81%E7%A6%81%E9%82%AE%E4%BB%B6-%E8%BF%BD%E8%B8%AA%E5%83%8F%E7%B4%A0%E5%88%86%E6%9E%90) — 2026-07-05
-- [深度源码解析：Claude Code 隐藏的反向代理检测与隐写标记机制](https://www.xinvstar.xyz/posts/2026-07-04-claude-code-%E9%9A%90%E5%86%99%E6%A0%87%E8%AE%B0-%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90) — 2026-07-04
-- [Next.js 14 App Router 完全指南](https://www.xinvstar.xyz/posts/2026-03-29-nextjs-14-app-router%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97) — 2026-03-29
+- [一步步用 Google AI Studio 做出并部署自己的 Android 应用](https://www.xinvstar.xyz/blog/39) — 2026-10-17
+- [2026年开源安全威胁态势全景报告](https://www.xinvstar.xyz/blog/38) — 2026-07-07
+- [一封封号邮件里的 1×1 像素：Claude 邮件追踪器技术分析与争议](https://www.xinvstar.xyz/blog/37) — 2026-07-05
+- [深度源码解析：Claude Code 隐藏的反向代理检测与隐写标记机制](https://www.xinvstar.xyz/blog/36) — 2026-07-04
+- [Next.js 14 App Router 完全指南](https://www.xinvstar.xyz/blog/35) — 2026-03-29
 <!-- AUTO:POSTS:END -->
 
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-10-20 22:09:43 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.8.0 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-10-20 21:23:37 UTC
-- **[cordis-plugin-local-dream](https://github.com/xinvxueyuan/cordis-plugin-local-dream)** · v0.2.0 — Cordis / DeepSeek Harness plugin — drive the Android Local Dream Stable Diffusion app over its HTTP backend (LAN-first, USB/adb fallback) with automatic device connection management · 推送于 2026-10-20 07:46:40 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.9.0 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-10-22 07:16:55 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-10-21 22:11:29 UTC
+- **[hataraku](https://github.com/xinvxueyuan/hataraku)** —  · 推送于 2026-10-21 20:00:03 UTC
 <!-- AUTO:NOW:END -->
 
 ## 最近维护
