@@ -40,7 +40,7 @@ Tools that plug AI agents into real systems — image generation, GitHub API, an
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 11 · v0.6.3</sub><br><br>
+<sub>MCP · Python · ★ 12 · v0.7.0</sub><br><br>
 MCP server for integrating NovelAI Image generation into AI agents.
 </td>
 <td width="50%" valign="top">
@@ -85,7 +85,7 @@ LLBot health alerting: reads account status straight from OneBot heartbeat event
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/lingchu-bot"><b>lingchu-bot</b></a><br>
-<sub>NoneBot2 · Python · ★ 3 · v0.9.0</sub><br><br>
+<sub>NoneBot2 · Python · ★ 3 · v0.10.0.dev1</sub><br><br>
 Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access.
 </td>
 <td width="50%"></td>
@@ -118,9 +118,9 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 - [github-readme-stats](https://github.com/xinvxueyuan/github-readme-stats)
 - [hataraku](https://github.com/xinvxueyuan/hataraku)
 - [nonebot-plugin-auto-unmute-superuser](https://github.com/xinvxueyuan/nonebot-plugin-auto-unmute-superuser) — NoneBot2 插件（qbot 子模块）· 超级用户被群禁言时自动解禁（事件驱动 + 周期轮询兜底）
+- [nonebot-plugin-checkin](https://github.com/xinvxueyuan/nonebot-plugin-checkin) — 群签到：每日签到攒积分，连续签到有加成，群内积分排行（htmlrender 出图，失败回退纯文本）
 - [nonebot-plugin-ciyuan-image](https://github.com/xinvxueyuan/nonebot-plugin-ciyuan-image) — NoneBot2 插件（qbot 子模块）· 栗次元（t.alcy.cc）随机图片，18 个分类，超过 3 张自动合并转发
 - [nonebot-plugin-info](https://github.com/xinvxueyuan/nonebot-plugin-info) — NoneBot2 插件（qbot 子模块）· 功能菜单：扫描全部已加载插件的 \_\_plugin\_meta\_\_.extra，按分类出菜单图与详情（htmlkit 出图，失败回退纯文本）
-- [nonebot-plugin-lingchu-bot](https://github.com/xinvxueyuan/nonebot-plugin-lingchu-bot)
 - [nonebot-plugin-lottery](https://github.com/xinvxueyuan/nonebot-plugin-lottery) — NoneBot2 插件（qbot 子模块）· 抽奖（禁言小助手）：群里命中匹配词的人会被随机禁言，超阈值的定时自动解禁
 - [nonebot-plugin-merge-forward](https://github.com/xinvxueyuan/nonebot-plugin-merge-forward) — NoneBot2 插件（qbot 子模块）· 合并群消息转发工具库（抽取自 zhenxun\_bot），提供 OneBot V11 合并转发 node 构造与发送 API，供其他插件 import 调用
 - [nonebot-plugin-message-reaction](https://github.com/xinvxueyuan/nonebot-plugin-message-reaction) — NoneBot2 插件（qbot 子模块）· 消息表态（emoji reaction）工具库：三态表态 message\_reaction 与 with\_reaction 装饰器，供其他插件 import 调用
@@ -129,6 +129,7 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 - [nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu) — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚
 - [picx-images-hosting](https://github.com/xinvxueyuan/picx-images-hosting) — PicX images hosting repository
 - [proxy-rules](https://github.com/xinvxueyuan/proxy-rules) — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验
+- [qbot](https://github.com/xinvxueyuan/qbot) — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理）
 <!-- AUTO:CATALOG:END -->
 
 ## Stack
@@ -140,12 +141,12 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Stats
 
 <!-- AUTO:STATS:START -->
-- Public repositories: **56**
-- Non-fork repositories: **27**
-- Stars (non-fork): **14**
+- Public repositories: **57**
+- Non-fork repositories: **28**
+- Stars (non-fork): **15**
 - Forks received (non-fork): **3**
 - Followers: **7**
-- Primary languages by non-fork repository count: Python (16), TypeScript (5), JavaScript (2), MDX (1), Rust (1)
+- Primary languages by non-fork repository count: Python (17), TypeScript (5), JavaScript (2), MDX (1), Rust (1)
 _Source: public GitHub API; excludes private data. Language counts are not code-byte percentages._
 <!-- AUTO:STATS:END -->
 
@@ -171,9 +172,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.9.0 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-10-22 07:16:55 UTC
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-10-21 22:11:29 UTC
-- **[hataraku](https://github.com/xinvxueyuan/hataraku)** —  · pushed 2026-10-21 20:00:03 UTC
+- **[hataraku](https://github.com/xinvxueyuan/hataraku)** —  · pushed 2026-10-23 06:56:53 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-10-23 05:41:14 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-10-22 22:11:02 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance
