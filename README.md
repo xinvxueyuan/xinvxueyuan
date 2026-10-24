@@ -141,7 +141,7 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Stats
 
 <!-- AUTO:STATS:START -->
-- Public repositories: **57**
+- Public repositories: **58**
 - Non-fork repositories: **28**
 - Stars (non-fork): **15**
 - Forks received (non-fork): **3**
@@ -162,19 +162,19 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Latest Posts
 
 <!-- AUTO:POSTS:START -->
+- [Windows 上纯 Agent Vibe Coding：先把 Git 的 autocrlf 设为 input](https://www.xinvstar.xyz/blog/40) — 2026-10-23
 - [一步步用 Google AI Studio 做出并部署自己的 Android 应用](https://www.xinvstar.xyz/blog/39) — 2026-10-17
 - [2026年开源安全威胁态势全景报告](https://www.xinvstar.xyz/blog/38) — 2026-07-07
 - [一封封号邮件里的 1×1 像素：Claude 邮件追踪器技术分析与争议](https://www.xinvstar.xyz/blog/37) — 2026-07-05
 - [深度源码解析：Claude Code 隐藏的反向代理检测与隐写标记机制](https://www.xinvstar.xyz/blog/36) — 2026-07-04
-- [Next.js 14 App Router 完全指南](https://www.xinvstar.xyz/blog/35) — 2026-03-29
 <!-- AUTO:POSTS:END -->
 
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[hataraku](https://github.com/xinvxueyuan/hataraku)** —  · pushed 2026-10-23 06:56:53 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-10-23 05:41:14 UTC
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-10-22 22:11:02 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-10-23 21:55:01 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-10-23 21:09:40 UTC
+- **[hataraku](https://github.com/xinvxueyuan/hataraku)** —  · pushed 2026-10-23 12:15:49 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance

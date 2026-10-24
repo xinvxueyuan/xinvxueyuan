@@ -138,7 +138,7 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 数据
 
 <!-- AUTO:STATS:START -->
-- 公开仓库: **57**
+- 公开仓库: **58**
 - 非 Fork 仓库: **28**
 - 获星数（非 Fork）: **15**
 - 被 Fork 数（非 Fork）: **3**
@@ -159,19 +159,19 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 最新文章
 
 <!-- AUTO:POSTS:START -->
+- [Windows 上纯 Agent Vibe Coding：先把 Git 的 autocrlf 设为 input](https://www.xinvstar.xyz/blog/40) — 2026-10-23
 - [一步步用 Google AI Studio 做出并部署自己的 Android 应用](https://www.xinvstar.xyz/blog/39) — 2026-10-17
 - [2026年开源安全威胁态势全景报告](https://www.xinvstar.xyz/blog/38) — 2026-07-07
 - [一封封号邮件里的 1×1 像素：Claude 邮件追踪器技术分析与争议](https://www.xinvstar.xyz/blog/37) — 2026-07-05
 - [深度源码解析：Claude Code 隐藏的反向代理检测与隐写标记机制](https://www.xinvstar.xyz/blog/36) — 2026-07-04
-- [Next.js 14 App Router 完全指南](https://www.xinvstar.xyz/blog/35) — 2026-03-29
 <!-- AUTO:POSTS:END -->
 
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- **[hataraku](https://github.com/xinvxueyuan/hataraku)** —  · 推送于 2026-10-23 06:56:53 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-10-23 05:41:14 UTC
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-10-22 22:11:02 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-10-23 21:55:01 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-10-23 21:09:40 UTC
+- **[hataraku](https://github.com/xinvxueyuan/hataraku)** —  · 推送于 2026-10-23 12:15:49 UTC
 <!-- AUTO:NOW:END -->
 
 ## 最近维护
