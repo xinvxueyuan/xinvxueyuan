@@ -169,7 +169,7 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-10-23 21:55:01 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-10-24 21:26:27 UTC
 - **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-10-23 21:09:40 UTC
 - **[hataraku](https://github.com/xinvxueyuan/hataraku)** —  · 推送于 2026-10-23 12:15:49 UTC
 <!-- AUTO:NOW:END -->
