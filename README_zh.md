@@ -169,9 +169,9 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-10-24 21:26:27 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-10-23 21:09:40 UTC
-- **[hataraku](https://github.com/xinvxueyuan/hataraku)** —  · 推送于 2026-10-23 12:15:49 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-10-26 00:02:40 UTC
+- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.7.0 — 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务。 · 推送于 2026-10-25 22:06:00 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-10-25 21:31:25 UTC
 <!-- AUTO:NOW:END -->
 
 ## 最近维护
@@ -179,9 +179,9 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 <!-- AUTO:MAINTENANCE:START -->
 配置仓库最近更新的 100 条已关闭 PR 中，最近合并的记录：
 
+- [lingchu-bot #98](https://github.com/xinvxueyuan/lingchu-bot/pull/98) — 🐛 fix(ci): webui 构建在 turbo 图中被重复执行，产物互相覆盖（夜间构建连续失败） · 2026-10-26
 - [lingchu-bot #97](https://github.com/xinvxueyuan/lingchu-bot/pull/97) — ⬆️ build(deps): Bump eslint-plugin-unicorn from 76.0.0 to 78.0.0 · 2026-10-19
 - [lingchu-bot #94](https://github.com/xinvxueyuan/lingchu-bot/pull/94) — ⬆️ build(deps): update test action to 2.25.0 · 2026-10-19
-- [lingchu-bot #93](https://github.com/xinvxueyuan/lingchu-bot/pull/93) — ⬆️ build(deps): allow uv-build \<0.14 · 2026-10-19
 <!-- AUTO:MAINTENANCE:END -->
 
 ## 联系
