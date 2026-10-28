@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/xinvxueyuan"><img src="https://img.shields.io/badge/GitHub-xinvxueyuan-4c8bf5?style=for-the-badge&logo=github&logoColor=white" alt="GitHub: xinvxueyuan"/></a>
   <!-- AUTO:BLOG_BADGE:START -->
-<a href="https://www.xinvstar.xyz"><img src="https://img.shields.io/badge/Blog-xinvstar.xyz-4c8bf5?style=for-the-badge&logo=safari&logoColor=white" alt="blog"/></a>
+<a href="https://blog.hikarilink.org"><img src="https://img.shields.io/badge/Blog-blog.hikarilink.org-4c8bf5?style=for-the-badge&logo=safari&logoColor=white" alt="blog"/></a>
 <!-- AUTO:BLOG_BADGE:END -->
   <img src="https://img.shields.io/badge/Location-China-4c8bf5?style=for-the-badge&logo=github&logoColor=white" alt="location"/>
   <img src="https://img.shields.io/badge/OS-Windows%20%7C%20Debian-4c8bf5?style=for-the-badge&logo=windows&logoColor=white" alt="os"/>
@@ -150,8 +150,8 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 <div align="center">
 
 <!-- AUTO:STATS_IMAGES:START -->
-[![GitHub stats](https://github-readme-state.xinvstar.xyz/api?username=xinvxueyuan&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=4c8bf5&icon_color=4c8bf5&text_color=c9d1d9&ring_color=4c8bf5)](https://github.com/xinvxueyuan)
-[![Top Langs](https://github-readme-state.xinvstar.xyz/api/top-langs/?username=xinvxueyuan&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=4c8bf5&icon_color=4c8bf5&text_color=c9d1d9&ring_color=4c8bf5)](https://github.com/xinvxueyuan)
+[![GitHub stats](https://readme-stats.hikarilink.org/api?username=xinvxueyuan&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=4c8bf5&icon_color=4c8bf5&text_color=c9d1d9&ring_color=4c8bf5)](https://github.com/xinvxueyuan)
+[![Top Langs](https://readme-stats.hikarilink.org/api/top-langs/?username=xinvxueyuan&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=4c8bf5&icon_color=4c8bf5&text_color=c9d1d9&ring_color=4c8bf5)](https://github.com/xinvxueyuan)
 <!-- AUTO:STATS_IMAGES:END -->
 
 </div>
@@ -159,19 +159,19 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 最新文章
 
 <!-- AUTO:POSTS:START -->
-- [Windows 上纯 Agent Vibe Coding：先把 Git 的 autocrlf 设为 input](https://www.xinvstar.xyz/blog/40) — 2026-10-23
-- [一步步用 Google AI Studio 做出并部署自己的 Android 应用](https://www.xinvstar.xyz/blog/39) — 2026-10-17
-- [2026年开源安全威胁态势全景报告](https://www.xinvstar.xyz/blog/38) — 2026-07-07
-- [一封封号邮件里的 1×1 像素：Claude 邮件追踪器技术分析与争议](https://www.xinvstar.xyz/blog/37) — 2026-07-05
-- [深度源码解析：Claude Code 隐藏的反向代理检测与隐写标记机制](https://www.xinvstar.xyz/blog/36) — 2026-07-04
+- [Windows 上纯 Agent Vibe Coding：先把 Git 的 autocrlf 设为 input](https://blog.hikarilink.org/blog/40) — 2026-10-23
+- [一步步用 Google AI Studio 做出并部署自己的 Android 应用](https://blog.hikarilink.org/blog/39) — 2026-10-17
+- [2026年开源安全威胁态势全景报告](https://blog.hikarilink.org/blog/38) — 2026-07-07
+- [一封封号邮件里的 1×1 像素：Claude 邮件追踪器技术分析与争议](https://blog.hikarilink.org/blog/37) — 2026-07-05
+- [深度源码解析：Claude Code 隐藏的反向代理检测与隐写标记机制](https://blog.hikarilink.org/blog/36) — 2026-07-04
 <!-- AUTO:POSTS:END -->
 
 ## 近况
 
 <!-- AUTO:NOW:START -->
+- **[hataraku](https://github.com/xinvxueyuan/hataraku)** —  · 推送于 2026-10-28 12:48:26 UTC
 - **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-10-27 22:53:06 UTC
 - **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-10-27 21:56:42 UTC
-- **[cordis-plugin-loop](https://github.com/xinvxueyuan/cordis-plugin-loop)** · v0.4.0 — DSH /loop: run a task now, then keep running it on a fixed cadence or a self-paced one · 推送于 2026-10-27 18:36:01 UTC
 <!-- AUTO:NOW:END -->
 
 ## 最近维护
@@ -187,7 +187,7 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 联系
 
 <!-- AUTO:BLOG:START -->
-- **博客** —— [xinvstar.xyz](https://www.xinvstar.xyz) · [RSS](https://www.xinvstar.xyz/rss.xml)
+- **博客** —— [blog.hikarilink.org](https://blog.hikarilink.org) · [RSS](https://blog.hikarilink.org/rss.xml)
 <!-- AUTO:BLOG:END -->
 - **GitHub** —— [@xinvxueyuan](https://github.com/xinvxueyuan)
 - **公司** —— xinvStar.Inc

@@ -1,11 +1,11 @@
 {
   "username": "xinvxueyuan",
   "blog": {
-    "url": "https://www.xinvstar.xyz",
-    "feed": "https://www.xinvstar.xyz/rss.xml"
+    "url": "https://blog.hikarilink.org",
+    "feed": "https://blog.hikarilink.org/rss.xml"
   },
   "stats": {
-    "base": "https://github-readme-state.xinvstar.xyz"
+    "base": "https://readme-stats.hikarilink.org"
   },
   "sections": [
     {
