@@ -49,7 +49,7 @@
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/cordis-plugin-github"><b>cordis-plugin-github</b></a><br>
-<sub>Cordis 插件 · TypeScript · v0.3.0</sub><br><br>
+<sub>Cordis 插件 · TypeScript · v0.3.0 · 已归档</sub><br><br>
 为 Cordis / DeepSeek Harness 提供规范化 GitHub 工具 —— 默认走 gh CLI，自动 HTTP 回退。
 </td>
 <td width="50%" valign="top">
@@ -138,7 +138,7 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 数据
 
 <!-- AUTO:STATS:START -->
-- 公开仓库: **58**
+- 公开仓库: **59**
 - 非 Fork 仓库: **28**
 - 获星数（非 Fork）: **15**
 - 被 Fork 数（非 Fork）: **3**
@@ -169,9 +169,9 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 近况
 
 <!-- AUTO:NOW:START -->
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-10-29 23:07:47 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-10-29 22:34:04 UTC
 - **[nonebot-plugin-message-reaction](https://github.com/xinvxueyuan/nonebot-plugin-message-reaction)** — NoneBot2 插件（qbot 子模块）· 消息表态（emoji reaction）工具库：三态表态 message\_reaction 与 with\_reaction 装饰器，供其他插件 import 调用 · 推送于 2026-10-29 06:17:37 UTC
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-10-28 22:58:07 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-10-28 22:21:06 UTC
 <!-- AUTO:NOW:END -->
 
 ## 最近维护

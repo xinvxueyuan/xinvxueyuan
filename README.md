@@ -52,7 +52,7 @@ Agent Skill: authoritative GitHub API reference (REST + GraphQL + safety) — st
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/cordis-plugin-github"><b>cordis-plugin-github</b></a><br>
-<sub>Cordis Plugin · TypeScript · v0.3.0</sub><br><br>
+<sub>Cordis Plugin · TypeScript · v0.3.0 · Archived</sub><br><br>
 Cordis / DeepSeek Harness plugin — normalized GitHub API tools for AI agents (gh CLI by default, native HTTP fallback)
 </td>
 <td width="50%" valign="top">
@@ -141,7 +141,7 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Stats
 
 <!-- AUTO:STATS:START -->
-- Public repositories: **58**
+- Public repositories: **59**
 - Non-fork repositories: **28**
 - Stars (non-fork): **15**
 - Forks received (non-fork): **3**
@@ -172,9 +172,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-10-29 23:07:47 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-10-29 22:34:04 UTC
 - **[nonebot-plugin-message-reaction](https://github.com/xinvxueyuan/nonebot-plugin-message-reaction)** — NoneBot2 插件（qbot 子模块）· 消息表态（emoji reaction）工具库：三态表态 message\_reaction 与 with\_reaction 装饰器，供其他插件 import 调用 · pushed 2026-10-29 06:17:37 UTC
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-10-28 22:58:07 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-10-28 22:21:06 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance
