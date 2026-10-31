@@ -40,7 +40,7 @@ Tools that plug AI agents into real systems — image generation, GitHub API, an
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 12 · v0.7.0</sub><br><br>
+<sub>MCP · Python · ★ 12 · v0.7.1</sub><br><br>
 MCP server for integrating NovelAI Image generation into AI agents.
 </td>
 <td width="50%" valign="top">
@@ -127,6 +127,7 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 - [nonebot-plugin-pixiv-illust](https://github.com/xinvxueyuan/nonebot-plugin-pixiv-illust) — NoneBot2 插件（qbot 子模块）· pixiv 插画/漫画订阅推送：按群订阅画师新作、多页推送（\>3 页合并转发）、R18 可打码
 - [nonebot-plugin-pixiv-novel](https://github.com/xinvxueyuan/nonebot-plugin-pixiv-novel) — NoneBot2 插件（qbot 子模块）· pixiv 小说订阅推送：按群订阅作者新作自动推送 + 拉取单篇全文
 - [nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu) — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚
+- [pi-llbot-bridge](https://github.com/xinvxueyuan/pi-llbot-bridge) — Bridge a locally hosted LLBot (OneBot 11, reverse WebSocket) into a running Pi session
 - [picx-images-hosting](https://github.com/xinvxueyuan/picx-images-hosting) — PicX images hosting repository
 - [proxy-rules](https://github.com/xinvxueyuan/proxy-rules) — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验
 - [qbot](https://github.com/xinvxueyuan/qbot) — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理）
@@ -141,12 +142,12 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Stats
 
 <!-- AUTO:STATS:START -->
-- Public repositories: **59**
-- Non-fork repositories: **28**
+- Public repositories: **60**
+- Non-fork repositories: **29**
 - Stars (non-fork): **15**
 - Forks received (non-fork): **3**
 - Followers: **7**
-- Primary languages by non-fork repository count: Python (17), TypeScript (5), JavaScript (2), MDX (1), Rust (1)
+- Primary languages by non-fork repository count: Python (17), TypeScript (6), JavaScript (2), MDX (1), Rust (1)
 _Source: public GitHub API; excludes private data. Language counts are not code-byte percentages._
 <!-- AUTO:STATS:END -->
 
@@ -172,9 +173,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-10-29 23:07:47 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-10-29 22:34:04 UTC
-- **[nonebot-plugin-message-reaction](https://github.com/xinvxueyuan/nonebot-plugin-message-reaction)** — NoneBot2 插件（qbot 子模块）· 消息表态（emoji reaction）工具库：三态表态 message\_reaction 与 with\_reaction 装饰器，供其他插件 import 调用 · pushed 2026-10-29 06:17:37 UTC
+- **[pi-llbot-bridge](https://github.com/xinvxueyuan/pi-llbot-bridge)** — Bridge a locally hosted LLBot (OneBot 11, reverse WebSocket) into a running Pi session · pushed 2026-10-31 07:26:20 UTC
+- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.7.1 — MCP server for integrating NovelAI Image generation into AI agents. · pushed 2026-10-31 07:21:31 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-10-30 22:50:36 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance
