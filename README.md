@@ -146,7 +146,7 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 - Non-fork repositories: **29**
 - Stars (non-fork): **15**
 - Forks received (non-fork): **3**
-- Followers: **7**
+- Followers: **6**
 - Primary languages by non-fork repository count: Python (17), TypeScript (6), JavaScript (2), MDX (1), Rust (1)
 _Source: public GitHub API; excludes private data. Language counts are not code-byte percentages._
 <!-- AUTO:STATS:END -->
@@ -173,9 +173,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[pi-llbot-bridge](https://github.com/xinvxueyuan/pi-llbot-bridge)** — Bridge a locally hosted LLBot (OneBot 11, reverse WebSocket) into a running Pi session · pushed 2026-10-31 07:26:20 UTC
-- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.7.1 — MCP server for integrating NovelAI Image generation into AI agents. · pushed 2026-10-31 07:21:31 UTC
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-10-30 22:50:36 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-10-31 22:16:57 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-10-31 21:11:47 UTC
+- **[pi-llbot-bridge](https://github.com/xinvxueyuan/pi-llbot-bridge)** — Bridge a locally hosted LLBot (OneBot 11, reverse WebSocket) into a running Pi session · pushed 2026-10-31 18:16:02 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance

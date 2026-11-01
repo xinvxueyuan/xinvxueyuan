@@ -143,7 +143,7 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 - 非 Fork 仓库: **29**
 - 获星数（非 Fork）: **15**
 - 被 Fork 数（非 Fork）: **3**
-- 关注者: **7**
+- 关注者: **6**
 - 按非 Fork 仓库数量统计的主要语言：Python (17), TypeScript (6), JavaScript (2), MDX (1), Rust (1)
 _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不代表代码字节占比。_
 <!-- AUTO:STATS:END -->
@@ -170,9 +170,9 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- **[pi-llbot-bridge](https://github.com/xinvxueyuan/pi-llbot-bridge)** — Bridge a locally hosted LLBot (OneBot 11, reverse WebSocket) into a running Pi session · 推送于 2026-10-31 07:26:20 UTC
-- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.7.1 — 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务。 · 推送于 2026-10-31 07:21:31 UTC
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-10-30 22:50:36 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-10-31 22:16:57 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-10-31 21:11:47 UTC
+- **[pi-llbot-bridge](https://github.com/xinvxueyuan/pi-llbot-bridge)** — Bridge a locally hosted LLBot (OneBot 11, reverse WebSocket) into a running Pi session · 推送于 2026-10-31 18:16:02 UTC
 <!-- AUTO:NOW:END -->
 
 ## 最近维护
