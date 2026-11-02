@@ -170,9 +170,9 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-10-31 22:16:57 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-10-31 21:11:47 UTC
-- **[pi-llbot-bridge](https://github.com/xinvxueyuan/pi-llbot-bridge)** — Bridge a locally hosted LLBot (OneBot 11, reverse WebSocket) into a running Pi session · 推送于 2026-10-31 18:16:02 UTC
+- **[nonebot-plugin-ciyuan-image](https://github.com/xinvxueyuan/nonebot-plugin-ciyuan-image)** — NoneBot2 插件（qbot 子模块）· 栗次元（t.alcy.cc）随机图片，18 个分类，超过 3 张自动合并转发 · 推送于 2026-11-02 07:55:42 UTC
+- **[nonebot-plugin-auto-unmute-superuser](https://github.com/xinvxueyuan/nonebot-plugin-auto-unmute-superuser)** — NoneBot2 插件（qbot 子模块）· 超级用户被群禁言时自动解禁（事件驱动 + 周期轮询兜底） · 推送于 2026-11-02 04:09:10 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-11-02 02:42:11 UTC
 <!-- AUTO:NOW:END -->
 
 ## 最近维护
@@ -180,9 +180,9 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 <!-- AUTO:MAINTENANCE:START -->
 配置仓库最近更新的 100 条已关闭 PR 中，最近合并的记录：
 
-- [lingchu-bot #102](https://github.com/xinvxueyuan/lingchu-bot/pull/102) — chore(deps): bump certifi in uv.lock to 2026.10.19 for GHSA-6q48-6c7w-9gw2 · 2026-10-27
-- [lingchu-bot #101](https://github.com/xinvxueyuan/lingchu-bot/pull/101) — ⬆️ build(deps): Bump vitest from 4.1.12 to 5.0.5 · 2026-10-27
-- [lingchu-bot #100](https://github.com/xinvxueyuan/lingchu-bot/pull/100) — ⬆️ build(deps): Bump the npm-minor group with 18 updates · 2026-10-27
+- [lingchu-bot #105](https://github.com/xinvxueyuan/lingchu-bot/pull/105) — ⬆️ build(deps): Bump eslint-plugin-unicorn from 78.0.0 to 79.0.0 · 2026-11-02
+- [lingchu-bot #103](https://github.com/xinvxueyuan/lingchu-bot/pull/103) — ⬆️ build(deps): Bump docker/login-action from 4.6.0 to 4.7.0 in the github-actions group · 2026-11-02
+- [lingchu-bot #104](https://github.com/xinvxueyuan/lingchu-bot/pull/104) — ⬆️ build(deps): Bump the npm-minor group with 13 updates · 2026-11-02
 <!-- AUTO:MAINTENANCE:END -->
 
 ## 联系
