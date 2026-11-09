@@ -174,9 +174,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-07 21:36:26 UTC
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-11-06 23:40:42 UTC
-- **[rebased-zh](https://github.com/xinvxueyuan/rebased-zh)** — Rebased 简体中文语言包的自动化构建 (GitHub Actions) · pushed 2026-11-06 05:31:39 UTC
+- **[rebased-zh](https://github.com/xinvxueyuan/rebased-zh)** — Rebased 简体中文语言包的自动化构建 (GitHub Actions) · pushed 2026-11-09 10:32:05 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-09 06:11:24 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-11-08 22:41:35 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance
@@ -184,9 +184,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 <!-- AUTO:MAINTENANCE:START -->
 Recently merged PRs among the 100 most recently updated closed PRs per configured repository:
 
-- [lingchu-bot #105](https://github.com/xinvxueyuan/lingchu-bot/pull/105) — ⬆️ build(deps): Bump eslint-plugin-unicorn from 78.0.0 to 79.0.0 · 2026-11-02
-- [lingchu-bot #103](https://github.com/xinvxueyuan/lingchu-bot/pull/103) — ⬆️ build(deps): Bump docker/login-action from 4.6.0 to 4.7.0 in the github-actions group · 2026-11-02
-- [lingchu-bot #104](https://github.com/xinvxueyuan/lingchu-bot/pull/104) — ⬆️ build(deps): Bump the npm-minor group with 13 updates · 2026-11-02
+- [lingchu-bot #107](https://github.com/xinvxueyuan/lingchu-bot/pull/107) — ⬆️ build(deps): Bump the npm-minor group across 1 directory with 16 updates · 2026-11-09
+- [lingchu-bot #115](https://github.com/xinvxueyuan/lingchu-bot/pull/115) — ⬆️ build(deps): Bump minimatch from 10.2.5 to 10.2.6 · 2026-11-09
+- [lingchu-bot #117](https://github.com/xinvxueyuan/lingchu-bot/pull/117) — ⬆️ build(deps): Bump qs from 6.16.0 to 6.17.1 · 2026-11-09
 <!-- AUTO:MAINTENANCE:END -->
 
 ## Contact
