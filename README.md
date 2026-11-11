@@ -174,8 +174,8 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-10 22:58:32 UTC
 - **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-11-10 01:54:33 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-10 01:18:45 UTC
 - **[github-api-skill](https://github.com/xinvxueyuan/github-api-skill)** — Agent Skill: authoritative GitHub API reference (REST + GraphQL + safety) — stop guessing endpoints · pushed 2026-11-09 12:36:23 UTC
 <!-- AUTO:NOW:END -->
 
