@@ -146,7 +146,7 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 - Public repositories: **62**
 - Non-fork repositories: **30**
 - Stars (non-fork): **15**
-- Forks received (non-fork): **3**
+- Forks received (non-fork): **2**
 - Followers: **6**
 - Primary languages by non-fork repository count: Python (17), TypeScript (6), JavaScript (2), MDX (1), Rust (1), Shell (1)
 _Source: public GitHub API; excludes private data. Language counts are not code-byte percentages._
@@ -174,9 +174,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-10 22:58:32 UTC
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-11-10 01:54:33 UTC
-- **[github-api-skill](https://github.com/xinvxueyuan/github-api-skill)** — Agent Skill: authoritative GitHub API reference (REST + GraphQL + safety) — stop guessing endpoints · pushed 2026-11-09 12:36:23 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-12 10:49:52 UTC
+- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.7.1 — MCP server for integrating NovelAI Image generation into AI agents. · pushed 2026-11-12 09:53:25 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-11-12 01:21:05 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance
@@ -184,9 +184,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 <!-- AUTO:MAINTENANCE:START -->
 Recently merged PRs among the 100 most recently updated closed PRs per configured repository:
 
-- [lingchu-bot #107](https://github.com/xinvxueyuan/lingchu-bot/pull/107) — ⬆️ build(deps): Bump the npm-minor group across 1 directory with 16 updates · 2026-11-09
-- [lingchu-bot #115](https://github.com/xinvxueyuan/lingchu-bot/pull/115) — ⬆️ build(deps): Bump minimatch from 10.2.5 to 10.2.6 · 2026-11-09
-- [lingchu-bot #117](https://github.com/xinvxueyuan/lingchu-bot/pull/117) — ⬆️ build(deps): Bump qs from 6.16.0 to 6.17.1 · 2026-11-09
+- [lingchu-bot #121](https://github.com/xinvxueyuan/lingchu-bot/pull/121) — 🐛 fix(ci): 修复 astro check 在 CI 上失败 · 2026-11-12
+- [lingchu-bot #120](https://github.com/xinvxueyuan/lingchu-bot/pull/120) — 🐛 fix(ci): 升级 parse5-parser-stream 到 8.1.1 修复 docs 测试失败 · 2026-11-12
+- [lingchu-bot #119](https://github.com/xinvxueyuan/lingchu-bot/pull/119) — ⬆️ build(deps): Bump fast-xml-parser from 5.11.1 to 5.12.0 · 2026-11-12
 <!-- AUTO:MAINTENANCE:END -->
 
 ## Contact
