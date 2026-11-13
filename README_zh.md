@@ -82,7 +82,7 @@ LLBot 状态告警插件：从 OneBot 心跳抽取账号状态检测账号异常
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/lingchu-bot"><b>lingchu-bot</b></a><br>
-<sub>NoneBot2 · Python · ★ 3 · v0.10.0.dev1</sub><br><br>
+<sub>NoneBot2 · Python · ★ 3 · v0.10.1</sub><br><br>
 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。
 </td>
 <td width="50%"></td>
@@ -140,9 +140,9 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 数据
 
 <!-- AUTO:STATS:START -->
-- 公开仓库: **62**
+- 公开仓库: **63**
 - 非 Fork 仓库: **30**
-- 获星数（非 Fork）: **15**
+- 获星数（非 Fork）: **16**
 - 被 Fork 数（非 Fork）: **2**
 - 关注者: **6**
 - 按非 Fork 仓库数量统计的主要语言：Python (17), TypeScript (6), JavaScript (2), MDX (1), Rust (1), Shell (1)
@@ -171,9 +171,9 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-11-12 10:49:52 UTC
-- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.7.1 — 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务。 · 推送于 2026-11-12 09:53:25 UTC
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-11-12 01:21:05 UTC
+- **[qbot](https://github.com/xinvxueyuan/qbot)** — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理） · 推送于 2026-11-13 04:56:04 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-11-13 02:02:25 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-11-12 23:59:38 UTC
 <!-- AUTO:NOW:END -->
 
 ## 最近维护

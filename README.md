@@ -85,7 +85,7 @@ LLBot health alerting: reads account status straight from OneBot heartbeat event
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/lingchu-bot"><b>lingchu-bot</b></a><br>
-<sub>NoneBot2 · Python · ★ 3 · v0.10.0.dev1</sub><br><br>
+<sub>NoneBot2 · Python · ★ 3 · v0.10.1</sub><br><br>
 Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access.
 </td>
 <td width="50%"></td>
@@ -143,9 +143,9 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Stats
 
 <!-- AUTO:STATS:START -->
-- Public repositories: **62**
+- Public repositories: **63**
 - Non-fork repositories: **30**
-- Stars (non-fork): **15**
+- Stars (non-fork): **16**
 - Forks received (non-fork): **2**
 - Followers: **6**
 - Primary languages by non-fork repository count: Python (17), TypeScript (6), JavaScript (2), MDX (1), Rust (1), Shell (1)
@@ -174,9 +174,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.0.dev1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-12 10:49:52 UTC
-- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.7.1 — MCP server for integrating NovelAI Image generation into AI agents. · pushed 2026-11-12 09:53:25 UTC
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-11-12 01:21:05 UTC
+- **[qbot](https://github.com/xinvxueyuan/qbot)** — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理） · pushed 2026-11-13 04:56:04 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-13 02:02:25 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-11-12 23:59:38 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance
