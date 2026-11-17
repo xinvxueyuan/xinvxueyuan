@@ -174,9 +174,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-16 00:51:37 UTC
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-11-15 23:20:12 UTC
-- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.7.1 — MCP server for integrating NovelAI Image generation into AI agents. · pushed 2026-11-15 22:05:16 UTC
+- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-11-17 02:20:45 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-17 01:44:11 UTC
+- **[github-api-skill](https://github.com/xinvxueyuan/github-api-skill)** — Agent Skill: authoritative GitHub API reference (REST + GraphQL + safety) — stop guessing endpoints · pushed 2026-11-16 12:29:44 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance
