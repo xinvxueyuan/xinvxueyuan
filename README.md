@@ -111,6 +111,7 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## More Public Projects
 
 <!-- AUTO:CATALOG:START -->
+- [chat-demo](https://github.com/xinvxueyuan/chat-demo) — DeepSeek chat-demo (mirror of deepseek-ai/chat-demo) deployed on Vercel
 - [cordis-plugin-local-dream](https://github.com/xinvxueyuan/cordis-plugin-local-dream) — Cordis / DeepSeek Harness plugin — drive the Android Local Dream Stable Diffusion app over its HTTP backend (LAN-first, USB/adb fallback) with automatic device connection management
 - [cordis-plugin-loop](https://github.com/xinvxueyuan/cordis-plugin-loop) — DSH /loop: run a task now, then keep running it on a fixed cadence or a self-paced one
 - [cordis-plugin-secret](https://github.com/xinvxueyuan/cordis-plugin-secret) — Cordis / DeepSeek Harness plugin — the agent asks the human for a secret in an inline conversation card and only ever receives an opaque session-scoped DSH\_SECRET\_\* name, never the value
@@ -143,12 +144,12 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Stats
 
 <!-- AUTO:STATS:START -->
-- Public repositories: **63**
-- Non-fork repositories: **30**
+- Public repositories: **64**
+- Non-fork repositories: **31**
 - Stars (non-fork): **16**
 - Forks received (non-fork): **2**
 - Followers: **7**
-- Primary languages by non-fork repository count: Python (17), TypeScript (6), JavaScript (2), MDX (1), Rust (1), Shell (1)
+- Primary languages by non-fork repository count: Python (17), TypeScript (7), JavaScript (2), MDX (1), Rust (1), Shell (1)
 _Source: public GitHub API; excludes private data. Language counts are not code-byte percentages._
 <!-- AUTO:STATS:END -->
 
@@ -174,9 +175,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-18 00:43:42 UTC
+- **[chat-demo](https://github.com/xinvxueyuan/chat-demo)** — DeepSeek chat-demo (mirror of deepseek-ai/chat-demo) deployed on Vercel · pushed 2026-11-17 15:50:52 UTC
 - **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-11-17 02:20:45 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-17 01:44:11 UTC
-- **[github-api-skill](https://github.com/xinvxueyuan/github-api-skill)** — Agent Skill: authoritative GitHub API reference (REST + GraphQL + safety) — stop guessing endpoints · pushed 2026-11-16 12:29:44 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance

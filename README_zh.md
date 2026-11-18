@@ -108,6 +108,7 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 更多公开项目
 
 <!-- AUTO:CATALOG:START -->
+- [chat-demo](https://github.com/xinvxueyuan/chat-demo) — DeepSeek chat-demo (mirror of deepseek-ai/chat-demo) deployed on Vercel
 - [cordis-plugin-local-dream](https://github.com/xinvxueyuan/cordis-plugin-local-dream) — Cordis / DeepSeek Harness plugin — drive the Android Local Dream Stable Diffusion app over its HTTP backend (LAN-first, USB/adb fallback) with automatic device connection management
 - [cordis-plugin-loop](https://github.com/xinvxueyuan/cordis-plugin-loop) — DSH /loop: run a task now, then keep running it on a fixed cadence or a self-paced one
 - [cordis-plugin-secret](https://github.com/xinvxueyuan/cordis-plugin-secret) — Cordis / DeepSeek Harness plugin — the agent asks the human for a secret in an inline conversation card and only ever receives an opaque session-scoped DSH\_SECRET\_\* name, never the value
@@ -140,12 +141,12 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 数据
 
 <!-- AUTO:STATS:START -->
-- 公开仓库: **63**
-- 非 Fork 仓库: **30**
+- 公开仓库: **64**
+- 非 Fork 仓库: **31**
 - 获星数（非 Fork）: **16**
 - 被 Fork 数（非 Fork）: **2**
 - 关注者: **7**
-- 按非 Fork 仓库数量统计的主要语言：Python (17), TypeScript (6), JavaScript (2), MDX (1), Rust (1), Shell (1)
+- 按非 Fork 仓库数量统计的主要语言：Python (17), TypeScript (7), JavaScript (2), MDX (1), Rust (1), Shell (1)
 _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不代表代码字节占比。_
 <!-- AUTO:STATS:END -->
 
@@ -171,9 +172,9 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 近况
 
 <!-- AUTO:NOW:START -->
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-11-18 00:43:42 UTC
+- **[chat-demo](https://github.com/xinvxueyuan/chat-demo)** — DeepSeek chat-demo (mirror of deepseek-ai/chat-demo) deployed on Vercel · 推送于 2026-11-17 15:50:52 UTC
 - **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · 推送于 2026-11-17 02:20:45 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-11-17 01:44:11 UTC
-- **[github-api-skill](https://github.com/xinvxueyuan/github-api-skill)** — 权威 GitHub API 参考（REST + GraphQL + 安全规则），别再猜端点。 · 推送于 2026-11-16 12:29:44 UTC
 <!-- AUTO:NOW:END -->
 
 ## 最近维护
