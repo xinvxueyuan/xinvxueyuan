@@ -175,9 +175,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-18 00:43:42 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-19 00:01:01 UTC
+- **[nonebot-plugin-fanqie-verify](https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify)** · v0.4.0 — Fanqie Novel reading-group join verification: new members submit a screenshot of their own book-review detail page, judged by a vision model (OCR optional). Auto-approve on pass, escalate to admins on fail — plus review deferral, missed-member backfill and quoted replies. · pushed 2026-11-18 14:17:35 UTC
 - **[chat-demo](https://github.com/xinvxueyuan/chat-demo)** — DeepSeek chat-demo (mirror of deepseek-ai/chat-demo) deployed on Vercel · pushed 2026-11-17 15:50:52 UTC
-- **[proxy-rules](https://github.com/xinvxueyuan/proxy-rules)** — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验 · pushed 2026-11-17 02:20:45 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance
