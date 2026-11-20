@@ -175,9 +175,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-19 00:01:01 UTC
-- **[nonebot-plugin-fanqie-verify](https://github.com/xinvxueyuan/nonebot-plugin-fanqie-verify)** · v0.4.0 — Fanqie Novel reading-group join verification: new members submit a screenshot of their own book-review detail page, judged by a vision model (OCR optional). Auto-approve on pass, escalate to admins on fail — plus review deferral, missed-member backfill and quoted replies. · pushed 2026-11-18 14:17:35 UTC
-- **[chat-demo](https://github.com/xinvxueyuan/chat-demo)** — DeepSeek chat-demo (mirror of deepseek-ai/chat-demo) deployed on Vercel · pushed 2026-11-17 15:50:52 UTC
+- **[qbot](https://github.com/xinvxueyuan/qbot)** — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理） · pushed 2026-11-20 09:48:18 UTC
+- **[nonebot-plugin-checkin](https://github.com/xinvxueyuan/nonebot-plugin-checkin)** · v0.1.0 — 群签到：每日签到攒积分，连续签到有加成，群内积分排行（htmlrender 出图，失败回退纯文本） · pushed 2026-11-20 09:43:41 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-20 00:24:04 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance
