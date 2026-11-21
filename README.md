@@ -130,7 +130,6 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 - [nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu) — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚
 - [pi-llbot-bridge](https://github.com/xinvxueyuan/pi-llbot-bridge) — Bridge a locally hosted LLBot (OneBot 11, reverse WebSocket) into a running Pi session
 - [picx-images-hosting](https://github.com/xinvxueyuan/picx-images-hosting) — PicX images hosting repository
-- [proxy-rules](https://github.com/xinvxueyuan/proxy-rules) — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验
 - [qbot](https://github.com/xinvxueyuan/qbot) — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理）
 - [rebased-zh](https://github.com/xinvxueyuan/rebased-zh) — Rebased 简体中文语言包的自动化构建 (GitHub Actions)
 <!-- AUTO:CATALOG:END -->
@@ -144,12 +143,12 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Stats
 
 <!-- AUTO:STATS:START -->
-- Public repositories: **64**
-- Non-fork repositories: **31**
+- Public repositories: **63**
+- Non-fork repositories: **30**
 - Stars (non-fork): **16**
 - Forks received (non-fork): **2**
 - Followers: **7**
-- Primary languages by non-fork repository count: Python (17), TypeScript (7), JavaScript (2), MDX (1), Rust (1), Shell (1)
+- Primary languages by non-fork repository count: Python (16), TypeScript (7), JavaScript (2), MDX (1), Rust (1), Shell (1)
 _Source: public GitHub API; excludes private data. Language counts are not code-byte percentages._
 <!-- AUTO:STATS:END -->
 
@@ -175,9 +174,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[qbot](https://github.com/xinvxueyuan/qbot)** — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理） · pushed 2026-11-20 09:48:18 UTC
-- **[nonebot-plugin-checkin](https://github.com/xinvxueyuan/nonebot-plugin-checkin)** · v0.1.0 — 群签到：每日签到攒积分，连续签到有加成，群内积分排行（htmlrender 出图，失败回退纯文本） · pushed 2026-11-20 09:43:41 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-20 00:24:04 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-20 23:46:54 UTC
+- **[qbot](https://github.com/xinvxueyuan/qbot)** — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理） · pushed 2026-11-20 19:04:45 UTC
+- **[nonebot-plugin-checkin](https://github.com/xinvxueyuan/nonebot-plugin-checkin)** · v0.1.0 — 群签到：每日签到攒积分，连续签到有加成，群内积分排行（htmlrender 出图，失败回退纯文本） · pushed 2026-11-20 19:03:13 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance

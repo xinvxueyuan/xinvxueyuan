@@ -127,7 +127,6 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 - [nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu) — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚
 - [pi-llbot-bridge](https://github.com/xinvxueyuan/pi-llbot-bridge) — Bridge a locally hosted LLBot (OneBot 11, reverse WebSocket) into a running Pi session
 - [picx-images-hosting](https://github.com/xinvxueyuan/picx-images-hosting) — PicX images hosting repository
-- [proxy-rules](https://github.com/xinvxueyuan/proxy-rules) — 自用分流规则：一份自持数据编译成 Clash(mihomo) rule-provider 与 Xray geosite/geoip dat，CI 定时构建+真内核校验
 - [qbot](https://github.com/xinvxueyuan/qbot) — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理）
 - [rebased-zh](https://github.com/xinvxueyuan/rebased-zh) — Rebased 简体中文语言包的自动化构建 (GitHub Actions)
 <!-- AUTO:CATALOG:END -->
@@ -141,12 +140,12 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 数据
 
 <!-- AUTO:STATS:START -->
-- 公开仓库: **64**
-- 非 Fork 仓库: **31**
+- 公开仓库: **63**
+- 非 Fork 仓库: **30**
 - 获星数（非 Fork）: **16**
 - 被 Fork 数（非 Fork）: **2**
 - 关注者: **7**
-- 按非 Fork 仓库数量统计的主要语言：Python (17), TypeScript (7), JavaScript (2), MDX (1), Rust (1), Shell (1)
+- 按非 Fork 仓库数量统计的主要语言：Python (16), TypeScript (7), JavaScript (2), MDX (1), Rust (1), Shell (1)
 _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不代表代码字节占比。_
 <!-- AUTO:STATS:END -->
 
@@ -172,9 +171,9 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- **[qbot](https://github.com/xinvxueyuan/qbot)** — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理） · 推送于 2026-11-20 09:48:18 UTC
-- **[nonebot-plugin-checkin](https://github.com/xinvxueyuan/nonebot-plugin-checkin)** · v0.1.0 — 群签到：每日签到攒积分，连续签到有加成，群内积分排行（htmlrender 出图，失败回退纯文本） · 推送于 2026-11-20 09:43:41 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-11-20 00:24:04 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-11-20 23:46:54 UTC
+- **[qbot](https://github.com/xinvxueyuan/qbot)** — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理） · 推送于 2026-11-20 19:04:45 UTC
+- **[nonebot-plugin-checkin](https://github.com/xinvxueyuan/nonebot-plugin-checkin)** · v0.1.0 — 群签到：每日签到攒积分，连续签到有加成，群内积分排行（htmlrender 出图，失败回退纯文本） · 推送于 2026-11-20 19:03:13 UTC
 <!-- AUTO:NOW:END -->
 
 ## 最近维护
