@@ -37,7 +37,7 @@
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 12 · v0.7.1</sub><br><br>
+<sub>MCP · Python · ★ 12 · v0.8.0</sub><br><br>
 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务。
 </td>
 <td width="50%" valign="top">
@@ -142,7 +142,7 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 <!-- AUTO:STATS:START -->
 - 公开仓库: **63**
 - 非 Fork 仓库: **30**
-- 获星数（非 Fork）: **16**
+- 获星数（非 Fork）: **17**
 - 被 Fork 数（非 Fork）: **2**
 - 关注者: **7**
 - 按非 Fork 仓库数量统计的主要语言：Python (16), TypeScript (7), JavaScript (2), MDX (1), Rust (1), Shell (1)
@@ -171,9 +171,9 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-11-21 22:54:17 UTC
+- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.8.0 — 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务。 · 推送于 2026-11-23 10:00:32 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-11-23 00:55:53 UTC
 - **[qbot](https://github.com/xinvxueyuan/qbot)** — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理） · 推送于 2026-11-20 19:04:45 UTC
-- **[nonebot-plugin-checkin](https://github.com/xinvxueyuan/nonebot-plugin-checkin)** · v0.1.0 — 群签到：每日签到攒积分，连续签到有加成，群内积分排行（htmlrender 出图，失败回退纯文本） · 推送于 2026-11-20 19:03:13 UTC
 <!-- AUTO:NOW:END -->
 
 ## 最近维护
@@ -181,9 +181,9 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 <!-- AUTO:MAINTENANCE:START -->
 配置仓库最近更新的 100 条已关闭 PR 中，最近合并的记录：
 
-- [lingchu-bot #126](https://github.com/xinvxueyuan/lingchu-bot/pull/126) — ⬆️ build(deps): Bump @hono/node-server from 2.1.4 to 2.1.8 · 2026-11-16
-- [lingchu-bot #124](https://github.com/xinvxueyuan/lingchu-bot/pull/124) — ⬆️ build(deps): Bump react-i18next from 17.1.13 to 18.0.1 · 2026-11-16
-- [lingchu-bot #122](https://github.com/xinvxueyuan/lingchu-bot/pull/122) — ⬆️ build(deps): Bump EnricoMi/publish-unit-test-result-action from 2.25.0 to 2.26.0 in the github-actions group · 2026-11-16
+- [lingchu-bot #130](https://github.com/xinvxueyuan/lingchu-bot/pull/130) — ⬆️ build(deps): Bump the npm-minor group across 1 directory with 29 updates · 2026-11-23
+- [lingchu-bot #128](https://github.com/xinvxueyuan/lingchu-bot/pull/128) — ⬆️ build(deps): Bump eslint-plugin-unicorn from 79.0.0 to 80.0.0 · 2026-11-23
+- [lingchu-bot #129](https://github.com/xinvxueyuan/lingchu-bot/pull/129) — ⬆️ build(deps): Bump @testing-library/jest-dom from 7.0.1 to 8.0.0 · 2026-11-23
 <!-- AUTO:MAINTENANCE:END -->
 
 ## 联系
