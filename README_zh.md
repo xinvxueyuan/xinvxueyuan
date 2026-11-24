@@ -125,6 +125,7 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 - [nonebot-plugin-pixiv-illust](https://github.com/xinvxueyuan/nonebot-plugin-pixiv-illust) — NoneBot2 插件（qbot 子模块）· pixiv 插画/漫画订阅推送：按群订阅画师新作、多页推送（\>3 页合并转发）、R18 可打码
 - [nonebot-plugin-pixiv-novel](https://github.com/xinvxueyuan/nonebot-plugin-pixiv-novel) — NoneBot2 插件（qbot 子模块）· pixiv 小说订阅推送：按群订阅作者新作自动推送 + 拉取单篇全文
 - [nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu) — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚
+- [NovelAI-Image-SDK](https://github.com/xinvxueyuan/NovelAI-Image-SDK) — Rust SDK for the NovelAI image-generation API with generated bindings for Python, TypeScript, Kotlin, Swift, Go, C#, and C++
 - [pi-llbot-bridge](https://github.com/xinvxueyuan/pi-llbot-bridge) — Bridge a locally hosted LLBot (OneBot 11, reverse WebSocket) into a running Pi session
 - [picx-images-hosting](https://github.com/xinvxueyuan/picx-images-hosting) — PicX images hosting repository
 - [qbot](https://github.com/xinvxueyuan/qbot) — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理）
@@ -140,12 +141,12 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 ## 数据
 
 <!-- AUTO:STATS:START -->
-- 公开仓库: **63**
-- 非 Fork 仓库: **30**
+- 公开仓库: **64**
+- 非 Fork 仓库: **31**
 - 获星数（非 Fork）: **17**
 - 被 Fork 数（非 Fork）: **2**
 - 关注者: **7**
-- 按非 Fork 仓库数量统计的主要语言：Python (16), TypeScript (7), JavaScript (2), MDX (1), Rust (1), Shell (1)
+- 按非 Fork 仓库数量统计的主要语言：Python (16), TypeScript (7), JavaScript (2), Rust (2), MDX (1), Shell (1)
 _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不代表代码字节占比。_
 <!-- AUTO:STATS:END -->
 
@@ -171,9 +172,9 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.8.0 — 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务。 · 推送于 2026-11-23 10:00:32 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-11-23 00:55:53 UTC
-- **[qbot](https://github.com/xinvxueyuan/qbot)** — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理） · 推送于 2026-11-20 19:04:45 UTC
+- **[NovelAI-Image-SDK](https://github.com/xinvxueyuan/NovelAI-Image-SDK)** — Rust SDK for the NovelAI image-generation API with generated bindings for Python, TypeScript, Kotlin, Swift, Go, C#, and C++ · 推送于 2026-11-24 13:06:30 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-11-24 03:53:40 UTC
+- **[github-api-skill](https://github.com/xinvxueyuan/github-api-skill)** — 权威 GitHub API 参考（REST + GraphQL + 安全规则），别再猜端点。 · 推送于 2026-11-23 14:08:13 UTC
 <!-- AUTO:NOW:END -->
 
 ## 最近维护

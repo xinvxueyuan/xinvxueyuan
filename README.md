@@ -128,6 +128,7 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 - [nonebot-plugin-pixiv-illust](https://github.com/xinvxueyuan/nonebot-plugin-pixiv-illust) — NoneBot2 插件（qbot 子模块）· pixiv 插画/漫画订阅推送：按群订阅画师新作、多页推送（\>3 页合并转发）、R18 可打码
 - [nonebot-plugin-pixiv-novel](https://github.com/xinvxueyuan/nonebot-plugin-pixiv-novel) — NoneBot2 插件（qbot 子模块）· pixiv 小说订阅推送：按群订阅作者新作自动推送 + 拉取单篇全文
 - [nonebot-plugin-waifu](https://github.com/xinvxueyuan/nonebot-plugin-waifu) — NoneBot2 插件（qbot 子模块）· 从群内活跃成员里抽一位当「今日老婆」，支持换一只/确认/娶老婆/离婚/超管指婚
+- [NovelAI-Image-SDK](https://github.com/xinvxueyuan/NovelAI-Image-SDK) — Rust SDK for the NovelAI image-generation API with generated bindings for Python, TypeScript, Kotlin, Swift, Go, C#, and C++
 - [pi-llbot-bridge](https://github.com/xinvxueyuan/pi-llbot-bridge) — Bridge a locally hosted LLBot (OneBot 11, reverse WebSocket) into a running Pi session
 - [picx-images-hosting](https://github.com/xinvxueyuan/picx-images-hosting) — PicX images hosting repository
 - [qbot](https://github.com/xinvxueyuan/qbot) — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理）
@@ -143,12 +144,12 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Stats
 
 <!-- AUTO:STATS:START -->
-- Public repositories: **63**
-- Non-fork repositories: **30**
+- Public repositories: **64**
+- Non-fork repositories: **31**
 - Stars (non-fork): **17**
 - Forks received (non-fork): **2**
 - Followers: **7**
-- Primary languages by non-fork repository count: Python (16), TypeScript (7), JavaScript (2), MDX (1), Rust (1), Shell (1)
+- Primary languages by non-fork repository count: Python (16), TypeScript (7), JavaScript (2), Rust (2), MDX (1), Shell (1)
 _Source: public GitHub API; excludes private data. Language counts are not code-byte percentages._
 <!-- AUTO:STATS:END -->
 
@@ -174,9 +175,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[NovelAI-Image-MCP](https://github.com/xinvxueyuan/NovelAI-Image-MCP)** · v0.8.0 — MCP server for integrating NovelAI Image generation into AI agents. · pushed 2026-11-23 10:00:32 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-23 00:55:53 UTC
-- **[qbot](https://github.com/xinvxueyuan/qbot)** — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理） · pushed 2026-11-20 19:04:45 UTC
+- **[NovelAI-Image-SDK](https://github.com/xinvxueyuan/NovelAI-Image-SDK)** — Rust SDK for the NovelAI image-generation API with generated bindings for Python, TypeScript, Kotlin, Swift, Go, C#, and C++ · pushed 2026-11-24 13:06:30 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-24 03:53:40 UTC
+- **[github-api-skill](https://github.com/xinvxueyuan/github-api-skill)** — Agent Skill: authoritative GitHub API reference (REST + GraphQL + safety) — stop guessing endpoints · pushed 2026-11-23 14:08:13 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance
