@@ -172,8 +172,8 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- **[NovelAI-Image-SDK](https://github.com/xinvxueyuan/NovelAI-Image-SDK)** — Rust SDK for the NovelAI image-generation API with generated bindings for Python, TypeScript, Kotlin, Swift, Go, C#, and C++ · 推送于 2026-11-24 13:06:30 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-11-24 03:53:40 UTC
+- **[NovelAI-Image-SDK](https://github.com/xinvxueyuan/NovelAI-Image-SDK)** — Rust SDK for the NovelAI image-generation API with generated bindings for Python, TypeScript, Kotlin, Swift, Go, C#, and C++ · 推送于 2026-11-25 11:41:58 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-11-25 02:00:36 UTC
 - **[github-api-skill](https://github.com/xinvxueyuan/github-api-skill)** — 权威 GitHub API 参考（REST + GraphQL + 安全规则），别再猜端点。 · 推送于 2026-11-23 14:08:13 UTC
 <!-- AUTO:NOW:END -->
 

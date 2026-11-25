@@ -175,8 +175,8 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[NovelAI-Image-SDK](https://github.com/xinvxueyuan/NovelAI-Image-SDK)** — Rust SDK for the NovelAI image-generation API with generated bindings for Python, TypeScript, Kotlin, Swift, Go, C#, and C++ · pushed 2026-11-24 13:06:30 UTC
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-24 03:53:40 UTC
+- **[NovelAI-Image-SDK](https://github.com/xinvxueyuan/NovelAI-Image-SDK)** — Rust SDK for the NovelAI image-generation API with generated bindings for Python, TypeScript, Kotlin, Swift, Go, C#, and C++ · pushed 2026-11-25 11:41:58 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-25 02:00:36 UTC
 - **[github-api-skill](https://github.com/xinvxueyuan/github-api-skill)** — Agent Skill: authoritative GitHub API reference (REST + GraphQL + safety) — stop guessing endpoints · pushed 2026-11-23 14:08:13 UTC
 <!-- AUTO:NOW:END -->
 
