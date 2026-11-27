@@ -40,7 +40,7 @@ Tools that plug AI agents into real systems — image generation, GitHub API, an
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 12 · v0.8.0</sub><br><br>
+<sub>MCP · Python · ★ 13 · v0.8.0</sub><br><br>
 MCP server for integrating NovelAI Image generation into AI agents.
 </td>
 <td width="50%" valign="top">
@@ -146,7 +146,7 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 <!-- AUTO:STATS:START -->
 - Public repositories: **64**
 - Non-fork repositories: **31**
-- Stars (non-fork): **17**
+- Stars (non-fork): **18**
 - Forks received (non-fork): **2**
 - Followers: **7**
 - Primary languages by non-fork repository count: Python (16), TypeScript (7), JavaScript (2), Rust (2), MDX (1), Shell (1)
@@ -175,7 +175,7 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-26 01:41:26 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-27 01:34:31 UTC
 - **[NovelAI-Image-SDK](https://github.com/xinvxueyuan/NovelAI-Image-SDK)** · v0.2.0 — Rust SDK for the NovelAI image-generation API with generated bindings for Python, TypeScript, Kotlin, Swift, Go, C#, and C++ · pushed 2026-11-25 17:54:24 UTC
 - **[github-api-skill](https://github.com/xinvxueyuan/github-api-skill)** — Agent Skill: authoritative GitHub API reference (REST + GraphQL + safety) — stop guessing endpoints · pushed 2026-11-23 14:08:13 UTC
 <!-- AUTO:NOW:END -->

@@ -37,7 +37,7 @@
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 12 · v0.8.0</sub><br><br>
+<sub>MCP · Python · ★ 13 · v0.8.0</sub><br><br>
 将 NovelAI 图像生成接入 AI Agent 的 MCP 服务。
 </td>
 <td width="50%" valign="top">
@@ -143,7 +143,7 @@ Rust 打造的 Windows 类 Linux CLI 工作流管理器。
 <!-- AUTO:STATS:START -->
 - 公开仓库: **64**
 - 非 Fork 仓库: **31**
-- 获星数（非 Fork）: **17**
+- 获星数（非 Fork）: **18**
 - 被 Fork 数（非 Fork）: **2**
 - 关注者: **7**
 - 按非 Fork 仓库数量统计的主要语言：Python (16), TypeScript (7), JavaScript (2), Rust (2), MDX (1), Shell (1)
@@ -172,7 +172,7 @@ _来源：GitHub 公开 API，不含私有数据；语言按仓库计数，不�
 ## 近况
 
 <!-- AUTO:NOW:START -->
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-11-26 01:41:26 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — 基于 NoneBot2 的插件化 QQ 群管理机器人，涵盖群管理、命令处理、配置、存储与异步数据访问。 · 推送于 2026-11-27 01:34:31 UTC
 - **[NovelAI-Image-SDK](https://github.com/xinvxueyuan/NovelAI-Image-SDK)** · v0.2.0 — Rust SDK for the NovelAI image-generation API with generated bindings for Python, TypeScript, Kotlin, Swift, Go, C#, and C++ · 推送于 2026-11-25 17:54:24 UTC
 - **[github-api-skill](https://github.com/xinvxueyuan/github-api-skill)** — 权威 GitHub API 参考（REST + GraphQL + 安全规则），别再猜端点。 · 推送于 2026-11-23 14:08:13 UTC
 <!-- AUTO:NOW:END -->
