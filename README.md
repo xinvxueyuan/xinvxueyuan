@@ -40,7 +40,7 @@ Tools that plug AI agents into real systems — image generation, GitHub API, an
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/xinvxueyuan/NovelAI-Image-MCP"><b>NovelAI-Image-MCP</b></a><br>
-<sub>MCP · Python · ★ 13 · v0.8.0</sub><br><br>
+<sub>MCP · Python · ★ 14 · v0.8.0</sub><br><br>
 MCP server for integrating NovelAI Image generation into AI agents.
 </td>
 <td width="50%" valign="top">
@@ -121,6 +121,7 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 - [nonebot-plugin-auto-unmute-superuser](https://github.com/xinvxueyuan/nonebot-plugin-auto-unmute-superuser) — NoneBot2 插件（qbot 子模块）· 超级用户被群禁言时自动解禁（事件驱动 + 周期轮询兜底）
 - [nonebot-plugin-checkin](https://github.com/xinvxueyuan/nonebot-plugin-checkin) — 群签到：每日签到攒积分，连续签到有加成，群内积分排行（htmlrender 出图，失败回退纯文本）
 - [nonebot-plugin-ciyuan-image](https://github.com/xinvxueyuan/nonebot-plugin-ciyuan-image) — NoneBot2 插件（qbot 子模块）· 栗次元（t.alcy.cc）随机图片，18 个分类，超过 3 张自动合并转发
+- [nonebot-plugin-image-guard](https://github.com/xinvxueyuan/nonebot-plugin-image-guard) — NoneBot2 插件（qbot 子模块）· 群图片/表情包守卫：按 sha256+多帧dHash+像素相似度+比例体积综合匹配，命中自动撤回；超管引用消息增删规则
 - [nonebot-plugin-info](https://github.com/xinvxueyuan/nonebot-plugin-info) — NoneBot2 插件（qbot 子模块）· 功能菜单：扫描全部已加载插件的 \_\_plugin\_meta\_\_.extra，按分类出菜单图与详情（htmlkit 出图，失败回退纯文本）
 - [nonebot-plugin-lottery](https://github.com/xinvxueyuan/nonebot-plugin-lottery) — NoneBot2 插件（qbot 子模块）· 抽奖（禁言小助手）：群里命中匹配词的人会被随机禁言，超阈值的定时自动解禁
 - [nonebot-plugin-merge-forward](https://github.com/xinvxueyuan/nonebot-plugin-merge-forward) — NoneBot2 插件（qbot 子模块）· 合并群消息转发工具库（抽取自 zhenxun\_bot），提供 OneBot V11 合并转发 node 构造与发送 API，供其他插件 import 调用
@@ -144,12 +145,12 @@ A Rust-powered Linux-like CLI workflow manager for Windows.
 ## Stats
 
 <!-- AUTO:STATS:START -->
-- Public repositories: **64**
-- Non-fork repositories: **31**
-- Stars (non-fork): **18**
+- Public repositories: **65**
+- Non-fork repositories: **32**
+- Stars (non-fork): **19**
 - Forks received (non-fork): **2**
 - Followers: **7**
-- Primary languages by non-fork repository count: Python (16), TypeScript (7), JavaScript (2), Rust (2), MDX (1), Shell (1)
+- Primary languages by non-fork repository count: Python (17), TypeScript (7), JavaScript (2), Rust (2), MDX (1), Shell (1)
 _Source: public GitHub API; excludes private data. Language counts are not code-byte percentages._
 <!-- AUTO:STATS:END -->
 
@@ -175,9 +176,9 @@ _Source: public GitHub API; excludes private data. Language counts are not code-
 ## Now
 
 <!-- AUTO:NOW:START -->
-- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-27 01:34:31 UTC
-- **[NovelAI-Image-SDK](https://github.com/xinvxueyuan/NovelAI-Image-SDK)** · v0.2.0 — Rust SDK for the NovelAI image-generation API with generated bindings for Python, TypeScript, Kotlin, Swift, Go, C#, and C++ · pushed 2026-11-25 17:54:24 UTC
-- **[github-api-skill](https://github.com/xinvxueyuan/github-api-skill)** — Agent Skill: authoritative GitHub API reference (REST + GraphQL + safety) — stop guessing endpoints · pushed 2026-11-23 14:08:13 UTC
+- **[qbot](https://github.com/xinvxueyuan/qbot)** — QBot —— 原生 NoneBot2 宿主（12 个插件以 git 子模块管理） · pushed 2026-11-28 07:06:03 UTC
+- **[nonebot-plugin-image-guard](https://github.com/xinvxueyuan/nonebot-plugin-image-guard)** — NoneBot2 插件（qbot 子模块）· 群图片/表情包守卫：按 sha256+多帧dHash+像素相似度+比例体积综合匹配，命中自动撤回；超管引用消息增删规则 · pushed 2026-11-28 06:58:04 UTC
+- **[lingchu-bot](https://github.com/xinvxueyuan/lingchu-bot)** · v0.10.1 — Plugin-based NoneBot2 QQ group management bot for administration, command processing, configuration, storage and async data access. · pushed 2026-11-28 01:15:18 UTC
 <!-- AUTO:NOW:END -->
 
 ## Recent Maintenance
